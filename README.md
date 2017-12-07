@@ -1,6 +1,6 @@
 # Blog Felipe Toscano
 
-## Biblioteca Utilizadas
+## Bibliotecas Utilizadas
 
 - Gulp
 - Stylus
