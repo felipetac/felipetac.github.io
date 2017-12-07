@@ -23,7 +23,7 @@ layout: main
                 <div class="box-info">
                     <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
                     <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
-                        {% include date.html date=post.date format="%d de %B de %Y" lang="pt" %}sasasa
+                        {% include date.html date=post.date format="%d de %B de %Y" lang="pt" %}
                     </time>
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                         <h2 class="post-title" itemprop="name">
