@@ -1,24 +1,24 @@
 # Site Settings
-title: Jekflix | A theme for Jekyll
-email: youremail@xyz.com
-description: Some text about your blog.
-baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
-url: "https://www.rossener.com" # the base hostname & protocol for your site
+title: Felipe Toscano | Diário de Bordo na Web
+email: felipe.toscano@gmail.com
+description: Blog sobre conhecimentos adquiridos durante estudo em TI.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://felipetac.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Jekflix
-user_description: Some text about you.
-disqus_username: disqus_username
+username: Felipe Toscano de Azevedo Cardoso
+user_description: Engenheiro de Software, Desenvolvedor Sênior
+disqus_username: felipetac
 
 # Social Media
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: felipetac
+#facebook_username: facebook_username
+twitter_username: felipe_tac
+#instagram_username: instagram_username
+linkedin_username: felipetac
+#medium_username: medium_username
 
 # Build settings
 markdown: kramdown
@@ -34,10 +34,9 @@ gems:
 links:
   - title: Home
     url: /
-  - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
+  - title: Sobre Mim
+    url: https://www.linkedin.com/in/felipetac
+    external: true
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
