@@ -1,15 +1,6 @@
-# Jekflix Template
-![Cover Image](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1505354182/jekflix-logo_mfngps.png)
+# Blog Felipe Toscano
 
-See the [demo here](https://www.rossener.com/jekflix-template).
-
-## What is it?
-
-A template for Jekyll inspired by Netflix panel for who loves movies and series and would like to have a blog with this cool appearance ;)
-
-![Screenshot](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1505357238/jekflix-screenshot_qikqkl.jpg)
-
-## Features
+## Biblioteca Utilizadas
 
 - Gulp
 - Stylus
@@ -33,28 +24,27 @@ A template for Jekyll inspired by Netflix panel for who loves movies and series 
 - Disqus
 - Google Analytics
 
-## Setup
+## Instalação
 
-1. Install Jekyll (use the command `sudo gem install jekyll`)
-1. Fork the [Jekflix Template](https://github.com/thiagorossener/jekflix-template/fork)
-1. Clone the repo you just forked
-1. Edit `_config.yml` to personalize your site
-1. Check out the sample posts in `_posts` to see examples for assigning category, tags, image and other YAML data
-1. Read the documentation below for further customization pointers and documentation
-1. Remember to compile your assets files with Gulp
+1. Instale o Jekyll (instale o ruby e rubygems. Depois use o comando `gem install jekyll`)
+1. Faça um "Fork" do [Jekflix Template](https://github.com/thiagorossener/jekflix-template/fork)
+1. Clone o repositório local na sua máquina
+1. Edite `_config.yml` para personalizar seu site
+1. Verifique o exemplo de postagem em `_posts` para exemplificar como preencher as categorias, tags, imagem e outros atributos YAML
+1. Lembre-se de compilar os seus arquivos com o Gulp
 
 
-## Settings
+## Configurações
 
-You have to fill some informations on `_config.yml` to customize your site.
+Você precisa preencher algumas informações no `_config.yml` para customizar seu site.
 
 ```
 # Site Settings
-title: Thiago Rossener | Front-end Developer
+title: Felipe Toscano | Diário de Bordo na Web
 email: youremail@xyz.com
 description: Some text about your blog.
 baseurl: "" # the subpath of your site, e.g. /blog/ or empty.
-url: "https://www.rossener.com" # the base hostname & protocol for your site
+url: "https://felipe.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User settings
@@ -72,11 +62,11 @@ linkedin_username: linkedin_username
 medium_username: medium_username
 ```
 
-## Color customization
+## Customização de Cores
 
-All color variables are in [src/styl/_variables.styl](src/styl/_variables.styl).
+Todas as variáveis de cores estão em [src/styl/_variables.styl](src/styl/_variables.styl).
 
-Default colors:
+Cores padrões:
 
 ![#ff0a16](https://placehold.it/15/ff0a16/000000?text=+) `#FF0A16` Theme Color
 
@@ -88,29 +78,29 @@ Default colors:
 
 ![#333333](https://placehold.it/15/333333/000000?text=+) `#333333` Texts
 
-## Creating drafts
+## Criandos Rascunhos "Drafts"
 
-You can use the `initdraft.sh` to create your new drafts. Just follow the command:
+Você pode usar o `initdraft.sh` para criar seus novos rascunhos. Segue o comando:
 
 ```
 ./initdraft.sh -c Post Title
 ```
 
-The new file will be created at `_drafts` with this format `date-title.md`.
+O novo arquivo será criado em `_drafts` como este formato `date-title.md`.
 
-## Creating posts
+## Criando Postagens "Posts"
 
-You can use the `initpost.sh` to create your new posts. Just follow the command:
+Você pode usar o `initpost.sh` para criar seus novas postagens. Segue o comando:
 
 ```
 ./initpost.sh -c Post Title
 ```
 
-The new file will be created at `_posts` with this format `date-title.md`.
+O novo arquivo será criado em `_posts` como este formato `date-title.md`.
 
 ## Front-matter 
 
-When you create a new post, you need to fill the post information in the front-matter, follow this example:
+Quando você cria uma nova postagem, você precisa inserir informações no front-matter, de acordo com o exemplo:
 
 ```
 ---
@@ -127,31 +117,13 @@ introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do e
 ---
 ```
 
-**Your image size should have the proportion of a 600x315 image to look good on home page.**
+**O tamanho da sua imagem deverá ter a proporção de 600x315 para ter um boa apresentação na página principal.**
 
-## Run locally
+## Executar Localmente
 
-In order to compile the assets and run Jekyll on local you need to follow those steps:
+Para compilar os arquivos e executar o Jekyll localmente você precisa seguir os seguintes passos:
 
-- Install [NodeJS](https://nodejs.org/) (remember to use the latest version)
-- Run `sudo npm install`
-- Run `sudo npm install -g gulp gulp-cli`
-- Run `sudo gulp`
-
-## Questions?
-
-Ping me on Twitter [@thiagorossener](https://twitter.com/thiagorossener) or file a [GitHub Issue](https://github.com/thiagorossener/jekflix-template/issues/new).
-
-## Donation
-
-Did you like my work? Buy me a beer :)
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=YT3BC53XLMJ96&lc=GB&item_name=Thiago%20Rossener%20Nogueira&item_number=DON1212&no_note=0&cn=Adicionar%20instru%c3%a7%c3%b5es%20especiais%20para%20o%20vendedor%3a&no_shipping=2&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
-
-## Author
-
-[Thiago Rossener](https://www.rossener.com/) based on [Cards Jekyll Template](https://github.com/willianjusten/cards-jekyll-template).
-
-## License
-
-*Jekflix Template* is available under the MIT license. See the LICENSE file for more info.
+- Instale o [NodeJS](https://nodejs.org/) (lembre-se de usar a versão mais atualizada)
+- Execute `sudo npm install`
+- Execute `sudo npm install -g gulp gulp-cli`
+- Execute `sudo gulp`
