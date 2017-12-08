@@ -37,6 +37,8 @@ links:
   - title: Sobre Mim
     url: https://www.linkedin.com/in/felipetac
     external: true
+  - title: Contato
+    url: /contato/
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
