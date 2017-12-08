@@ -23,17 +23,17 @@ permalink: /contato/
         <input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
         <input type="hidden" name="_language" value="pt" />
 
-        <input type="text" name="name" placeholder="Seu nome" v-validate="'required'"
-               :class="{ 'has-error': errors.has('name') }">
-        <span v-if="errors.has('name')" v-cloak>${ errors.first('name') }</span>
+        <input type="text" name="nome" placeholder="Seu nome" v-validate="'required'"
+               :class="{ 'has-error': errors.has('nome') }">
+        <span v-if="errors.has('nome')" v-cloak>${ errors.first('nome') }</span>
 
         <input type="text" name="email" placeholder="Seu e-mail" v-validate="'required|email'"
                :class="{ 'has-error': errors.has('email') }">
         <span v-if="errors.has('email')" v-cloak>${ errors.first('email') }</span>
 
-        <textarea name="message" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" v-validate="'required'"
-                  :class="{ 'has-error': errors.has('message') }"></textarea>
-        <span v-if="errors.has('message')" v-cloak>${ errors.first('message') }</span>
+        <textarea name="mensagem" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" v-validate="'required'"
+                  :class="{ 'has-error': errors.has('mensagem') }"></textarea>
+        <span v-if="errors.has('mensagem')" v-cloak>${ errors.first('mensagem') }</span>
 
         <button type="submit">Enviar</button>
       </fieldset>
