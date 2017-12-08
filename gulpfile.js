@@ -29,7 +29,7 @@ gulp.task('jekyll-build', function (done) {
  * Rebuild Jekyll & do page reload
  */
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
-  browserSync.reload();
+  browserSync.reload({reloadDelay: 5000});
 });
 
 /**
@@ -54,7 +54,7 @@ gulp.task('stylus', function(){
       compress: true
     }))
     .pipe(gulp.dest('_site/assets/css/'))
-    .pipe(browserSync.reload({stream:true}))
+    .pipe(browserSync.reload({stream:true, reloadDelay: 5000}))
     .pipe(gulp.dest('assets/css'));
 });
 
