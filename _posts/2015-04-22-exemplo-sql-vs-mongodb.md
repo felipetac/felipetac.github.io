@@ -1,19 +1,19 @@
 ---
 layout: post
 title: Exemplo - SQL vs MongoDB
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+description: Rápida exemplificação entre comandos SQL e comandos MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text: Rápida exemplificação entre comandos SQL e comandos MongoDB. 
+introduction: Nesta postagem exemplifico como seria alguns comandos SQL na linguagem de consulta do MongoDB
 ---
-Supondo que temos uma coleção de 
-usuarios na base 
-mydb do MongoDB, ex:db.usuarios.insert([
+Supondo que temos uma coleção de usuarios na base mydb do MongoDB, ex:
+
+db.usuarios.insert([
     {"nome":"Felipe Toscano", "idade": "29", "sexo":"M", "status":"A"},
     {"nome":"Marcio Azevedo", "idade": "70", "sexo":"M", "status":"P"},
     {"nome":"Gustavo Sampaio", "idade": "80", "sexo":"M", "status":"F"},
@@ -25,6 +25,7 @@ mydb do MongoDB, ex:db.usuarios.insert([
     {"nome":"Fabio Pacheco", "idade": "45", "sexo":"M", "status":"A"},
     {"nome":"Marlene Tavares", "idade": "55", "sexo":"F", "status":"F"}
 ])
+
 Agora vamos para algumas comparações:
 
 - Insert:
@@ -35,12 +36,13 @@ VALUES ("Adriano Tavares", 34, "M", "D", "Recife")
 db.usuarios.insert(
    { nome: "Adriano Tavares", age: 34, sexo: "M", status: "D", cidade: "Recife" }
 )
+
 - Select:
 
 SELECT * FROM usuarios
 
 db.usuarios.find()
- 
+
 
 SELECT id, nome, status FROM usuarios
 
@@ -86,8 +88,6 @@ db.usuarios.find(
     { status: "A",
       idade: 50 }
 )
- 
-
  
 
 SELECT * FROM usuarios WHERE status = "A" OR idade = 50

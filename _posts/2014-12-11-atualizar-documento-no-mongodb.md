@@ -1,21 +1,21 @@
 ---
 layout: post
 title: "#11 - Atualizar Documento no MongoDB"
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+description: Breve exemplificação de como alterar um documento no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text: Breve exemplificação de como alterar um documento no MongoDB.
+introduction: Este tutorial explica como atualizar documentos dentro de uma coleção no MongoDB.
 ---
 Os métodos **update()** e **save()** são usados para atualizar documentos dentro da coleção. O método update() atualiza valores em um documento existente, enquanto o método save() substitui o documento existente em si pelo documento passado dentro do método save().##O método Update()
 
 O método update() atualiza valores dentro de um documento existente.
 
-### Sintaxe:
+### Sintaxe
 
 A sintaxe básica do método **update()** é a seguinte:
 

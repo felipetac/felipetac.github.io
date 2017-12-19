@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "#17 - Agregação Básica no MongoDB"
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+description: Breve explicação sobre agregações no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text: Breve explicação sobre agregações no MongoDB.
+introduction: Neste tutotial explico brevemente o uso de agregações no MongoDB.
 ---
 Operações de agregações processam os dados registrados e retornam um resultado agregado. Agregações agrupam valores vindos de múltiplos documentos reunidos, e podem estabelecer uma variedade de operações sobre esta agrupação de dados para retornar um resultado único. O sql **count(*)** e **group by** são equivalentes a uma agregação no MongoDB.
 
@@ -17,13 +17,13 @@ Operações de agregações processam os dados registrados e retornam um resulta
 
 Para agregar valores do MongoDB você precisa usar o método aggregate().
 
-### Syntax:
+### Syntax
 
 A sintaxe básica do método aggregate() é a seguinte:
 
 >db.COLLECTION_NAME.aggregate(AGGREGATE_OPERATION)
 
-### Exemplo:
+### Exemplo
 
 Suponha que dentro da coleção **mycol** você tem os seguintes dados:
 
@@ -132,9 +132,5 @@ $last
 Obtém o último documento vindo de conjunto de documentos da agregação. Tipicamente isto só faz sentido quando vem junto de aplicação prévia de alguma ordenação “$sort”.
 
 db.mycol.aggregate([{$group:{_id : "$by_user", last_url : {$last : "$url"}}}])
- 
 
-
-**Fonte Traduzida:**
- 
-[Tutorials Point – MongoDB Agregation](http://www.tutorialspoint.com/mongodb/mongodb_aggregation.htm)
+**Fonte Traduzida:** [Tutorials Point – MongoDB Agregation](http://www.tutorialspoint.com/mongodb/mongodb_aggregation.htm)

@@ -1,24 +1,26 @@
 ---
 layout: post
 title: "#16 - Indexação no MongoDB"
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+description: Breve explicação sobre indexação no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text: Breve explicação sobre indexações no MongoDB.
+introduction: Neste tutorial explico brevemente a criação de índices no MongoDB.
 ---
 
 Índices vem de apoio para aumentar a eficiência das consultas. Sem índices, o MongoDB deverá percorrer todos os documentos de uma coleção para selecionar os documentos que correspondem a instrução de consulta. Essa verificação é altamente ineficiente e exige que mongod processe um grande volume de dados.
 
-Índices são estruturas de dados especiais que armazenam uma pequena porção de conjuntos de dados facilitando o processamento da consulta. O índice armazena o valor de um campo específico ou um conjunto de campos, ordenado pelo valor do campo, tal como especificado no índice.##O método ensureIndex()
+Índices são estruturas de dados especiais que armazenam uma pequena porção de conjuntos de dados facilitando o processamento da consulta. O índice armazena o valor de um campo específico ou um conjunto de campos, ordenado pelo valor do campo, tal como especificado no índice.
+
+## O método ensureIndex()
 
 Para criar um índice você precisa usar o método **ensureIndex()**.
 
-### Sintaxe:
+### Sintaxe
 
 A sintaxe básica do método ensureIndex() é a seguinte:
 
@@ -100,6 +102,6 @@ Especifica um valor, em segundos, como um TTL para controlar quanto tempo MongoD
 <td>Para um índice textual, especifique o nome do campo no documento que contém, a linguagem para substituir o idioma padrão. O valor padrão é o <i>language</i>.</td>
 </tr>
 </tbody>
-</table>  
- 
+</table>
+
 **Fonte Traduzida:** [Tutorials Point - MongoDB Indexing](http://www.tutorialspoint.com/mongodb/mongodb_indexing.htm)

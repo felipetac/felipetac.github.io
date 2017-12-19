@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "#12 - Apagar Documento no MongoDB"
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+description: Breve exemplificação de como apagar documentos no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text: Breve exemplificação de como apagar documentos no MongoDB.
+introduction: Neste tutorial explica como remover um documento de uma coleção no MongoDB.
 ---
 ## O método remove()
 

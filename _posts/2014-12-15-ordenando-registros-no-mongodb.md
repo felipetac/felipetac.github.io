@@ -1,21 +1,21 @@
 ---
 layout: post
 title: "#15 - Ordenando Registros no MongoDB"
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+description: Breve explicação de como ordenar registros no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text: Breve explicação de como ordenar registros no MongoDB.
+introduction: Este tutorial explica como ordenar registros no MongoDB.
 ---
 ## O método sort()
 
 Para ordenar documentos no MongoDB, você precisa usar o método **sort()**. Este método aceita um documento contendo uma lista de campos acompanhado do seu valor de ordenação. Para especificar o tipo de ordenação, 1 e -1 são usados. 1 é usado para estabelecer uma ordenação crescente enquanto -1 é usado para estabelecer a ordem decrescente.
 
-### Sintaxe:
+### Sintaxe
 
 A sintaxe básica do método sort() é a seguinte:
 
@@ -39,6 +39,4 @@ O exemplo a seguir exibirá os documentos ordenados por título de forma decresc
 
 Obs: Se você não tiver especificado a preferência de ordenação, então o método **sort()** exibirá os documentos em ordem crescente.
 
-**Fonte traduzida:**
- 
-[Tutorials Point - MongoDB Sort Documents](http://www.tutorialspoint.com/mongodb/mongodb_sort_record.htm)
+**Fonte traduzida:** [Tutorials Point - MongoDB Sort Documents](http://www.tutorialspoint.com/mongodb/mongodb_sort_record.htm)

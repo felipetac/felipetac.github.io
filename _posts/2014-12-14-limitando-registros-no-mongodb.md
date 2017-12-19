@@ -1,21 +1,21 @@
 ---
 layout: post
 title: "#14 - Limitando Registros no MongoDB"
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+description: Breve explicação de como limitar quantidade de registros no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text: Limitando a quantidade de registros no MongoDB.
+introduction: Neste tutorial explica como limitar a quantidade de registros advindos do MongoDB.
 ---
 ## O método Limit()
 
 Para limitar os registros no MongoDB, você precisa usar o método **limit()**. Este método aceita um tipo numérico como argumento, o qual é o número de documentos que você deseja ser exibido.
 
-### Sintaxe:
+### Sintaxe
 
 A sintaxe básica do método **limit()** é a seguinte:
 
@@ -42,13 +42,13 @@ Se não especificar o argumento numérico no método limit() então este exibir�
 
 Além do método limit() existe mais um método, o **skip()**. Este também aceita um argumento numérico porém é usado para pular a exibição do numero de documentos.
 
-### Sintaxe:
+### Sintaxe
 
 A sintaxe básica do método **skip()** é a seguinte:
 
 >db.COLLECTION_NAME.find().limit(NUMBER).skip(NUMBER)
 
-### Exemplo:
+### Exemplo
 
 O exemplo a seguir exibirá somente o segundo documento da coleção.
 
@@ -58,6 +58,4 @@ O exemplo a seguir exibirá somente o segundo documento da coleção.
 
 Obs: O valor padrão no método skip() é 0.
 
-**Fonte traduzida:**
- 
-[Tutorials Point - MongoDB Limit Records](http://www.tutorialspoint.com/mongodb/mongodb_limit_record.htm)
+**Fonte traduzida:** [Tutorials Point - MongoDB Limit Records](http://www.tutorialspoint.com/mongodb/mongodb_limit_record.htm)

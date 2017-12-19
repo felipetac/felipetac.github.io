@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introdução MongoDB + PHP
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+description: Rápida exemplificação da integração do MongoDB com o PHP.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
@@ -9,17 +9,14 @@ tags:
 - MongoDB
 - NoSQL
 - PHP
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text: Rápida exemplificação da integração do MongoDB com o PHP.
+introduction: Nesta postagem exemplifico de forma sucinta a integração do MongoDB com o PHP.
 ---
 Para usar o mongodb com o PHP vocẽ precisa usar o driver do mongodb para PHP. Baixe o driver da url 
 [Download PHP Driver](https://s3.amazonaws.com/drivers.mongodb.org/php/index.html).Tenha certeza que baixou a última versão disponível. Agora descompacte o arquivo e coloque o arquivo php_mongo.dll no seu diretório de extensões PHP (“ext” por padrão) e adicione a seguinte linha no seu arquivo 
 :extension=php_mongo.dll
 
-##
-
-
-##Fazer uma conexão e Selecionar uma base de dados
+## Fazer uma conexão e Selecionar uma base de dados
 
 Para fazer uma conexão, você precisa especificar o nome do banco de dados, se a banco de dados não existir o mongodb criará um automaticamente.
 
@@ -38,10 +35,7 @@ Quando o programa for executado, este produzirá o seguinte resultado:
 Conexao efetuada com sucesso
 Banco de dados mydb selecionado
 
-##
-
-
-##Criar uma coleção
+## Criar uma coleção
 
 Trecho de código para criar uma coleção:
 
@@ -55,16 +49,14 @@ Trecho de código para criar uma coleção:
    $collection = $db->createCollection("mycol");
    echo "Colecao criada com sucesso";
 ?>
+
 Quando o programa é executado, este produzirá o seguinte resultado:
 
 Conexao efetuada com sucesso
 Banco de dados mydb selecionado
 Colecao criada com sucesso
 
-##
-
-
-##Inserindo um Documento
+## Inserindo um Documento
 
 Para inserir um documento dentro do mongodb, o método 
 insert() é usado.
@@ -97,10 +89,7 @@ Banco de dados mydb selecionado
 Colecao selecionada com sucesso
 Documento inserido com sucesso
 
-##
-
-
-##Retornando todos os documentos
+## Retornando todos os documentos
 
 Para retornar todos os documentos de uma coleção, o método 
 find() é usado.
@@ -123,22 +112,20 @@ Trecho de código para retornar todos os documentos:
       echo $document["title"] . "\n";
    }
 ?>
+
 Quando o programa é executado, este produzirá o seguinte resultado:
 
 Banco de dados conectado com sucesso
 Banco de dados mydb selecionado
 Colecao selecionada com sucesso
+
 {
    "title": "MongoDB"
 }
 
-##
+## Atualizar um documento
 
-
-##Atualizar um documento
-
-Para atualizar um documento, vocẽ precisa usar o método 
-update().
+Para atualizar um documento, vocẽ precisa usar o método update().
 
 No exemplo a seguir, nós veremos como atualizar o título de um documento inserido para 
 MongoDB Tutorial. O trecho de código para atualizar um documento:
@@ -164,6 +151,7 @@ MongoDB Tutorial. O trecho de código para atualizar um documento:
       echo $document["title"] . "\n";
    }
 ?>
+
 Quando o programa é executado, este produzirá o seguinte resultado:
 
 Banco de dados conectado com sucesso
@@ -171,20 +159,16 @@ Banco de dados mydb selecionado
 Colecao selecionada com sucesso
 Documento atualizado com sucesso
 Documento atualizado:
+
 {
    "title": "MongoDB Tutorial"
 }
 
-##
+## Apagando um documento
 
+Para apagar um documento, você precisa usar o método remove().
 
-##Apagando um documento
-
-Para apagar um documento, você precisa usar o método 
-remove().
-
-No exemplo a seguir, nós removeremos dos documentos aquele que tem o título 
-MongoDB Tutorial.Trecho de código para apagar um documento:
+No exemplo a seguir, nós removeremos dos documentos aquele que tem o título MongoDB Tutorial. Trecho de código para apagar um documento:
 
 <?php
    // conecta ao servidor mongodb
@@ -208,21 +192,18 @@ MongoDB Tutorial.Trecho de código para apagar um documento:
       echo $document["title"] . "\n";
    }
 ?>
+
 Quando o programa é executado, este produzirá o seguinte resultado:
 
 Banco de dados conectado com sucesso
 Banco de dados mydb selecionado
 Colecao selecionada com sucesso
 Documentos apagados com sucesso
-NO exemplo dados acima, o segundo parametro é do tipo booleano e usado para estabelecer se remove um único elemento encontrado no método 
-remove().
 
-Os métodos 
-save(), limit(), skip(), sort() e etc seu funcionamento será explicado em um tutorial subsequente.
+NO exemplo dados acima, o segundo parametro é do tipo booleano e usado para estabelecer se remove um único elemento encontrado no método remove().
+
+Os métodos save(), limit(), skip(), sort() e etc seu funcionamento será explicado em um tutorial subsequente.
 
 Espero poder ter ajudado! Até o próximo tutorial! :)
 
-
-**Fonte Traduzida:**
- 
-[TutorialsPoint - MongoDB PHP](http://www.tutorialspoint.com/mongodb/mongodb_php.htm)
+**Fonte Traduzida:** [TutorialsPoint - MongoDB PHP](http://www.tutorialspoint.com/mongodb/mongodb_php.htm)
