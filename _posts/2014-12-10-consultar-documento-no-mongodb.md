@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "#10 - Consultar Documento no MongoDB"
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+description: Rápida exemplificação de como efetuar consultas no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text: Rápida exemplificação de como efetuar consultas no MongoDB.
+introduction: Neste tutorial explico como efetuar consultas nas coleções no MongoDB.
 ---
 ## O método find()
 
