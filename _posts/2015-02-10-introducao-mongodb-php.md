@@ -10,7 +10,7 @@ tags:
 - NoSQL
 - PHP
 twitter_text: Rápida exemplificação da integração do MongoDB com o PHP.
-introduction: Nesta postagem exemplifico de forma sucinta a integração do MongoDB com o PHP.
+introduction: Neste artigo exemplifico de forma sucinta a integração do MongoDB com o PHP.
 ---
 Para usar o mongodb com o PHP vocẽ precisa usar o driver do mongodb para PHP. Baixe o driver da url 
 [Download PHP Driver](https://s3.amazonaws.com/drivers.mongodb.org/php/index.html).Tenha certeza que baixou a última versão disponível. Agora descompacte o arquivo e coloque o arquivo php_mongo.dll no seu diretório de extensões PHP (“ext” por padrão) e adicione a seguinte linha no seu arquivo 

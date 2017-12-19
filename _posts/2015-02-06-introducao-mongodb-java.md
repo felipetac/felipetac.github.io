@@ -10,7 +10,7 @@ tags:
 - NoSQL
 - Java
 twitter_text: Rápida exemplificação da integração do MongoDB com o Java.
-introduction: Nesta postagem exemplifico de forma sucinta a integração do MongoDB com o Java.
+introduction: Neste artigo exemplifico de forma sucinta a integração do MongoDB com o Java.
 ---
 Antes de começarmos usando o MongoDB nos seus programas java, nós precisamos ter certeza que o driver JDBC do MongoDB e o Java estão configurados na sua máquina. Você pode verificar o tutorial java para instalação java na sua máquina. Agora, vamos verificar com configurar o driver JDBC do MongoDB.*Você precisa baixar o jar do caminho: [Download mongo.jar](https://github.com/mongodb/mongo-java-driver/downloads). Tenha certeza de que está baixando a última versão deste.
 
