@@ -15,23 +15,25 @@ introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do e
 
 MongoDB use DATABASE_NAME é usado para criar banco de dados. O comando criará um novo banco de dados, se ele não existir. Caso ele já exista o MongoDB retornará o banco de dados existente.
 
-### Sintaxe:
+### Sintaxe
 
 A sintaxe básica de declaração use DATABASE é a seguinte:
 
 use DATABASE_NAME
 
-### Exemplo:
+### Exemplo
 
 Se você quiser criar um banco de dados com o nome <mydb>, então a declaração 
 use DATABASE seria a seguinte:
 
 >use mydb
 switched to db mydb
+
 Para verificar se o banco de dados selecionado é o corrente use o comando db
 
 >db
 mydb
+
 Se você quiser verificar sua lista de banco de dados, então use o comando show dbs.
 
 >show dbs
@@ -44,13 +46,7 @@ Seu banco de dados criado(mydb) não está presente na lista. Para exibir o banc
 local      0.78125GB
 mydb       0.23012GB
 test       0.23012GB
-No MongoDB o banco de dados que vem por padrão é o 
-test. Se você não tiver criado nenhum banco de dados, as coleções que forem criadas serão armazenadas no banco de dados 
-test.
 
- 
+No MongoDB o banco de dados que vem por padrão é o test. Se você não tiver criado nenhum banco de dados, as coleções que forem criadas serão armazenadas no banco de dados test.
 
-
-**Fonte traduzida:**
- 
-[Tutorials Point - MongoDB Create Database](http://www.tutorialspoint.com/mongodb/mongodb_drop_database.htm)
+**Fonte traduzida:** [Tutorials Point - MongoDB Create Database](http://www.tutorialspoint.com/mongodb/mongodb_drop_database.htm)

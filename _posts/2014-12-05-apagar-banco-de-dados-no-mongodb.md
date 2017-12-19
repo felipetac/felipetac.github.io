@@ -16,16 +16,15 @@ introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do e
 
 O comando MongoDB db.dropDatabase() é usado para apagar um banco de dados existente.
 
-### Sintaxe:
+### Sintaxe
 
 A sintaxe básica de declaração dropDatabase() é a seguinte:
 
 db.dropDatabase()
 
-Como isso apagará o banco de dados selecionado. Se não tiver selecionado nenhum banco de dados, o mongo apagará o banco de dados padrão (
-test).
+Como isso apagará o banco de dados selecionado. Se não tiver selecionado nenhum banco de dados, o mongo apagará o banco de dados padrão (test).
 
-### Exemplo:
+### Exemplo
 
 Primeiramente, verifique a lista de banco de dados disponíveis usando o comando show dbs
 
@@ -50,6 +49,4 @@ local      0.78125GB
 test       0.23012GB
 >
 
-**Fonte traduzida:**
- 
-[Tutorials Point - MongoDB Drop Database](http://www.tutorialspoint.com/mongodb/mongodb_drop_database.htm)
+**Fonte traduzida:** [Tutorials Point - MongoDB Drop Database](http://www.tutorialspoint.com/mongodb/mongodb_drop_database.htm)
