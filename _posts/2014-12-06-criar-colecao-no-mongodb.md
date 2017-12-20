@@ -24,7 +24,7 @@ A sintaxe básica do comando ```createCollection()``` é a seguinte:
 db.createCollection(name, options)
 ```
 
-Neste comando, Name é o nome da coleção a ser criada. Options é um documento e é usado para especificar a configuração da coleção
+Neste comando, *Name* é o nome da coleção a ser criada. *Options* é um documento e é usado para especificar a configuração da coleção
 
 <table>
 <tbody>
@@ -78,7 +78,7 @@ Segue a lista de opções que você pode usar:
 </tbody>
 </table>
 
-Quando se vai inserir um documento, o MongoDB verifica primeiro campo de tamanho da capped collection, e então verifica o campo (max).
+Quando se vai inserir um documento, o MongoDB verifica primeiro campo de tamanho da capped collection, e então verifica o campo (*max*).
 
 ### Exemplos
 
@@ -89,7 +89,7 @@ $ use test
 switched to db test
 
 $ db.createCollection("mycollection")
-{ ok : 1 }
+{"ok": 1}
 ```
 
 Você pode verificar a coleção criada por meio do uso do comando ```show collections```

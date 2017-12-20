@@ -16,17 +16,19 @@ introduction: Nesta parte do tutorial explico brevemente a criação de índices
 
 Índices são estruturas de dados especiais que armazenam uma pequena porção de conjuntos de dados facilitando o processamento da consulta. O índice armazena o valor de um campo específico ou um conjunto de campos, ordenado pelo valor do campo, tal como especificado no índice.
 
-## O método ensureIndex()
+## O método ```ensureIndex()```
 
-Para criar um índice você precisa usar o método **ensureIndex()**.
+Para criar um índice você precisa usar o método ```ensureIndex()```.
 
 ### Sintaxe
 
-A sintaxe básica do método ensureIndex() é a seguinte:
+A sintaxe básica do método ```ensureIndex()``` é a seguinte:
 
->db.COLLECTION_NAME.ensureIndex({KEY:1})
+```js
+db.COLLECTION_NAME.ensureIndex({KEY:1})
+```
 
-Esta chave(KEY) é o nome do campo o qual você deseja criar o índice e o 1 é para estabelecer ordenação crescente. Para criar índice em ordem decrescente você precisa o -1.
+Esta chave(*KEY*) é o nome do campo o qual você deseja criar o índice e o 1 é para estabelecer ordenação crescente. Para criar índice em ordem decrescente você precisa o -1.
 
 ### Exemplo
 
@@ -34,13 +36,13 @@ Esta chave(KEY) é o nome do campo o qual você deseja criar o índice e o 1 é 
 db.mycol.ensureIndex({title: 1})
 ```
 
-Dentro do método **ensureIndex()** você pode passar múltiplos campos para criar índices sobre estes múltiplos campos.
+Dentro do método ```ensureIndex()``` você pode passar múltiplos campos para criar índices sobre estes múltiplos campos.
 
 ```js
 db.mycol.ensureIndex({title: 1, description: -1})
 ```
 
-O método ensureIndex() também aceita uma lista de opções (Opcionais). Estas opções seguem na lista a seguir:
+O método ```ensureIndex()``` também aceita uma lista de opções (Opcionais). Estas opções seguem na lista a seguir:
 
 <table>
 <tbody>
