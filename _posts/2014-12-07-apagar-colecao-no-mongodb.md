@@ -9,7 +9,7 @@ tags:
 - MongoDB
 - NoSQL
 twitter_text: Rápida exemplificação de como apagar coleções no MongoDB.
-introduction: Neste tutorial expĺico como apagar coleções no MongoDB.
+introduction: Nesta parte do tutorial expĺico como apagar coleções no MongoDB.
 ---
 
 ## O método drop()

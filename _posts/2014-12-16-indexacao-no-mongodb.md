@@ -9,7 +9,7 @@ tags:
 - MongoDB
 - NoSQL
 twitter_text: Breve explicação sobre indexações no MongoDB.
-introduction: Neste tutorial explico brevemente a criação de índices no MongoDB.
+introduction: Nesta parte do tutorial explico brevemente a criação de índices no MongoDB.
 ---
 
 Índices vem de apoio para aumentar a eficiência das consultas. Sem índices, o MongoDB deverá percorrer todos os documentos de uma coleção para selecionar os documentos que correspondem a instrução de consulta. Essa verificação é altamente ineficiente e exige que mongod processe um grande volume de dados.

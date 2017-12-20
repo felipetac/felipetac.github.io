@@ -9,7 +9,7 @@ tags:
 - MongoDB
 - NoSQL
 twitter_text: Breve exemplificação de como alterar um documento no MongoDB.
-introduction: Este tutorial explico como atualizar documentos dentro de uma coleção no MongoDB.
+introduction: Nesta parte do tutorial explico como atualizar documentos dentro de uma coleção no MongoDB.
 ---
 Os métodos **update()** e **save()** são usados para atualizar documentos dentro da coleção. O método update() atualiza valores em um documento existente, enquanto o método save() substitui o documento existente em si pelo documento passado dentro do método save().##O método Update()
 

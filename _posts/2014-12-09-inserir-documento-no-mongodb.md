@@ -9,7 +9,7 @@ tags:
 - MongoDB
 - NoSQL
 twitter_text: Rápida exemplificação de como inserir dados em uma coleção no MongoDB.
-introduction: Neste tutorial explico como inserir dados em uma coleção no MongoDB.
+introduction: Nesta parte do tutorial explico como inserir dados em uma coleção no MongoDB.
 ---
 
 ## O método insert()

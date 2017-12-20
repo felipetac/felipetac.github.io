@@ -9,7 +9,7 @@ tags:
 - MongoDB
 - NoSQL
 twitter_text: Limitando a quantidade de registros no MongoDB.
-introduction: Neste tutorial explico como limitar a quantidade de registros advindos do MongoDB.
+introduction: Nesta parte do tutorial explico como limitar a quantidade de registros advindos do MongoDB.
 ---
 ## O método Limit()
 

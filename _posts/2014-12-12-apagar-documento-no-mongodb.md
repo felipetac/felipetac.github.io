@@ -9,7 +9,7 @@ tags:
 - MongoDB
 - NoSQL
 twitter_text: Breve exemplificação de como apagar documentos no MongoDB.
-introduction: Neste tutorial explico como remover um documento de uma coleção no MongoDB.
+introduction: Nesta parte do tutorial explico como remover um documento de uma coleção no MongoDB.
 ---
 ## O método remove()
 
