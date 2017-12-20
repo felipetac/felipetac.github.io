@@ -39,6 +39,7 @@ Neste ponto o mycol é a nosso nome de coleção, ele foi criado no tutorial ant
 No documento inserido se nós não tivermos especificado o parâmetro _id, o MongoDB criará uma assinatura única do objeto(ObjectId) para este documento. _id é um número hexadecimal único de 12 bytes para todos os documentos em uma coleção. Este 12 bytes são divididos da seguinte forma:
 
 _id: ObjectId(4 bytes timestamp, 3 bytes machine id, 2 bytes process id, 3 bytes incrementer)
+
 Para inserir múltiplos documentos em uma única query , você pode passar um array de documentos dentro do comando insert().
 
 ### Exemplo

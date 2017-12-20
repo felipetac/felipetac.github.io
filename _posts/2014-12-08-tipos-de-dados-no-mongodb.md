@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "#8 - Tipos de Dados no MongoDB"
-description: Apresenta os tipos de dados existentes no MongoDB.
+description: Apresentação dos tipos de dados existentes no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Apresenta os tipos de dados existentes no MongoDB.
+twitter_text: Apresentação dos tipos de dados existentes no MongoDB.
 introduction: Nesta parte do tutorial explico quais são so tipos de dados suportados no MongoDB.
 ---
 MongoDB suporta vários tipos de dados, cuja lista é dada abaixo:
