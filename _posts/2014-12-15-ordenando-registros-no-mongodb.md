@@ -9,7 +9,7 @@ tags:
 - MongoDB
 - NoSQL
 twitter_text: Breve explicação de como ordenar registros no MongoDB.
-introduction: Este tutorial explico como ordenar registros no MongoDB.
+introduction: Neste parte do tutorial explico como ordenar registros no MongoDB.
 ---
 ## O método sort()
 

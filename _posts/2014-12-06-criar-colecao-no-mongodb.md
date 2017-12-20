@@ -9,7 +9,7 @@ tags:
 - MongoDB
 - NoSQL
 twitter_text: Rápida exemplificação de como criar coleções no MogoDB.
-introduction: Este tutorial explica como criar coleções no MongoDB.
+introduction: Nesta parte do tutorial explico como criar coleções no MongoDB.
 ---
 
 ## O método createCollection()

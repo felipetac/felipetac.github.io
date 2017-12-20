@@ -9,7 +9,7 @@ tags:
 - MongoDB
 - NoSQL
 twitter_text: Breve explicação sobre agregações no MongoDB.
-introduction: Neste tutorial explico brevemente o uso de agregações no MongoDB.
+introduction: Nesta parte do tutorial explico brevemente o uso de agregações no MongoDB.
 ---
 Operações de agregações processam os dados registrados e retornam um resultado agregado. Agregações agrupam valores vindos de múltiplos documentos reunidos, e podem estabelecer uma variedade de operações sobre esta agrupação de dados para retornar um resultado único. O sql **count(*)** e **group by** são equivalentes a uma agregação no MongoDB.
 
