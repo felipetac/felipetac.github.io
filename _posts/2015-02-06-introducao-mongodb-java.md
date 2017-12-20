@@ -405,7 +405,7 @@ Colecao mycol selecionada com sucesso
 Documento apagado com sucesso
 ```
 
-Os métodos ```save()```, ```limit()```, ```skip()```, ```sort()``` e etc seu funcionamento será explicado em um tutorial subsequente.
+Os métodos ```save()```, ```limit()```, ```skip()```, ```sort()``` e etc serão explicados em um tutorial subsequente.
 
 Espero poder ter ajudado! Até o próximo tutorial! :)
 

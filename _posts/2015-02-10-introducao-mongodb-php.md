@@ -224,7 +224,7 @@ Documentos apagados com sucesso
 
 No exemplo dados acima, o segundo parametro é do tipo *booleano* e usado para estabelecer se remove um único elemento encontrado no método ```remove()```.
 
-Os métodos ```save()```, ```limit()```, ```skip()```, ```sort()``` e etc seu funcionamento será explicado em um tutorial subsequente.
+Os métodos ```save()```, ```limit()```, ```skip()```, ```sort()``` e etc serão explicados em um tutorial subsequente.
 
 Espero poder ter ajudado! Até o próximo tutorial! :)
 
