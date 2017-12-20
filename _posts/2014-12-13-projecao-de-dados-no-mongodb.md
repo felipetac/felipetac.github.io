@@ -9,7 +9,7 @@ tags:
 - MongoDB
 - NoSQL
 twitter_text: Breve exemplificação de como selecionar dados no MongoDB.
-introduction: Neste parte do tutorial explico como selecionar apenas os dados necessários à consulta.
+introduction: Nesta parte do tutorial explico como selecionar apenas os dados necessários à consulta.
 ---
 Projeção de dados no mongodb significa selecionar apenas os dados necessários ao invés de selecionar todo os dados de um documento. Se um documento tem cinco campos e você precisa mostrar apenas 3, selecione então selecione somente os 3 campos dele.##O método find()
 
