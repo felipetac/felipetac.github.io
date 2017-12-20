@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#7 - Apagar Coleção no MongoDB"
+title: "#9 - Apagar Coleção no MongoDB"
 description: Rápida exemplificação de como apagar coleções no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

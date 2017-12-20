@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#5 - Apagar Banco de Dados no MongoDB"
+title: "#7 - Apagar Banco de Dados no MongoDB"
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

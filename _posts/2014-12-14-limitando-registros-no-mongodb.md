@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#14 - Limitando Registros no MongoDB"
+title: "#16 - Limitando Registros no MongoDB"
 description: Breve explicação de como limitar quantidade de registros no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

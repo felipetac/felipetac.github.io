@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#10 - Consultar Documento no MongoDB"
+title: "#12 - Consultar Documento no MongoDB"
 description: Rápida exemplificação de como efetuar consultas no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

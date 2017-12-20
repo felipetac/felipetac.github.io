@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#13 - Projeção de Dados no MongoDB"
+title: "#15 - Projeção de Dados no MongoDB"
 description: Breve exemplificação de como selecionar dados no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

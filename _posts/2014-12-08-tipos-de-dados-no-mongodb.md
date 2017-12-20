@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#8 - Tipos de Dados no MongoDB"
+title: "#10 - Tipos de Dados no MongoDB"
 description: Apresentação dos tipos de dados existentes no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

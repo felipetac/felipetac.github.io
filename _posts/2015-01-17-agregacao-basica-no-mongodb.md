@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#17 - Agregação Básica no MongoDB"
+title: "#19 - Agregação Básica no MongoDB"
 description: Breve explicação sobre agregações no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#11 - Atualizar Documento no MongoDB"
+title: "#13 - Atualizar Documento no MongoDB"
 description: Breve exemplificação de como alterar um documento no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

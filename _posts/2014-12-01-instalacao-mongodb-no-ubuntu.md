@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "#2 - Instalação MongoDB no Ubuntu"
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+title: "#3 - Instalação MongoDB no Ubuntu"
+description: Processo de instalação do MongoDB no Ubuntu.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text: Processo de instalação do MongoDB no Ubuntu.
+introduction: Nesta parte do tutorial explico com instalar o MongoDB no Ubuntu Linux.
 ---
 
 ## Importe a chave pública usada pelo gerenciador de pacote do sistema operacional

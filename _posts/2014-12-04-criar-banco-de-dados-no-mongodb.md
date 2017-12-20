@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#4 - Criar Banco de Dados no MongoDB"
+title: "#6 - Criar Banco de Dados no MongoDB"
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

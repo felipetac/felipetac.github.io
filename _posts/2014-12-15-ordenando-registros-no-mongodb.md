@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#15 - Ordenando Registros no MongoDB"
+title: "#17 - Ordenando Registros no MongoDB"
 description: Breve explicação de como ordenar registros no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

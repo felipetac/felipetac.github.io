@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#9 - Inserir Documento no MongoDB"
+title: "#11 - Inserir Documento no MongoDB"
 description: Rápida exemplificação de como inserir dados em uma coleção no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

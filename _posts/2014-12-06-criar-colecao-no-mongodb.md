@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#6 - Criar Coleção no MongoDB"
+title: "#8 - Criar Coleção no MongoDB"
 description: Rápida exemplificação de como criar coleções no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

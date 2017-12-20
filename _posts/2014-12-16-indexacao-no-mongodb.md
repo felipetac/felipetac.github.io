@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#16 - Indexação no MongoDB"
+title: "#18 - Indexação no MongoDB"
 description: Breve explicação sobre indexação no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'

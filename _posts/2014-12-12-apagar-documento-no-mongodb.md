@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#12 - Apagar Documento no MongoDB"
+title: "#14 - Apagar Documento no MongoDB"
 description: Breve exemplificação de como apagar documentos no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
