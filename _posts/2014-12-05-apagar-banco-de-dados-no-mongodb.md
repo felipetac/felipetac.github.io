@@ -9,7 +9,7 @@ tags:
 - MongoDB
 - NoSQL
 twitter_text: Apagando um banco dados no MongoDB.
-introduction: Nesta parte do tutorial explico com o apagar um banco de dados no MongoDB.
+introduction: Nesta parte do tutorial explico como apagar um banco de dados no MongoDB.
 ---
 
 ## O método ```dropDatabase()```
