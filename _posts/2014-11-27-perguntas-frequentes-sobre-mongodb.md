@@ -18,7 +18,6 @@ MongoDB é um SGBD orientados a documentos. Pense em MySQL, mas com objetos do t
 
 Operacionalmente falando, MongoDB possui replicação master-slave com failover automatizado e escalabilidade horizontal embutida através de particionamento baseado em intervalos automatizado.
 
-
 > MongoDB usa BSON, um formato binário semelhante ao JSON, porém mais expressivo que ele.
 
 ## O banco de dados MongoDB possui tabelas?
