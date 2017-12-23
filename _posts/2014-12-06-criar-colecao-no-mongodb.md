@@ -1,29 +1,30 @@
 ---
 layout: post
-title: "#6 - Criar Coleção no MongoDB"
-description: Rápida exemplificação de como criar coleções no MogoDB.
+title: "#8 - Criar Coleção no MongoDB"
+description: Rápida exemplificação de como criar coleções no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
 tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Rápida exemplificação de como criar coleções no MogoDB.
+twitter_text: Rápida exemplificação de como criar coleções no MongoDB.
 introduction: Nesta parte do tutorial explico como criar coleções no MongoDB.
 ---
 
-## O método createCollection()
+## O método ```createCollection()```
 
-O método MongoDB db.createCollection(name, options) é usado para criar uma coleção.
+O método MongoDB ```db.createCollection(name, options)``` é usado para criar uma coleção.
 
 ### Sintaxe
 
-A sintaxe básica do comando **createCollection()** é a seguinte:
+A sintaxe básica do comando ```createCollection()``` é a seguinte:
 
->db.createCollection(name, options)
->
+```js
+db.createCollection(name, options)
+```
 
-Neste comando, Name é o nome da coleção a ser criada. Options é um documento e é usado para especificar a configuração da coleção
+Neste comando, *Name* é o nome da coleção a ser criada. *Options* é um documento e é usado para especificar a configuração da coleção
 
 <table>
 <tbody>
@@ -77,38 +78,45 @@ Segue a lista de opções que você pode usar:
 </tbody>
 </table>
 
-Quando se vai inserir um documento, o MongoDB verifica primeiro campo de tamanho da capped collection, e então verifica o campo (max).
+Quando se vai inserir um documento, o MongoDB verifica primeiro campo de tamanho da capped collection, e então verifica o campo (*max*).
 
 ### Exemplos
 
-A sintaxe básica do método **createCollection()** sem opções será o seguinte:
+A sintaxe básica do método ```createCollection()``` sem opções será o seguinte:
 
->use test
+```js
+$ use test
 switched to db test
->db.createCollection("mycollection")
-{ ok : 1 }
->
 
-Você pode verificar a coleção criada por meio do uso do comando **show collections**
+$ db.createCollection("mycollection")
+{"ok": 1}
+```
 
->show collections
+Você pode verificar a coleção criada por meio do uso do comando ```show collections```
+
+```js
+$ show collections
 mycollection
 system.indexes
+```
 
-O exemplo a seguir mostra a sintaxe do método **createCollection()** com algumas importantes opções:
+O exemplo a seguir mostra a sintaxe do método ```createCollection()``` com algumas importantes opções:
 
->db.createCollection("mycol", { capped: true, autoIndexID : true, size: 6142800, max: 10000 })
+```js
+$ db.createCollection("mycol", { capped: true, autoIndexID : true, size: 6142800, max: 10000 })
 {"ok": 1}
->
+```
 
 No mongoDB você não precisa criar a coleção. MongoDB cria a coleção automaticamente quando você insere algum documento.
 
->db.tutorialspoint.insert({name: "tutorialspoint"})
->show collections
+```js
+$ db.tutorialspoint.insert({name: "tutorialspoint"})
+
+$ show collections
 mycol
 mycollection
 system.indexes
 tutorialspoint
->
+```
 
 **Fonte traduzida:** [Tutorials Point - MongoDB Create Collection](http://www.tutorialspoint.com/mongodb/mongodb_create_collection.htm)

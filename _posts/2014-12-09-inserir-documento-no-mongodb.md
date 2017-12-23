@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#9 - Inserir Documento no MongoDB"
+title: "#11 - Inserir Documento no MongoDB"
 description: Rápida exemplificação de como inserir dados em uma coleção no MongoDB.
 image: '/assets/img/mongodb.png'
 category: 'mongodb'
@@ -12,19 +12,22 @@ twitter_text: Rápida exemplificação de como inserir dados em uma coleção no
 introduction: Nesta parte do tutorial explico como inserir dados em uma coleção no MongoDB.
 ---
 
-## O método insert()
+## O método ```insert()```
 
-Para inserir um dado dentro de uma coleção no MongoDB, você precisa usar métodos insert() ou save().
+Para inserir um dado dentro de uma coleção no MongoDB, você precisa usar métodos ```insert()``` ou ```save()```.
 
 ### Sintaxe
 
-A sintaxe básica do comando insert é a seguinte:
+A sintaxe básica do comando ```insert()``` é a seguinte:
 
->db.COLLECTION_NAME.insert(document)
+```js
+db.COLLECTION_NAME.insert(document)
+```
 
 ### Exemplo
 
-db.mycol.insert({
+```js
+$ db.mycol.insert({
   _id: ObjectId(7df78ad8902c),
   title: 'MongoDB Overview',
   description: 'MongoDB is no sql database',
@@ -33,17 +36,20 @@ db.mycol.insert({
   tags: ['mongodb', 'database', 'NoSQL'],
   likes: 100
 })
+```
 
-Neste ponto o mycol é a nosso nome de coleção, ele foi criado no tutorial anterior. Se a coleção não existir no banco de dados, então o MongoDB criará esta coleção e então inserirá o documento dentro dela.
+Neste ponto o *mycol* é a nosso nome de coleção, ele foi criado no tutorial anterior. Se a coleção não existir no banco de dados, então o MongoDB criará esta coleção e então inserirá o documento dentro dela.
 
-No documento inserido se nós não tivermos especificado o parâmetro _id, o MongoDB criará uma assinatura única do objeto(ObjectId) para este documento. _id é um número hexadecimal único de 12 bytes para todos os documentos em uma coleção. Este 12 bytes são divididos da seguinte forma:
+No documento inserido se nós não tivermos especificado o parâmetro *_id*, o MongoDB criará uma assinatura única do objeto(*ObjectId*) para este documento. *_id* é um número hexadecimal único de 12 bytes para todos os documentos em uma coleção. Este 12 bytes são divididos da seguinte forma:
 
-_id: ObjectId(4 bytes timestamp, 3 bytes machine id, 2 bytes process id, 3 bytes incrementer)
-Para inserir múltiplos documentos em uma única query , você pode passar um array de documentos dentro do comando insert().
+*_id*: ObjectId(4 bytes timestamp, 3 bytes machine id, 2 bytes process id, 3 bytes incrementer)
+
+Para inserir múltiplos documentos em uma única query , você pode passar um array de documentos dentro do comando ```insert()```.
 
 ### Exemplo
 
-db.post.insert([
+```js
+$ db.post.insert([
 {
   title: 'MongoDB Overview',
   description: 'MongoDB is no sql database',
@@ -68,7 +74,8 @@ db.post.insert([
   }]
 }
 ])
+```
 
-Para inserir o documento você também pode usar o **db.post.save(document)**. Se você não especificar o _id dentro do documento, o método **save()** trabalhará da mesma forma do método **insert()**. Se você especificar o _id, ele substituirá os dados do documento que contêm o _id especificado no método **save()**.
+Para inserir o documento você também pode usar o ```db.post.save(document)```. Se você não especificar o *_id* dentro do documento, o método ```save()``` trabalhará da mesma forma do método ```insert()```. Se você especificar o *_id*, ele substituirá os dados do documento que contêm o *_id* especificado no método ```save()```.
 
 **Fonte traduzida:** [Tutorials Point - MongoDB Insert Document](http://www.tutorialspoint.com/mongodb/mongodb_insert_document.htm)

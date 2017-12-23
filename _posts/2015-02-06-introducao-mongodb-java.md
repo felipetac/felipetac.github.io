@@ -22,6 +22,7 @@ Para conectar a base de dados, você precisa especificar o nome do banco de dado
 
 Trecho de código para conectar o banco de dados pode ser o seguinte:
 
+```java
 import com.mongodb.MongoClient;
 import com.mongodb.MongoException;
 import com.mongodb.WriteConcern;
@@ -48,32 +49,36 @@ public class MongoDBJDBC{
           }
    }
 }
+```
 
 Agora, vamos compilar e executar o programa a seguir para criar nosso banco de dados.
-Você pode mudar o caminho de acordo com sua necessidade. Nos vamos assumir que a versão corrente do driver JDBC mongo-2.10.1.jar é a disponível no nosso caminho corrente.
+Você pode mudar o caminho de acordo com sua necessidade. Nos vamos assumir que a versão corrente do driver JDBC **mongo-2.10.1.jar** é a disponível no nosso caminho corrente.
 
-$javac MongoDBJDBC.java
-$java -classpath ".:mongo-2.10.1.jar" MongoDBJDBC
+```bash
+$ javac MongoDBJDBC.java
+$ java -classpath ".:mongo-2.10.1.jar" MongoDBJDBC
 Banco de dados conectado com sucesso
 Autenticacao: true
+```
 
 Se estiver usando em uma máquina Windows, então você pode compilar e executar seu código da forma a seguir:
 
-$javac MongoDBJDBC.java
-$java -classpath ".;mongo-2.10.1.jar" MongoDBJDBC
+```bash
+$ javac MongoDBJDBC.java
+$ java -classpath ".;mongo-2.10.1.jar" MongoDBJDBC
 Banco de dados conectado com sucesso
 Autenticacao: true
+```
 
 O valor de authdeverá ser se o nome de usuário e senha estão válidos e ativos para o banco de dados selecionado.
 
 ## Criando uma coleção
 
-Para criar uma coleção, o método 
-createCollection() da classe 
-com.mongodb.DB é usado.
+Para criar uma coleção, o método ```createCollection()``` da classe *com.mongodb.DB* é usado.
 
 Trecho de código para criar uma coleção:
 
+```java
 import com.mongodb.MongoClient;
 import com.mongodb.MongoException;
 import com.mongodb.WriteConcern;
@@ -102,19 +107,23 @@ public class MongoDBJDBC{
           }
    }
 }
+```
+
 Quando o programa é compilado e executado, este produzirá o seguinte resultado:
 
+```bash
 Banco de dados conectado com sucesso
 Autenticacao: true
 Colecao criada com sucesso
+```
 
 ## Obtendo/Selecionando uma coleção
 
-Para obter/selecionar uma coleção de uma base de dados, o método 
-getCollection() da classe com.mongodb.DBCollection é usado.
+Para obter/selecionar uma coleção de uma base de dados, o método ```getCollection()``` da classe *com.mongodb.DBCollection* é usado.
 
 Trecho de código para obter/selecionar uma coleção:
 
+```java
 import com.mongodb.MongoClient;
 import com.mongodb.MongoException;
 import com.mongodb.WriteConcern;
@@ -145,20 +154,24 @@ public class MongoDBJDBC{
           }
    }
 }
+```
 
 Quando o programa é compilado e executado, este produzirá o seguinte resultado:
 
+```bash
 Banco de dados conectado com sucesso
 Autenticacao: true
 Colecao criada com sucesso
 Colecao mycol selecionada com sucesso
+```
 
 ## Inserindo um documento
 
-Para inserir um documento dentro do mongodb, o método insert() da classe com.mongodb.DBCollection é usado.
+Para inserir um documento dentro do mongodb, o método ```insert()``` da classe *com.mongodb.DBCollection* é usado.
 
 Trecho de código para inserir um documento:
 
+```java
 import com.mongodb.MongoClient;
 import com.mongodb.MongoException;
 import com.mongodb.WriteConcern;
@@ -194,20 +207,24 @@ public class MongoDBJDBC{
           }
    }
 }
+```
 
 Quando o programa é compilado e executado, este produzirá o seguinte resultado:
 
+```bash
 Banco de dados conectado com sucesso
 Autenticacao: true
 Colecao mycol selecionada com sucesso
 Documento inserido com sucesso
+```
 
 ## Retornar todos os documentos
 
-Para obter todos os documentos de uma coleção, o método find() da classe com.mongodb.DBCollection é usado. Este método retorna um array o qual você precisa percorrer.
+Para obter todos os documentos de uma coleção, o método ```find()``` da classe *com.mongodb.DBCollection* é usado. Este método retorna um array o qual você precisa percorrer.
 
 Trecho de código para retornar todos os documentos:
 
+```java
 import com.mongodb.MongoClient;
 import com.mongodb.MongoException;
 import com.mongodb.WriteConcern;
@@ -243,9 +260,11 @@ public class MongoDBJDBC{
           }
    }
 }
+```
 
 Quando o programa é compilado e executado, este produzirá o seguinte resultado:
 
+```bash
 Banco de dados conectado com sucesso
 Autenticacao: true
 Colecao mycol selecionada com sucesso
@@ -258,13 +277,15 @@ Documento inserido: 1
    "url": "http://www.tutorialspoint.com/mongodb/",
    "by": "tutorials point"
 }
+```
 
 ## Atualizando documentos
 
-Para atualizar um documento da coleção, o método update() da classe com.mongodb.DBCollection é usado.
+Para atualizar um documento da coleção, o método ```update()``` da classe *com.mongodb.DBCollection* é usado.
 
 Trecho do código para atualizar um documento:
 
+```java
 import com.mongodb.MongoClient;
 import com.mongodb.MongoException;
 import com.mongodb.WriteConcern;
@@ -307,9 +328,11 @@ public class MongoDBJDBC{
           }
    }
 }
+```
 
 Quando o programa é compilado e executado, este produzirá o seguinte resultado:
 
+```bash
 Banco de dados conectado com sucesso
 Autenticacao: true
 Colecao mycol selecionada com sucesso
@@ -324,13 +347,15 @@ Documento atualizado: 1
    "url": "http://www.tutorialspoint.com/mongodb/",
    "by": "tutorials point"
 }
+```
 
 ## Apagando o primeiro documento
 
-Para apagar o primeiro documento de uma coleção, você precisa primeiro selecionar os documentos usando o método findOne() e depois usar o método remove da classe com.mongodb.DBCollection.
+Para apagar o primeiro documento de uma coleção, você precisa primeiro selecionar os documentos usando o método ```findOne()``` e depois usar o método remove da classe *com.mongodb.DBCollection*.
 
 Trecho do código para deletar o primeiro documento:
 
+```java
 import com.mongodb.MongoClient;
 import com.mongodb.MongoException;
 import com.mongodb.WriteConcern;
@@ -369,15 +394,18 @@ public class MongoDBJDBC{
           }
    }
 }
+```
 
 Quando o programa é compilado e executado, este produzirá o seguinte resultado:
 
+```bash
 Banco de dados conectado com sucesso
 Autenticacao: true
 Colecao mycol selecionada com sucesso
 Documento apagado com sucesso
+```
 
-Os métodos save(), limit(), skip(), sort() e etc seu funcionamento será explicado em um tutorial subsequente.
+Os métodos ```save()```, ```limit()```, ```skip()```, ```sort()``` e etc serão explicados em um tutorial subsequente.
 
 Espero poder ter ajudado! Até o próximo tutorial! :)
 
