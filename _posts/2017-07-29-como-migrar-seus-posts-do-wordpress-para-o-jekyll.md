@@ -160,5 +160,3 @@ JekyllImport::WordpressDotCom.process
 arquivo, você pode fazer isso rodando `gem install hpricot fileutils safe_yaml html2markdown`
 
 Pronto! Seus posts no Wordpress estão todos importados e formatados em markdown.
-
-

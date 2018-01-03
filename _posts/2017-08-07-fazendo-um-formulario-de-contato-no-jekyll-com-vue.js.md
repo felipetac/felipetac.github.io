@@ -369,23 +369,3 @@ Eu tenho lido bastante e queria compartilhar com vocês essas mensagens. Então,
 para inaugurar esse novo estilo, aqui vai a primeira:
 
 > 90% da vida é sobre se manter calmo. - **Dr. Chris Feudtner**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
