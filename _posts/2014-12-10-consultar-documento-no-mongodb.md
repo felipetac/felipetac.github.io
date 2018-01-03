@@ -2,7 +2,7 @@
 layout: post
 title: "#12 - Consultar Documento no MongoDB"
 description: Rápida exemplificação de como efetuar consultas no MongoDB.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/mongodb_iqnp0d.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1515003384/search_k06jv2.png'
 category: 'mongodb'
 tags:
 - Banco de dados

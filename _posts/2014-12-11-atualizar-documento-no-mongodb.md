@@ -2,7 +2,7 @@
 layout: post
 title: "#13 - Atualizar Documento no MongoDB"
 description: Breve exemplificação de como alterar um documento no MongoDB.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/mongodb_iqnp0d.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1515003595/update_tdxk1x.png'
 category: 'mongodb'
 tags:
 - Banco de dados
