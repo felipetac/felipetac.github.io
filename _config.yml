@@ -3,7 +3,7 @@ title: Felipe Toscano | Diário de Bordo na Web
 email: felipe.toscano@gmail.com
 description: Blog sobre conhecimentos adquiridos durante estudos em TI.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://felipetoscano.com.br" # the base hostname & protocol for your site
+url: "https://felipetoscano.com.br" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
