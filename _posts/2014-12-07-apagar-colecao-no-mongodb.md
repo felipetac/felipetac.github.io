@@ -2,7 +2,7 @@
 layout: post
 title: "#9 - Apagar Coleção no MongoDB"
 description: Rápida exemplificação de como apagar coleções no MongoDB.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/mongodb_iqnp0d.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1515001827/delete2_p6xdmi.png'
 category: 'mongodb'
 tags:
 - Banco de dados

@@ -2,7 +2,7 @@
 layout: post
 title: "#14 - Apagar Documento no MongoDB"
 description: Breve exemplificação de como apagar documentos no MongoDB.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/mongodb_iqnp0d.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1515001956/delete3_qn7wot.png'
 category: 'mongodb'
 tags:
 - Banco de dados

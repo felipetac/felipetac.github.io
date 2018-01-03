@@ -2,7 +2,7 @@
 layout: post
 title: "#8 - Criar Coleção no MongoDB"
 description: Rápida exemplificação de como criar coleções no MongoDB.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/mongodb_iqnp0d.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1515001086/create_lv4v5l.png'
 category: 'mongodb'
 tags:
 - Banco de dados

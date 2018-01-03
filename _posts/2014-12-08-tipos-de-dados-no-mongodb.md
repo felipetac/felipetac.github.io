@@ -2,7 +2,7 @@
 layout: post
 title: "#10 - Tipos de Dados no MongoDB"
 description: Apresentação dos tipos de dados existentes no MongoDB.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/mongodb_iqnp0d.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1515002530/mongo-datatypes_kstv4i.png'
 category: 'mongodb'
 tags:
 - Banco de dados
