@@ -28,27 +28,21 @@ Um registro no MongoDB é considerado como um documento, que é composto por uma
 }
 ```
 
-## As vantagens de usar documentos são:
+## As vantagens de usar documentos
 
+São elas:
 
 - Documentos correspondem a tipos de dados nativos em diversas linguagens de programação.
-
-	
 - Documentos e arrays incorporados reduzem exponencialmente a necessidades de joins.
-
-	
 - Esquemas dinâmicos suportam polimorfismos flexíveis.
 
 ## Principais Características
-
 
 ### Alta performance
 
 MongoDB fornece alta performance na persistência dos dados. Em particular,
 
 - Suporte a incorporação de modelos de dados reduzindo as atividades de entrada/saída no banco de dados.
-
-	
 - Suporte a consultas rápidas por meio de índices e a capacidade de incluir chaves a documentos e arrays incorporados.
 
 ### Alta disponibilidade
@@ -56,8 +50,6 @@ MongoDB fornece alta performance na persistência dos dados. Em particular,
 Para fornecer alta disponibilidade, o MongoDB oferece nativamente facilidades para replicação, chamadas replica sets, oferecendo:
 
 - Failover automático.
-
-	
 - Redundância de dados.
 
 Um replica set é um grupo de servidores MongoDB que mantém réplicas dos dados, fornecendo redundância e aumentando a disponibilidade destes dados.
@@ -67,11 +59,9 @@ Um replica set é um grupo de servidores MongoDB que mantém réplicas dos dados
 MongoDB fornece escalabilidade horizontal como uma parte das funcionalidades nativas dele.
 
 - Sharding automático distribui/fatia os dados pelos diversos clusters.
-
-	
 - Replica sets podem fornecer leituras eventualmente consistentes para implantações de alto desempenho.
 
-## Composição 
+## Composição
 
 ### Banco de Dados
 
