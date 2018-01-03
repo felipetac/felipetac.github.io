@@ -52,7 +52,7 @@ o [SendGrid](https://sendgrid.com/).
 A primeira vez que você for enviar um e-mail terá de confirmar o e-mail configurado,
 mas depois disso as próximas mensagens serão enviadas sem problemas, como essa aqui:
 
-![Imagem do e-mail](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1502208783/resultado-email_cjewki.png)
+![Imagem do e-mail](https://res.cloudinary.com/felipetac/image/upload/v1515004940/resultado-email_dexkvh.png)
 
 O legal é que quando você cria um campo no formulário com `name="email"` ou o `name="_replyto"`,
 ele automaticamente já coloca o e-mail que o usuário preencheu como o e-mail de resposta
