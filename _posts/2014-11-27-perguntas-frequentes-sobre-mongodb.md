@@ -2,7 +2,7 @@
 layout: post
 title: "#2 - Perguntas Frequentes sobre MongoDB"
 description: Perguntas e Respostas sobre MongoDB.
-image: '/assets/img/faq.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/faq_pfbgpu.png'
 category: 'mongodb'
 tags:
 - Banco de dados

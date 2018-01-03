@@ -2,7 +2,7 @@
 layout: post
 title: "#4 - Primeiros Passos no MongoDB"
 description: Primeiras instruções de como usar o MongoDB.
-image: '/assets/img/first-steps.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/first-steps_woqbil.png'
 category: 'mongodb'
 tags:
 - Banco de dados

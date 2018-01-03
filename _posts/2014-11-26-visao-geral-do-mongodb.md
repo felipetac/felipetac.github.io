@@ -2,7 +2,7 @@
 layout: post
 title: "#1 - Visão Geral do MongoDB"
 description: Introdução sobre o MongoDB.
-image: '/assets/img/introduction.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/introduction_owvolo.png'
 category: 'mongodb'
 tags:
 - Banco de dados
