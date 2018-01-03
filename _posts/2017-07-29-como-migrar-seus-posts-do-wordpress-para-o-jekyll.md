@@ -2,7 +2,7 @@
 layout: post
 title: "Como migrar seus posts do Wordpress para o Jekyll de um jeito simples"
 date: 2017-07-29 13:24:49
-image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1501345962/wordpress-to-jekyll_mx4ddm.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991878/wordpress-to-jekyll_oarepc.png'
 description: Um script para migrar seus posts do Wordpress para o Jekyll sem dores de cabeça.
 category: 'jekyll'
 tags:

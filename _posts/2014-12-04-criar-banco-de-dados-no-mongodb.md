@@ -2,7 +2,7 @@
 layout: post
 title: "#6 - Criar Banco de Dados no MongoDB"
 description: Criando banco de dados no MongoDB.
-image: '/assets/img/mongodb.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/mongodb_iqnp0d.png'
 category: 'mongodb'
 tags:
 - Banco de dados

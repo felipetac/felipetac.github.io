@@ -2,7 +2,7 @@
 layout: post
 title: Introdução MongoDB + Java
 description: Rápida exemplificação da integração do MongoDB com o Java.
-image: '/assets/img/mongodb.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1514992555/mint-coffee.jpg'
 category: 'mongodb'
 tags:
 - Banco de dados

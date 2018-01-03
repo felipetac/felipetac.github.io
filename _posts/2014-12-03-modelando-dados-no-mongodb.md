@@ -53,7 +53,7 @@ Supondo que um cliente necessite de um projeto de banco de dados para seu site d
 
 Para os requisitos acima, projetos de esquemas em BD's relacionais devem ter no mínimo 3 tabelas
 
-[![RDBMS](/assets/img/RDBMS.png)](/assets/img/RDBMS.png)
+[![RDBMS](http://res.cloudinary.com/felipetac/image/upload/v1514991637/RDBMS_lcmhs4.png)](http://res.cloudinary.com/felipetac/image/upload/v1514991637/RDBMS_lcmhs4.png)
 
 Enquanto que em projetos de esquemas no MongoDB devemos ter uma única coleção de postagem(post) tendo a seguinte estrutura:
 

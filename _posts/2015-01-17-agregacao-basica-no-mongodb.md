@@ -2,7 +2,7 @@
 layout: post
 title: "#19 - Agregação Básica no MongoDB"
 description: Breve explicação sobre agregações no MongoDB.
-image: '/assets/img/mongodb.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/mongodb_iqnp0d.png'
 category: 'mongodb'
 tags:
 - Banco de dados
