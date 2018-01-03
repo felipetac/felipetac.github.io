@@ -2,7 +2,7 @@
 layout: post
 title: "#15 - Projeção de Dados no MongoDB"
 description: Breve exemplificação de como selecionar dados no MongoDB.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/mongodb_iqnp0d.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1514998932/projection_py1ngi.png'
 category: 'mongodb'
 tags:
 - Banco de dados

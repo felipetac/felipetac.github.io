@@ -2,7 +2,7 @@
 layout: post
 title: "#18 - Indexação no MongoDB"
 description: Breve explicação sobre indexação no MongoDB.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/mongodb_iqnp0d.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1514997895/indexing_pxkmue.png'
 category: 'mongodb'
 tags:
 - Banco de dados
