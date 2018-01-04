@@ -18,7 +18,7 @@ Durante meus estudos de NodeJS passei por uma pedra no caminho muito chata... N�
 
 ## Instalação do NodeJS via Package Manager no Ubuntu
 
-Para este tutorial utilizei a versão 8.x do NodeJS. Caso queria uma versão mais atual, acesse [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions) e pegue o link da versão mais estável corrente.
+Para este tutorial utilizei a versão 8.x do NodeJS. Caso queira uma versão mais atual, acesse [NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions) e pegue o link da versão mais estável corrente.
 
 Voltando... Execute no terminal:
 
