@@ -13,6 +13,10 @@ twitter_text: Um script para migrar seus posts do Wordpress para o Jekyll sem do
 introduction: Exportar seus posts do Wordpress para o Jekyll pode ser muito mais fácil usando esse script.
 ---
 
+Este tutorial é um post transcrito do blog do [Thiago Rossener](https://www.rossener.com/como-migrar-seus-posts-do-wordpress-para-o-jekyll/). Então todos os créditos intelectuais deste post direciono a este blog que me ajudou muito para construir o meu! Valew Rossener :)
+
+>Transcrição abaixo:
+
 Foram 24 horas contabilizadas entre ter o primeiro contato com o Jekyll, fazer o novo
 layout do blog e migrar todos os posts do meu antigo blog em Wordpress.
 

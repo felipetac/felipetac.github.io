@@ -13,7 +13,9 @@ twitter_text: Um formulário de contato para o Jekyll fazendo a validação com 
 introduction: Nesse tutorial explico como fazer o formulário que uso aqui no blog com o Vue.js para a validação dos dados.
 ---
 
-Antes de tudo quero falar que este tutorial é uma transcrição do site [Rossener](https://www.rossener.com/fazendo-um-formulario-de-contato-no-jekyll-com-vue.js/). Achei super válido manter o post dele aqui pois foi lá que aprendi algumas coisas para fazer o blog. Obrigado Rossener :)
+Antes de tudo quero falar que este tutorial é uma transcrição do site [Thiago Rossener](https://www.rossener.com/fazendo-um-formulario-de-contato-no-jekyll-com-vue.js/). Achei super válido manter o post dele aqui pois foi lá que aprendi algumas coisas para fazer o blog. Obrigado Rossener :)
+
+>Transcrição abaixo:
 
 Bom, então para começar, vamos ver como fazer um formulário de Contato simples no
 Jekyll.
