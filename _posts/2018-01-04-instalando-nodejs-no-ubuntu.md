@@ -4,7 +4,7 @@ title: "Instalando NodeJS no Ubuntu"
 date: 2018-01-04 11:25:44
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1515068858/node-js-and-npm_jlvzql.png'
 description: "Instalando o NodeJS via Package Manager e configurando para instalar seus pacotes sem a necessidade de sudo"
-category: 'NodeJS'
+category: 'nodejs'
 tags:
 - NodeJS
 - Ubuntu
