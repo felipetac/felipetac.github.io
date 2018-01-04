@@ -5,9 +5,9 @@ date: 2016-06-11 16:07:32
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1515072898/http_to_https-1_y1lb5i.png'
 description: "Aprenda a colocar a sua página do Github Pages com Custom Domain e HTTPS"
 tags:
-- github
-- ssl
-- https
+- Github
+- SSL
+- Https
 category: 'github'
 twitter_text: "Tenha https no seu domínio próprio dentro do Github Pages"
 introduction: "Aprenda a colocar a sua página do Github Pages com Custom Domain e HTTPS"

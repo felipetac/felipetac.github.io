@@ -6,9 +6,9 @@ image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991878/wordpress-
 description: Um script para migrar seus posts do Wordpress para o Jekyll sem dores de cabeça.
 category: 'jekyll'
 tags:
-- jekyll
-- wordpress
-- blog
+- Jekyll
+- Wordpress
+- Blog
 twitter_text: Um script para migrar seus posts do Wordpress para o Jekyll sem dores de cabeça.
 introduction: Exportar seus posts do Wordpress para o Jekyll pode ser muito mais fácil usando esse script.
 ---
