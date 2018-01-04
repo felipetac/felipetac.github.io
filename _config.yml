@@ -6,6 +6,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://felipetoscano.com.br" # the base hostname & protocol for your site
 google_analytics: "UA-111893724-1"
 
+# Linguagem - Setei GLOBALMENTE pois os posts em principio serão só em português 
+lang: pt_BR
+
+# Author - Setei GLOBALMENTE pois sou o único autor do blog
+author: Felipe Toscano de Azevedo Cardoso
+
 # User Settings
 username: Felipe Toscano de Azevedo Cardoso
 user_description: Engenheiro de Software, Desenvolvedor Sênior
