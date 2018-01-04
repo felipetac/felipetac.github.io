@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#4 - Primeiros Passos no MongoDB"
+date: 2014-12-02 12:30:00
 description: Primeiras instruções de como usar o MongoDB.
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1514991637/first-steps_woqbil.png'
 category: 'mongodb'

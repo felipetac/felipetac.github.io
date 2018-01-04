@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#19 - Agregação Básica no MongoDB"
+date: 2014-12-17 12:30:00
 description: Breve explicação sobre agregações no MongoDB.
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1514998777/puzzle-join_ktqued.png'
 category: 'mongodb'

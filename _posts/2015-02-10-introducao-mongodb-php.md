@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introdução MongoDB + PHP
+date: 2015-02-10 12:30:00
 description: Rápida exemplificação da integração do MongoDB com o PHP.
 image: 'https://res.cloudinary.com/felipetac/image/upload/c_crop,h_315,w_600/v1514992727/planta-elefante.jpg'
 category: 'mongodb'

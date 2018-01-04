@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "#7 - Apagar Banco de Dados no MongoDB"
+date: 2014-12-05 12:30:00
 description: Apagando um banco dados no MongoDB.
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1515001629/macbook-delete_kpd2zw.png'
 category: 'mongodb'
