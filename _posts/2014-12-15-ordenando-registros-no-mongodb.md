@@ -4,7 +4,7 @@ title: "#17 - Ordenando Registros no MongoDB"
 date: 2014-12-15 12:30:00
 description: Breve explicação de como ordenar registros no MongoDB.
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1514998123/sorting_bhfl2e.png'
-category: 'mongodb'
+category: 'bd'
 tags:
 - Banco de dados
 - MongoDB

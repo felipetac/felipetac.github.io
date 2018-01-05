@@ -4,7 +4,7 @@ title: Exemplo - SQL vs MongoDB
 date: 2015-04-22 12:30:00
 description: Rápida exemplificação entre comandos SQL e comandos MongoDB.
 image: 'https://res.cloudinary.com/felipetac/image/upload/b_rgb:dedede/v1514993301/sql-database_i0tlr1.png'
-category: 'mongodb'
+category: 'bd'
 tags:
 - Banco de dados
 - MongoDB

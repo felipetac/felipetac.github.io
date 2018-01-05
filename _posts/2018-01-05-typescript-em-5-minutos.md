@@ -4,7 +4,7 @@ title: "Typescript em 5 minutos"
 date: 2018-01-05 12:51:37
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1515159686/typescript2_x1mafy.png'
 description: Rápida exemplificação sobre desenvolvimento em Typescript
-category: 'desenvolvimento'
+category: 'dev'
 tags:
 - Desenvolvimento
 - Typescript

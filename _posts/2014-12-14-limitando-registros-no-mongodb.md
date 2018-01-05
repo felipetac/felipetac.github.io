@@ -4,7 +4,7 @@ title: "#16 - Limitando Registros no MongoDB"
 date: 2014-12-14 12:30:00
 description: Breve explicação de como limitar quantidade de registros no MongoDB.
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1514998406/nolimite_l2wrar.png'
-category: 'mongodb'
+category: 'bd'
 tags:
 - Banco de dados
 - MongoDB
