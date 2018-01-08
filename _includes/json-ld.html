@@ -16,7 +16,7 @@
     "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
     "datePublished": "{{ page.date | date_to_xmlschema }}",
     "description": "{{ page.description | strip_html | strip_newlines }}",
-    "articleBody": "{{ content | strip_newlines }}",
+    "articleBody": "{{ content | strip_html | strip_newlines }}",
     "author": {
     "@type": "Person",
     "name": "{{ site.author }}"
