@@ -1,0 +1,40 @@
+{
+    "@context": "http://schema.org",
+{%- if page.title -%}
+    "@type": "BlogPosting",
+    "headline": "{{ page.title }} | {{ site.username }}",
+    "image": "{{ page.image }}",
+    "keywords": "{%- assign tags_list = page.tags -%}
+    {%- if tags_list.first[0] == null -%}
+    {{tags_list | join:' '}}
+    {%- else -%}
+    {%- for tag in tags_list -%}
+    {{ tag[0] }}
+    {%- endfor -%}
+    {%- endif -%}
+    {%- assign tags_list = nil -%}", 
+    "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "description": "{{ page.description | strip_html | strip_newlines }}",
+    "articleBody": "{{ content | strip_newlines }}",
+    "author": {
+    "@type": "Person",
+    "name": "{{ site.author }}"
+    }
+{%- else -%}
+    "@context": "http://schema.org",
+    "@type": "Blog",
+    "image": "{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}",
+    "name": "{{ site.title }}",
+    "url": "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}",
+    "description": "{{ site.description }}",
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ site.title }}"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "{{ site.author }}"
+    }
+{%- endif -%}
+}
