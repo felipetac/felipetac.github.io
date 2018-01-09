@@ -22,7 +22,7 @@ layout: main
                 {% endif %}
                 <div class="box-info">
                     <meta itemtype="http://schema.org/Person" itemprop="author" content="{{ site.author }}">
-                    <meta itemprop="publisher" itemtype="http://schema.org/Person" itemscope="" content="{{ site.author }}">
+                    <meta itemprop="publisher" itemtype="http://schema.org/Person" itemscope="">
                         <meta itemprop="name" content="{{ site.author }}">
                     </meta>
                     <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">    
