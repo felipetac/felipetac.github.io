@@ -9,7 +9,7 @@ tags:
 - Jekyll
 category: 'github'
 twitter_text: 'Como ter Domínio Próprio no Github Pages'
-introduction: "Um tutorial passo a passo de como colocar um domínio próprio no Github Pages e já sair com seu blog personalizado."
+introduction: "Um tutorial ensinando como colocar um domínio próprio no Github Pages personalizando seu Blog."
 ---
 
 Este tutorial é um post transcrito do blog do [Willian Justen](https://willianjusten.com.br/dominio-proprio-no-github-pages/). Então todos os créditos intelectuais deste post direciono a este blog que me ajudou muito para construir o meu! Valew Willian :)
