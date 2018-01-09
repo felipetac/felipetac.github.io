@@ -44,7 +44,7 @@ layout: main
                     </span>
                     <span style="display:none;" itemprop="publisher" itemtype="http://schema.org/Organization" itemscope="">
                         <meta itemprop="name" content="{{ site.author }}">
-                        <img itemprop="logo" src="{{ site.url }}/assets/img/blog-image.png" />
+                        <img itemprop="logo" src="assets/img/blog-image.png" />
                     </span>
                 </div>
             </div>
