@@ -2,7 +2,7 @@
 layout: main
 ---
 
-<main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+<main class="home" id="post" role="main" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
     {% for post in site.posts %}
         <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
@@ -16,12 +16,13 @@ layout: main
                     <div class="cover">
                         {% include new-post-tag.html date=post.date %}
                         <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
-                            <img src="assets/img/placeholder.png" data-url="{{ post.image }}" class="preload">
+                            <img itemprop="image" src="assets/img/placeholder.png" data-url="{{ post.image }}" class="preload">
                         </a>
                     </div>
                 {% endif %}
                 <div class="box-info">
-                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
+                    <meta itemprop="author" content="{{ site.author }}">
+                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">    
                     <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
                         {% include date.html date=post.date format="%d de %B de %Y" lang="pt" %}
                     </time>
@@ -31,7 +32,7 @@ layout: main
                         </h2>
                     </a>
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                        <p class="description">{{ post.introduction }}</p>
+                        <p class="description" itemprop="headline">{{ post.introduction }}</p>
                     </a>
                     <div class="tags">
                         {% for tag in post.tags %}
