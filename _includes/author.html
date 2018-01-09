@@ -1,9 +1,9 @@
-<section class="author" itemprop="author">
-  <div class="details" itemscope itemtype="http://schema.org/Person">
-    <img itemprop="image" class="img-rounded" src="/assets/img/blog-author.png" alt="{{ site.name }}">
-    <p class="def" itemprop="">Autor</p>
+<section class="author">
+  <div class="details">
+    <img class="img-rounded" src="/assets/img/blog-author.png" alt="{{ site.name }}">
+    <p class="def">Autor</p>
     <h3 class="name">
-      <a href="https://github.com/{{ site.github_username }}"><span itemprop="name">{{ site.author }}</span></a>
+      <a href="https://github.com/{{ site.github_username }}">{{ site.author }}</a>
     </h3>
     <p class="desc">{{ site.user_description }}</p>
     <p>
@@ -37,6 +37,14 @@
         <svg><use xlink:href="#icon-linkedin"></use></svg>
       </a>
       {% endif %}
+      <span style="display:none;" itemprop="author" itemtype="http://schema.org/Person" itemscope="">
+        <meta itemprop="name" content="{{ site.author }}">
+        <img itemprop="image" class="img-rounded" src="/assets/img/blog-author.png" alt="{{ site.name }}">
+      </span>
+      <span style="display:none;" itemprop="publisher" itemtype="http://schema.org/Organization" itemscope="">
+        <meta itemprop="name" content="{{ site.author }}">
+        <img itemprop="logo" src="assets/img/blog-image.png" />
+      </span>
     </p>
   </div>
 </section>
