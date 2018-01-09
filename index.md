@@ -21,7 +21,8 @@ layout: main
                     </div>
                 {% endif %}
                 <div class="box-info">
-                    <meta itemprop="author" content="{{ site.author }}">
+                    <meta itemtype="http://schema.org/Person" itemprop="author" content="{{ site.author }}">
+                    <meta itemtype="http://schema.org/Person" itemprop="publisher" content="{{ site.author }}">
                     <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">    
                     <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
                         {% include date.html date=post.date format="%d de %B de %Y" lang="pt" %}
