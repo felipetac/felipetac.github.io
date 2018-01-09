@@ -21,13 +21,7 @@ layout: main
                     </div>
                 {% endif %}
                 <div class="box-info">
-                    <span style="display:none;" itemprop="author" itemscope="">
-                        <span itemtype="http://schema.org/Person" itemprop="name">{{ site.author }}</span>
-                    </span>
-                    <span style="display:none;" itemprop="publisher" itemscope="">
-                        <span itemtype="http://schema.org/Organization" itemprop="name">{{ site.author }}</span>
-                    </span>
-                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">    
+                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
                     <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
                         {% include date.html date=post.date format="%d de %B de %Y" lang="pt" %}
                     </time>
@@ -44,6 +38,7 @@ layout: main
                             <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
+                    <dd style="display:none;" itemprop="publisher" itemtype="http://schema.org/Organization" itemscope=""><span itemprop="name">{{ site.author }}</span></dd>
                 </div>
             </div>
         </article>
