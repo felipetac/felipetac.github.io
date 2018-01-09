@@ -22,9 +22,9 @@ layout: main
                 {% endif %}
                 <div class="box-info">
                     <meta itemtype="http://schema.org/Person" itemprop="author" content="{{ site.author }}">
-                    <meta itemprop="publisher" itemtype="http://schema.org/Person" itemscope="">
-                        <meta itemprop="name" content="{{ site.author }}">
-                    </meta>
+                    <span style="display:none;" itemprop="publisher" itemtype="http://schema.org/Person" itemscope="">
+                        <span itemprop="name">{{ site.author }}</span>
+                    </span>
                     <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">    
                     <time itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}" class="date">
                         {% include date.html date=post.date format="%d de %B de %Y" lang="pt" %}
