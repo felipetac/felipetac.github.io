@@ -38,11 +38,12 @@ layout: main
                             <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
-                    <dd style="display:none;" itemprop="author" itemtype="http://schema.org/Person" itemscope=""><span itemprop="name">{{ site.author }}</span></dd>
-                    <dd style="display:none;" itemprop="publisher" itemtype="http://schema.org/Organization" itemscope="">
+                    <span style="display:none;" itemprop="author" itemtype="http://schema.org/Person" itemscope="">
                         <meta itemprop="name" content="{{ site.author }}">
-                        <meta itemprop="logo" content="{{ site.baseurl }}/assets/img/blog-image.png">
-                    </dd>
+                    </span>
+                    <span style="display:none;" itemprop="publisher" itemtype="http://schema.org/Organization" itemscope="">
+                        <meta itemprop="name" content="{{ site.author }}">
+                    </span>
                 </div>
             </div>
         </article>
