@@ -48,7 +48,7 @@ Agora digite _python_ e você verá que a versão usada para criar o _virtualenv
 Para criar com outra versão do python, basta digitar por exemplo:
 
 ```bash
-pyenv vistualenv 3.6.2 my_env_3.6.2
+pyenv virtualenv 3.6.2 my_env_3.6.2
 ```
 
 Agora podemos criar ambientes virtuais isolados como o _virtualenv_ fazia mas com uma vantagem, ainda podemos escolher qual versão do _python_ usar, legal né.
