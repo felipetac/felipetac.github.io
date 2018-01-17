@@ -43,12 +43,28 @@ pyenv virtualenv system my_venv_2.7.x
 pyenv activate my_venv_2.7.x
 ```
 
+> Para desativar: ```pyenv deactivate```
+
 Agora digite _python_ e você verá que a versão usada para criar o _virtualenv_ foi a padrão que veio instalada no sistema antes mesmo de você instalar o _pyenv_. No meu caso foi a 2.7.6
 
 Para criar com outra versão do python, basta digitar por exemplo:
 
 ```bash
 pyenv virtualenv 3.6.2 my_env_3.6.2
+```
+
+Para listar os ambientes virtuais criados:
+
+```bash
+pyenv virtualenvs
+
+my_env_3.6.2 (created from /home/felipe/.pyenv/versions/3.6.2)
+```
+
+Para apagar um ambiente virtual existente:
+
+```bash
+pyenv uninstall my_env_3.6.2
 ```
 
 Agora podemos criar ambientes virtuais isolados como o _virtualenv_ fazia mas com uma vantagem, ainda podemos escolher qual versão do _python_ usar, legal né.
