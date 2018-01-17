@@ -43,7 +43,11 @@ pyenv virtualenv system my_venv_2.7.x
 pyenv activate my_venv_2.7.x
 ```
 
-> Para desativar: ```pyenv deactivate```
+Para desativar:
+
+```bash
+pyenv deactivate
+```
 
 Agora digite _python_ e você verá que a versão usada para criar o _virtualenv_ foi a padrão que veio instalada no sistema antes mesmo de você instalar o _pyenv_. No meu caso foi a 2.7.6
 
