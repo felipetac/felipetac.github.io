@@ -48,8 +48,7 @@ ruby -rubygems -e 'require "jekyll-import";
 ```
 
 Porém, apesar de tentar enxugar o máximo de coisas possível, a saída desse
-comando ainda é um arquivo cheio de coisas que você vai perder tempo apagando e 
-o pior, não estará formatado em markdown:
+comando ainda é um arquivo cheio de coisas que você vai perder tempo apagando e o pior, não estará formatado em markdown:
 
 ![Imagem do arquivo de saída com a importação do Jekyll](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501341957/migracao-com-jekyll_cvdiks.png)
 

@@ -26,6 +26,7 @@ Voltando... Execute no terminal:
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
+
 > **Opcional**: Instalar _build tools_
 
 Para compilar e instalar _addons_ nativos do npm você talvez precise instalar também o _build tools_:
