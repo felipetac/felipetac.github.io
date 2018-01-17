@@ -17,7 +17,8 @@ O _pyenv_ é um gerenciador de versões do _Python_. Ele permite que se instale 
 1\. Instalando as Dependências
 
 ```bash
-sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev git
+sudo apt-get install -y make build-essential libssl-dev && 
+sudo apt-get install -y zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev git
 ```
 
 2\. Utilizando o _git_ baixe a versão corrente do pyenv aonde desejar instalar. Um bom lugar para escolher é ```$HOME/.pyenv``` (mas você pode instalar em outro lugar que desejar).
