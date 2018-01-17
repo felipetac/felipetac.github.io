@@ -119,7 +119,11 @@ Python 3.6.2 (default, Jan  17 2018, 12:12:41)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import sys
 >>> sys.path
-['', '/home/felipe/.pyenv/versions/3.6.2/lib/python36.zip','/home/felipe/.pyenv/versions/3.6.2/lib/python3.6', \n '/home/felipe/.pyenv/versions/3.6.2/lib/python3.6/plat-linux', \n '/home/felipe/.pyenv/versions/3.6.2/lib/python3.6/lib-dynload', '/home/felipe/.pyenv/versions/3.6.2/lib/python3.6/site-packages']
+['', '/home/felipe/.pyenv/versions/3.6.2/lib/python36.zip',
+'/home/felipe/.pyenv/versions/3.6.2/lib/python3.6',
+'/home/felipe/.pyenv/versions/3.6.2/lib/python3.6/plat-linux',
+'/home/felipe/.pyenv/versions/3.6.2/lib/python3.6/lib-dynload',
+'/home/felipe/.pyenv/versions/3.6.2/lib/python3.6/site-packages']
 >>>
 ```
 
