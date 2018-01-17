@@ -62,6 +62,7 @@ Para listar os ambientes virtuais criados:
 ```bash
 pyenv virtualenvs
 
+my_env_2.7.x (created from /home/felipe/.pyenv/versions/2.7.6)
 my_env_3.6.2 (created from /home/felipe/.pyenv/versions/3.6.2)
 ```
 
