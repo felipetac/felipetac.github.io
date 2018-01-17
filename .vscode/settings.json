@@ -1,8 +1,0 @@
-{
-    "markdownlint.config": {
-        "default": true,
-        "MD029": { 
-            "style": "ordered" 
-        }
-    }
-}
