@@ -38,25 +38,25 @@ Feito isso o NodeJS e o NPM serão instalados no seu Ubuntu.
 
 ## Configurando NPM para previnir erros de permissão
 
-1. Criando diretório para instalações globais:
+1\. Criando diretório para instalações globais:
 
 ```bash
 mkdir ~/.npm-global
 ```
 
-2. Configurando npm para usar o caminho do novo diretório:
+2\. Configurando npm para usar o caminho do novo diretório:
 
 ```bash
 npm config set prefix '~/.npm-global'
 ```
 
-3. Abra ou crie o arquivo ```~/.profile``` e adicione esta linha no final do arquivo:
+3\. Abra ou crie o arquivo ```~/.profile``` e adicione esta linha no final do arquivo:
 
 ```bash
 export PATH=~/.npm-global/bin:$PATH
 ```
 
-4. Volte para linha de comando e atualize as variáveis do sistema:
+4\. Volte para linha de comando e atualize as variáveis do sistema:
 
 ```bash
 source ~/.profile

@@ -14,19 +14,19 @@ introduction: Demonstração de como gerenciar versões Python em um mesmo ambie
 ---
 O _pyenv_ é um gerenciador de versões do _Python_. Ele permite que se instale e gerencie várias versões do _Python_ usando a conta de usuário normal e permite manter várias versões isoladas umas das outras.
 
-## 1. Instalando as Dependências
+1\. Instalando as Dependências
 
 ```bash
 $ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev git
 ```
 
-## 2. Utilizando o _git_ baixe a versão corrente do pyenv aonde desejar instalar. Um bom lugar para escolher é ```$HOME/.pyenv``` (mas você pode instalar em outro lugar que desejar).
+2\. Utilizando o _git_ baixe a versão corrente do pyenv aonde desejar instalar. Um bom lugar para escolher é ```$HOME/.pyenv``` (mas você pode instalar em outro lugar que desejar).
 
 ```bash
 $ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 ```
 
-## 3. Defina uma variável de ambiente ```PYENV_ROOT``` para apontar o caminho onde o repositório do _pyenv_ foi clonado e adicione ```$PYENV_ROOT/bin``` ao seu ```$PATH``` para acessar/utilizar o pyenv via linha de comando.
+3\. Defina uma variável de ambiente ```PYENV_ROOT``` para apontar o caminho onde o repositório do _pyenv_ foi clonado e adicione ```$PYENV_ROOT/bin``` ao seu ```$PATH``` para acessar/utilizar o pyenv via linha de comando.
 
 ```bash
 $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
@@ -35,13 +35,13 @@ $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 
 >Proxy note: Se você usa um proxy, ```export http_proxy and HTTPS_PROXY``` também.
 
-## 4. Adicione o _pyenv init_ no seu _shell_ para hbilitar _shims_ e auto-completar. Por favor tenha certeza que o valor ```$(pyenv init -)``` é colocado no final do arquivo de configuração do shell, pois ele manipula o _PATH_ durante a inicialização.
+4\. Adicione o _pyenv init_ no seu _shell_ para hbilitar _shims_ e auto-completar. Por favor tenha certeza que o valor ```$(pyenv init -)``` é colocado no final do arquivo de configuração do shell, pois ele manipula o _PATH_ durante a inicialização.
 
 ```bash
 $ echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bashrc
 ```
 
-## 5. E para surtir efeito as linhas adicionadas acima, rode:
+5\. E para surtir efeito as linhas adicionadas acima, rode:
 
 ```bash	
 $ source ~/.bashrc
