@@ -22,7 +22,7 @@ Quero criar um ambiente virtual com a versão do Python 2.7.6 e um outro com a v
 2\. Instale do plugin _pyenv-virtualenv_.
 
 ```bash
-git clone https://github.com/pyenv/pyenv-virtualenv.git $(PYENV_ROOT)/plugins/pyenv-virtualenv
+git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
 ```
 
 3\. E para surtir efeito das alterações, rode:
