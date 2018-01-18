@@ -50,7 +50,7 @@ ruby -rubygems -e 'require "jekyll-import";
 Porém, apesar de tentar enxugar o máximo de coisas possível, a saída desse
 comando ainda é um arquivo cheio de coisas que você vai perder tempo apagando e o pior, não estará formatado em markdown:
 
-![Imagem do arquivo de saída com a importação do Jekyll](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501341957/migracao-com-jekyll_cvdiks.png)
+![Imagem do arquivo de saída com a importação do Jekyll](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1501341957/migracao-com-jekyll_cvdiks.png)
 
 > **A solução:** Exportar um arquivo .xml com os posts do Wordpress e [pegar esse script muito maroto aqui](https://gist.github.com/evanwalsh/6131008) para fazer a importação no Jekyll.
 
@@ -61,17 +61,17 @@ de exportação via argumento na linha de comando.
 Assim, o arquivo fica formatado em markdown, incluse as imagens! Olha só como fica
 mais enxuto e agradável:
 
-![Imagem do arquivo de saída com a exportação via script](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501341957/migracao-com-script_jnozbt.png)
+![Imagem do arquivo de saída com a exportação via script](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1501341957/migracao-com-script_jnozbt.png)
 
 Então vamos lá, o que você precisa fazer é:
 
 1\. Abra o painel de administração do Wordpress e vá em **Ferramentas > Exportar**
 
-![Screenshot da tela do Wordpress](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501342670/Screen_Shot_2017-07-29_at_12.37.15_PM_ugbtrn.png)
+![Screenshot da tela do Wordpress](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1501342670/Screen_Shot_2017-07-29_at_12.37.15_PM_ugbtrn.png)
 
 2\. Selecione somente os posts e clique em **Download do arquivo de exportação**
 
-![Screenshot da tela do Wordpress](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501342736/Screen_Shot_2017-07-29_at_12.38.19_PM_b7opb2.png)
+![Screenshot da tela do Wordpress](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1501342736/Screen_Shot_2017-07-29_at_12.38.19_PM_b7opb2.png)
 
 3\. Coloque o arquivo **.xml** baixado na raiz do seu projeto Jekyll
 
