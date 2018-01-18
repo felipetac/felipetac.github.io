@@ -2,7 +2,7 @@
 layout: post
 title: "Criando ambiente mínimo de ciência de dados em Python no Ubuntu"
 date: 2018-01-18 11:40:08
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1516282621/anaconda_wgwxhg.png'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1516283925/anaconda-min_rvrejw.png'
 description: Aprenda a utilizar esse pacote de arquivos que contém os itens essenciais de todo Cientista de Dados
 category: 'dev'
 tags:
