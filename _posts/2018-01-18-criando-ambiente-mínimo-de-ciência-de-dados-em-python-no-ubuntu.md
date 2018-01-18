@@ -73,16 +73,21 @@ Com o ambiente ativo, vamos agora testar o _Jupyter Notebook_ subindo um instanc
 ```bash
 (anaconda3-5.0.1) felipe@ubuntu-vm:~$ jupyter-notebook
 
-[I 11:14:28.761 NotebookApp] JupyterLab alpha preview extension loaded from /home/felipe/.pyenv/versions/anaconda3-5.0.1/lib/python3.6/site-packages/jupyterlab
+[I 11:14:28.761 NotebookApp] JupyterLab alpha preview extension loaded from 
+/home/felipe/.pyenv/versions/anaconda3-5.0.1/lib/python3.6/site-packages/jupyterlab
 JupyterLab v0.27.0
 Known labextensions:
 [I 11:14:28.763 NotebookApp] Running the core application with no additional extensions or settings
 [I 11:14:28.766 NotebookApp] Serving notebooks from local directory: /home/felipe
 [I 11:14:28.766 NotebookApp] 0 active kernels 
-[I 11:14:28.766 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/?token=003c2e5c4f3f0ad267af2675a35f29ecffc6e6631ab3a345
-[I 11:14:28.766 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[C 11:14:28.769 NotebookApp] Copy/paste this URL into your browser when you connect for the first time, to login with a token: http://localhost:8888/?token=003c2e5c4f3f0ad267af2675a35f29ecffc6e6631ab3a345
-[I 11:14:29.081 NotebookApp] Accepting one-time-token-authenticated connection from 127.0.0.1
+[I 11:14:28.766 NotebookApp] The Jupyter Notebook is running at: 
+http://localhost:8888/?token=003c2e5c4f3f0ad267af2675a35f29ecffc6e6631ab3a345
+[I 11:14:28.766 NotebookApp] Use Control-C to stop this server and shut down 
+all kernels (twice to skip confirmation).
+[C 11:14:28.769 NotebookApp] Copy/paste this URL into your browser when you 
+connect for the first time, to login with a token: http://localhost:8888/?token=003c2e5c4f3f0ad267af2675a35f29ecffc6e6631ab3a345
+[I 11:14:29.081 NotebookApp] Accepting one-time-token-authenticated 
+connection from 127.0.0.1
 ```
 
 Pronto! Automaticamente ele abre o seu Web Browser padrão com a instância do _Jupyter Notebook_ aberta.
