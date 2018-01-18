@@ -85,7 +85,8 @@ http://localhost:8888/?token=003c2e5c4f3f0ad267af2675a35f29ecffc6e6631ab3a345
 [I 11:14:28.766 NotebookApp] Use Control-C to stop this server and shut down 
 all kernels (twice to skip confirmation).
 [C 11:14:28.769 NotebookApp] Copy/paste this URL into your browser when you 
-connect for the first time, to login with a token: http://localhost:8888/?token=003c2e5c4f3f0ad267af2675a35f29ecffc6e6631ab3a345
+connect for the first time, to login with a token: 
+http://localhost:8888/?token=003c2e5c4f3f0ad267af2675a35f29ecffc6e6631ab3a345
 [I 11:14:29.081 NotebookApp] Accepting one-time-token-authenticated 
 connection from 127.0.0.1
 ```
