@@ -68,7 +68,7 @@ pyenv activate anaconda3-5.0.1
 (anaconda3-5.0.1) felipe@ubuntu-vm:~$
 ```
 
-Com o ambiente ativo, vamos agora testar o _Jupyter Notebook_ subindo um instancia web dele:
+Com o ambiente ativado, vamos agora testar o _Jupyter Notebook_ subindo uma instância web dele:
 
 ```bash
 (anaconda3-5.0.1) felipe@ubuntu-vm:~$ jupyter-notebook
