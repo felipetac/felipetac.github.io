@@ -20,3 +20,5 @@ Se você trabalha em uma universidade e está pensando em começar um programa d
 - [Embracing Data Science [2016]](https://arxiv.org/pdf/1607.00858.pdf) – Os estatísticos precisam aprender com a ciência de dados como tornar seus cursos mais relevantes.
 
 Se você conhece outros trabalhos, deixe um comentário abaixo.
+
+> Fonte: [Papers for Teaching Undergraduate Data Science](http://101.datascience.community/2017/06/08/papers-for-teaching-undergraduate-data-science/)
