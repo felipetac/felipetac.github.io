@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "5 Papers de pesquisas em Ciência de Dados para ler no verão de 2017"
-date: 2018-06-01 17:25:36
+date: 2017-06-01 17:25:36
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1516643313/papers2_bzhla6.png'
 description: 5 Documentos interessantes sobre ciência de dados que vale a pena ler
 category: 'ciência de dados'
