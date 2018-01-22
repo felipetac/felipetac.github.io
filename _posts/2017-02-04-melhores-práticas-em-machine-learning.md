@@ -12,7 +12,7 @@ tags:
 twitter_text: Melhores práticas em Machine Learning
 introduction: Compilado das melhores prática em Machine Learning segundo um cientista de dados da google
 ---
-[Martin Zinkevich, cientista/pesquisador da Google](http://martin.zinkevich.org/), compilou uma grande lista (43 para ser exato) das melhores práticas para a construção de sistemas de machine learning.
+[Martin Zinkevich, cientista/pesquisador da Google](http://martin.zinkevich.org/), compilou uma grande lista (43 para ser exato) das melhores práticas para a construção de sistemas de _machine learning_.
 
  - [Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 
