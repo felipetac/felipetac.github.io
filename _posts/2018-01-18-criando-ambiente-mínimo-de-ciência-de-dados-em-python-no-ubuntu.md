@@ -11,6 +11,7 @@ tags:
 - Jupyter
 - Anaconda
 - Ciência de Dados
+- Data Science
 - Ubuntu
 twitter_text: Montando ambiente mínimo de ciência de dados em Python utilizando Anaconda
 introduction: Montando um ambinente mínimo de ciência de dados em Python e Jupyter Notebook utilizando Anaconda 

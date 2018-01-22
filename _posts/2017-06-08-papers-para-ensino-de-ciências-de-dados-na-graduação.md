@@ -6,9 +6,9 @@ image: 'https://res.cloudinary.com/felipetac/image/upload/v1516639799/collegepap
 description: Documentos que você deve ler para te direcionar caso queira ensinar ciências de dados na graduação
 category: 'ciência de dados'
 tags:
-- papers
-- data science
-- ciência de dados
+- Papers
+- Data Science
+- Ciência de Dados
 twitter_text: Papers de direcionamento em ciência de dados para ensinar na graduação
 introduction: Documentos que você deve ler para te direcionar caso queira ensinar ciências de dados na graduação
 ---
