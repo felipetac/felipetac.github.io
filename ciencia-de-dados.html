@@ -1,0 +1,16 @@
+---
+layout: minimal
+title: "Artigos relacionados: Ciência de Dados"
+permalink: /categoria/ciencia-de-dados/index.html
+description: "Lista de artigos relacionados à categoria: Ciência de Dados"
+category: 'ciência de dados'
+---
+
+<span class="tag-title">Ciência de Dados</span>
+<ul class="post-list">
+    {% for post in site.posts %}
+    {% if post.category == page.category %}
+        <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%d/%m/%Y" }}</time></a></li>
+    {% endif %}
+    {% endfor %}
+</ul>
