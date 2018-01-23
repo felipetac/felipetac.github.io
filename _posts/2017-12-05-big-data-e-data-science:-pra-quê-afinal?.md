@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Big Data e Data Science: pra quê afinal?"
-date: 2018-01-23 15:39:15
+date: 2017-12-05 15:39:15
 image: 'https://res.cloudinary.com/felipetac/image/upload/c_scale,h_315,w_600/v1516726132/Hipsters-73_g2qfcd.png'
 description: Podcast muito interessante que escutei no Hipster.tech no qual Paulo Silveria e Maurício Linhares batem um papo com a cientista de dados Fabiene Nardon, cientista de dados chefe na Tail.
 category: 'ciência de dados'
