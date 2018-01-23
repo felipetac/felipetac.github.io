@@ -20,4 +20,5 @@ introduction: Podcast com o convidado Glauco Giroti, Arquiteto de Soluções Ana
     </audio>
 <div>
 
+
 >Fonte: [Canaltech - Desvendando o Big Data: a importância de um bom cientista de dados](https://canaltech.com.br/podcast/desvendando-o-big-data/desvendando-o-big-data-a-importancia-de-um-bom-cientista-de-dados-1976/)
