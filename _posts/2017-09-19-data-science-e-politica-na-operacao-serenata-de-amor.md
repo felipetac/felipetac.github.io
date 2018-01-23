@@ -14,7 +14,11 @@ tags:
 twitter_text: "#Podcast - Data Science e Política na Operação Serenata de Amor"
 introduction: Podcast da Hipsters.tech com os colaboradores do projeto "Operação Serenata de Amor" que utiliza ciência de dados e dados abertos do governo
 ---
-<iframe class="podcast" src="https://hipsters.tech/?powerpress_embed=1040-podcast&amp;powerpress_player=mediaelement-audio" frameborder="0" scrolling="no"></iframe>
+
+<audio controls>
+    <source src="https://media.blubrry.com/hipsterstech/s/content.blubrry.com/hipsterstech/hipsters_062_data_science.mp3" type="audio/mpeg">
+    Seu browser não suporta elementos de áudio.
+</audio>
 
 ## Participantes
 
