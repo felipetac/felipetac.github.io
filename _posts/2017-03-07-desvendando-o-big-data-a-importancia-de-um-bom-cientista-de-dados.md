@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Desvendando o Big Data: a importância de um bom cientista de dados"
-date: 2018-03-07 20:45:48
+date: 2017-03-07 20:45:48
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1516724880/podcast_qyv37h.png'
 description: Podcast com o convidado Glauco Giroti, Arquiteto de Soluções Analíticas da IBM falando um pouco sobre a importância de um bom ciêntista de dados
 category: 'ciência de dados'
