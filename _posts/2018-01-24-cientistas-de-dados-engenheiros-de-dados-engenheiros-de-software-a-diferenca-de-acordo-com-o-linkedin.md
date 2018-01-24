@@ -11,19 +11,13 @@ tags:
 twitter_text: "Cientistas de Dados, Engenheiros de Dados, Engenheiros de Software: a diferença de acordo com o LinkedIn"
 introduction: Explicação sucinta da diferença entre Cientistas de Dados, Engenheiros de Dados, Engenheiros de Software utilizando os dados fornecidos do LinkedIn
 ---
-Mais e mais estamos vendo os Engenheiros de Dados surgirem como um subconjunto dentro da disciplina de Engenharia de Software, mas esta ainda é uma tendência relativamente nova. Muitos Engenheiros de Software ainda são encarregados de mover e gerenciar dados.
-
-Nossa equipe lançou dois relatórios ao longo do ano passado, um focado na compreensão do papel da Ciência dos Dados e um sobre Engenharia de Dados. Ambos os relatórios são baseados em dados auto-reportados do LinkedIn. Nesta publicação, irei apresentar as distinções entre esses papéis e Engenheiros de Software, mas primeiro, aqui está um diagrama para mostrar-lhe (em traços mais amplos) o que vimos na quebra de habilidades entre esses três papéis:
-
-![Conjunto de Papeis](https://res.cloudinary.com/felipetac/image/upload/v1516802242/data-science-engineer-software_mzrgtp.png)
-
 À medida que os dados crescem, é necessário conhecimento e experiência para gerenciá-lo. Nos últimos anos, houve uma distinção crescente entre os papéis principais encarregados de gerenciar dados: Engenheiros de Software, Engenheiros de Dados e Cientistas de Dados.
 
 Mais e mais estamos vendo os Engenheiros de Dados surgirem como um subconjunto dentro da disciplina de Engenharia de Software, mas esta ainda é uma tendência relativamente nova. Muitos Engenheiros de Software ainda são encarregados de mover e gerenciar dados.
 
 Nossa equipe lançou dois relatórios ao longo do ano passado, um focado na compreensão do [papel da Ciência dos Dados](https://www.stitchdata.com/resources/reports/the-state-of-data-science/?thanks=true) e [um sobre Engenharia de Dados](https://www.stitchdata.com/resources/reports/the-state-of-data-engineering/?thanks=true). Ambos os relatórios são baseados em dados auto-reportados do LinkedIn. Nesta publicação, irei apresentar as distinções entre esses papéis e Engenheiros de Software, mas primeiro, aqui está um diagrama para mostrar-lhe (em traços mais amplos) o que vimos na quebra de habilidades entre esses três papéis:
 
-<Imagem>
+![Conjunto de Papeis](https://res.cloudinary.com/felipetac/image/upload/v1516802242/data-science-engineer-software_mzrgtp.png)
 
 ## Engenheiro de software
 
