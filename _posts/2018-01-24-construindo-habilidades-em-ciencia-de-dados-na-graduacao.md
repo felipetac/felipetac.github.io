@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Construindo Habilidades em Ciência de Dados na Graduação"
+title: "Construindo habilidades em Ciência de Dados na graduação"
 date: 2018-01-24 14:22:29
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1516811244/study-data-science_mak174.png'
 description: Neste post falo algumas dias de como direcionar sua abordagem de estudos para Ciência de Dados já na graduação
