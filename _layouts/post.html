@@ -22,6 +22,10 @@
                 <meta itemprop="headline" content="{{ page.description }}">
                 <p itemprop="description" class="subtitle">{{ page.description }}</p>
 
+                {% for tag in page.tags %}
+                <meta itemprop="keywords" content="{{ tag }}">          
+                {% endfor %}
+
                 {% if page.image %}
                     <img src="{{ page.image }}" alt="Imagem de capa" class="post-cover">
                 {% endif %}
