@@ -36,7 +36,7 @@ layout: main
                     </a>
                     <div class="tags">
                         {% for tag in post.tags %}
-                            <a itemprop="keywords" href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                            <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}"><span itemprop="keywords">{{ tag }}</span></a>
                         {% endfor %}
                     </div>
                     <span style="display:none;" itemprop="author" itemtype="http://schema.org/Person" itemscope="">
