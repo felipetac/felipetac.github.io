@@ -2,7 +2,7 @@
 layout: post
 title: "4 Podcasts da IBM sobre Ciência de Dados para 'Expertinhos'"
 date: 2017-11-16 17:17:08
-image: 'https://res.cloudinary.com/felipetac/image/upload/c_scale,h_315/v1516989710/podcast-ibm-draft_qsdgpk.jpg'
+image: 'https://res.cloudinary.com/felipetac/image/upload/c_scale,h_315,w_600/v1516989710/podcast-ibm-draft_qsdgpk.jpg'
 description: Neste post listei 4 podcasts que achei muito interessante sobre Ciência de Dados fornecidos pela IBM
 category: 'ciência de dados'
 tags:
