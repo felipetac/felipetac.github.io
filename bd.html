@@ -10,7 +10,7 @@ category: 'bd'
 <ul class="post-list">
     {% for post in site.posts %}
     {% if post.category == page.category %}
-        <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%d/%m/%Y" }}</time></a></li>
+        <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title | truncate:78 }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%d/%m/%Y" }}</time></a></li>
     {% endif %}
     {% endfor %}
 </ul>
