@@ -30,4 +30,4 @@ Segue 4 podcast que achei interessante no [site de Podcasts da IBM](https://www.
 
     Seth Dobrin é um dos CDO na IBM. Neste podcast, Dobrin compartilha experiências usando o Apache Spark para a transformação da ciência dos dados e alguns pensamentos sobre uma visão maior para a transformação da ciência dos dados em escala.
 
-Espero que gostem dos podcast que postei. Além destes lá [no site da IBM](https://www.acast.com/ibmanalyticsinsightspodcasts/) possui muitos outros interessantes. Depois a uma conferida! ;)
+Espero que gostem dos podcasts que postei. Além destes lá [no site da IBM](https://www.acast.com/ibmanalyticsinsightspodcasts/) possui muitos outros interessantes. Depois a uma conferida! ;)
