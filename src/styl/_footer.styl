@@ -6,12 +6,12 @@
         font-size rem(30px)
 
 footer
-    center(rem(800px))
+    /*center(rem(800px))*/
     border-top 1px solid darken(accentDark, 10%)
     background accentDark
     padding rem(20px) rem(25px)
     margin-top rem(50px)
-    margin-bottom rem(40px)
+    margin-bottom rem(70px)
     mainFont(300)
     +above(cut)
         margin-top rem(100px)
@@ -54,10 +54,13 @@ footer
             font-size rem(15px)
             &:hover
                 text-decoration underline
+    .footer-content
+        center(rem(800px))
 
 .main-page
     footer
-        background primaryDark
-        border-top 1px solid lighten(primaryDark, 10%)
+        background #060606
+        border-top none
+        margin-bottom 0
         p
-            color accentDark
+            color #fff
