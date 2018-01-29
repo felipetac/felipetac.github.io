@@ -64,4 +64,4 @@ Para obter o sucesso em ciência de dados é preciso conquistar as três etapas.
 
 >Fonte: [The 3 Stages of Data Science](http://101.datascience.community/2017/08/09/the-3-stages-of-data-science/)
 
-Gostou do artigo? Por favor dê sua opinião! Até a Próxima :)
+Gostou do artigo? Por favor, dê sua opinião! Até a Próxima :)
