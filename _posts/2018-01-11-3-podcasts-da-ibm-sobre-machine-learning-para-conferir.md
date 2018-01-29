@@ -9,6 +9,7 @@ tags:
 - Machine Learning
 - Ciência de Dados
 - Data Science
+- Podcast
 twitter_text: 3 Podcasts da IBM sobre Machine Learning para conferir
 introduction: 3 Podcasts fornecidos pela IBM para escutar e refletir sobre Machine Learning
 ---
