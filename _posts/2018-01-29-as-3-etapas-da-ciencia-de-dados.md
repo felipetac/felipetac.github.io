@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Os 3 etapas da Ciência de Dados"
+title: "As 3 etapas da Ciência de Dados"
 date: 2018-01-29 17:20:11
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1517247276/3-steps_hcoew6.png'
 description: Neste post falo sobre as três etapas da ciência de dados de uma organização verdadeiramente madura.
@@ -9,7 +9,7 @@ tags:
 - Data Science
 - Ciência de Dados
 - Machine Learning
-twitter_text: Os 3 estágios da Ciência de Dados
+twitter_text: As 3 etapas da Ciência de Dados
 introduction: Neste post falo sobre as três etapas da ciência de dados de uma organização verdadeiramente madura.
 ---
 Empresas em todo o mundo estão em uma corrida para extrair uma visão significativa de seus dados. Muitas organizações estão correndo atrás de equipes de ciência de dados e atacando problemas (alguns mais bem sucedidos do que outros). No entanto, um dos desafios é determinar o estágio atual da ciência dos dados dentro da organização. Em seguida, é determinar o estágio desejado da ciência dos dados.
