@@ -10,7 +10,7 @@ tags:
 - Https
 category: 'github'
 twitter_text: "Tenha https no seu domínio próprio dentro do Github Pages"
-introduction: "Aprenda a colocar a sua página do Github Pages com Custom Domain e HTTPS"
+introduction: "Aprenda a colocar a sua página do Github Pages com Custom Domain e HTTPS."
 ---
 
 Este tutorial é um post transcrito do blog do [Willian Justen](https://willianjusten.com.br/https-no-github-pages-com-custom-domain/). Então todos os créditos intelectuais deste post direciono a este blog que me ajudou muito para construir o meu! Valew Willian :)

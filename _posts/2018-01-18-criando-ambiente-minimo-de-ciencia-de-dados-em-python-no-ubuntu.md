@@ -3,7 +3,7 @@ layout: post
 title: "Criando ambiente mínimo de ciência de dados em Python no Ubuntu"
 date: 2018-01-18 11:40:08
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1516283925/anaconda-min_rvrejw.png'
-description: Aprenda a utilizar esse pacote de arquivos que contém os itens essenciais de todo Cientista de Dados
+description: Aprenda a utilizar esse pacote de arquivos que contém os itens essenciais de todo Cientista de Dados.
 category: 'dev'
 tags:
 - Python
@@ -14,7 +14,7 @@ tags:
 - Data Science
 - Ubuntu
 twitter_text: Montando ambiente mínimo de ciência de dados em Python utilizando Anaconda
-introduction: Montando um ambinente mínimo de ciência de dados em Python e Jupyter Notebook utilizando Anaconda 
+introduction: Montando um ambinente mínimo de ciência de dados em Python e Jupyter Notebook utilizando Anaconda.
 ---
 
 ## Introdução

@@ -3,7 +3,7 @@ layout: post
 title: "Pizza de Dados: Um podcast entre amigos cientistas de dados"
 date: 2018-01-26 15:53:00
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1516982528/pizza-de-dados_msj6sf.png'
-description: O Pizza de Dados é uma iniciativa de 3 apaixonados por ciência de dados que viviam discutindo assuntos, links e conselhos de carreira
+description: O Pizza de Dados é uma iniciativa de 3 apaixonados por ciência de dados que viviam discutindo assuntos, links e conselhos de carreira.
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

@@ -3,13 +3,13 @@ layout: post
 title: "Construindo habilidades em Ciência de Dados na graduação"
 date: 2018-01-24 14:22:29
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1516811244/study-data-science_mak174.png'
-description: Neste post falo algumas dias de como direcionar sua abordagem de estudos para Ciência de Dados já na graduação
+description: Neste post falo algumas dias de como direcionar sua abordagem de estudos para Ciência de Dados já na graduação.
 category: 'ciência de dados'
 tags:
 - Ciência de Dados
 - Data Science
 twitter_text: Construindo Habilidades em Ciência de Dados na Graduação
-introduction: Pequenas dicas de como direcionar sua abordagem de estudos para Ciência de Dados já na graduação
+introduction: Pequenas dicas de como direcionar sua abordagem de estudos para Ciência de Dados já na graduação.
 ---
 
 Embora existam um número crescente de universidades que oferecem graus de ciências de dados na graduação, por uma razão ou outra, esses programas podem não ser perfeitos para todos os interessados ​​em ciência de dados. Então, o que você faz se você frequentar uma escola que não oferece um diploma em ciência dos dados? Esta é uma pergunta freqüentemente feita para mim, então pensei que eu elaborei minha resposta típica.

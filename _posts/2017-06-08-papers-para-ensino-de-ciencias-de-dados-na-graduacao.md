@@ -3,14 +3,14 @@ layout: post
 title: "Papers para Ensino de Ciências de Dados na Graduação"
 date: 2017-06-08 16:28:48
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1516639799/collegepapers_udthwt.png'
-description: Documentos que você deve ler para te direcionar caso queira ensinar ciências de dados na graduação
+description: Documentos que você deve ler para te direcionar caso queira ensinar ciências de dados na graduação.
 category: 'ciência de dados'
 tags:
 - Papers
 - Data Science
 - Ciência de Dados
 twitter_text: Papers de direcionamento em ciência de dados para ensinar na graduação
-introduction: Documentos que você deve ler para te direcionar caso queira ensinar ciências de dados na graduação
+introduction: Documentos que você deve ler para te direcionar caso queira ensinar ciências de dados na graduação.
 ---
 Se você trabalha em uma universidade e está pensando em começar um programa de graduação em ciência dos dados, a publicação de hoje é para você.
 

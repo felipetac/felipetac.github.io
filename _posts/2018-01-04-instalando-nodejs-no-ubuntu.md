@@ -3,7 +3,7 @@ layout: post
 title: "Instalando NodeJS no Ubuntu"
 date: 2018-01-04 11:25:44
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1515068858/node-js-and-npm_jlvzql.png'
-description: "Instalando o NodeJS via Package Manager e configurando para instalar seus pacotes sem a necessidade de sudo"
+description: "Instalando o NodeJS via Package Manager e configurando para instalar seus pacotes sem a necessidade de sudo."
 category: 'dev'
 tags:
 - NodeJS
@@ -11,7 +11,7 @@ tags:
 - NPM
 - Javascript
 twitter_text: "Instalando NodeJS no Ubuntu e configurando a instalação dos pacotes sem sudo"
-introduction: "Instalando NodeJS no Ubuntu e configurando a instalação dos pacotes sem sudo"
+introduction: "Instalando NodeJS no Ubuntu e configurando a instalação dos pacotes sem sudo."
 ---
 
 Durante meus estudos de NodeJS passei por uma pedra no caminho muito chata... Não foi nem a instalação do NodeJS em si, mas sim a instalação dos pacotes via npm que estava gerando dores de cabeça pois me pedia previlégios de administrador para tal operação. Fora que quando tentava usar alguns destes pacotes "zaralhava" tudo por conta tambem de problemas de permissão. Pesquisando um pouco na web vi que há 3 opções de configurações para o NPM sanando este problema. Irei explicar a que eu efetuei e utilizo atualmente por achar esta configuração a mais encontrada e utilizada nos exemplos na web. Vamos lá!

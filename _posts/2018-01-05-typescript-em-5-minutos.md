@@ -3,14 +3,14 @@ layout: post
 title: "Typescript em 5 minutos"
 date: 2018-01-05 12:51:37
 image: 'https://res.cloudinary.com/felipetac/image/upload/v1515159686/typescript2_x1mafy.png'
-description: Rápida exemplificação sobre desenvolvimento em Typescript
+description: Rápida exemplificação sobre desenvolvimento em Typescript.
 category: 'dev'
 tags:
 - Desenvolvimento
 - Typescript
 - Programação
 twitter_text: Rápida exemplificação sobre desenvolvimento em Typescript
-introduction: Rápida exemplificação sobre desenvolvimento em Typescript
+introduction: Rápida exemplificação sobre desenvolvimento em Typescript.
 ---
 Vamos começar criando um aplicativo web simples com o TypeScript.
 

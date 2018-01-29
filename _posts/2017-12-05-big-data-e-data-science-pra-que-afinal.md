@@ -12,7 +12,7 @@ tags:
 - Big Data
 - Hipsters
 twitter_text: "#Podcast - Big Data e Data Science: pra quê afinal?"
-introduction: Um Podcast interessante sobre Ciência de Dados e Big Data produzido pelo Hipster.tech
+introduction: Um Podcast interessante sobre Ciência de Dados e Big Data produzido pelo Hipster.tech.
 ---
 
 <audio controls>
