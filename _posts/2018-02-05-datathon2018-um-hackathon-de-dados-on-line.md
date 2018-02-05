@@ -20,7 +20,7 @@ Os participantes terão a chance de trabalhar em casos reais de grandes empresas
 
 ## NLP, Visão Computacional e Inteligência Artificial
 
-No # Datathon2018 são esperados muitos passatempos de dados provenientes de uma variedade de origens e interesses. Os acadêmicos e os praticantes terão a oportunidade de levar seus conhecimentos em ação em três categorias divididas por casos: NLP (Programação Neurolinguística, Inteligência Artificial e Visão Computacional. Sairão da teoria e verão os dados de uma perspectiva diferente ao colaborar em uma equipe de pessoas de mentalidade semelhante e aprender a lidar com questões inesperadas em relação aos dados do mundo real.
+No # Datathon2018 são esperados muitos passatempos de dados provenientes de uma variedade de origens e interesses. Os acadêmicos e os praticantes terão a oportunidade de levar seus conhecimentos em ação em três categorias divididas por casos: NLP (Programação Neurolinguística), Inteligência Artificial e Visão Computacional. Sairão da teoria e verão os dados de uma perspectiva diferente ao colaborar em uma equipe de pessoas de mentalidade semelhante e aprender a lidar com questões inesperadas em relação aos dados do mundo real.
 
 ## Os Mentores
 
