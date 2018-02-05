@@ -26,6 +26,6 @@ No # Datathon2018 são esperados muitos passatempos de dados provenientes de uma
 
 Todos os cientistas de dados, matemáticos, especialistas em análise de dados, engenheiros de software e entusiastas de dados terão a chance de mergulhar profundamente nos dados e serem orientados por [especialistas de renome internacional](https://www.datasciencesociety.net/datathon/#mentors).
 
-O [#Datathon2018](https://www.datasciencesociety.net/datathon/) está acontecendo entre 9 e 11 de fevereiro e o registro está aberto
+O [#Datathon2018](https://www.datasciencesociety.net/datathon/) estará acontecendo entre 9 e 11 de fevereiro e o registro está aberto
 
 [Junte-se ao desafio agora!](https://www.datasciencesociety.net/datathon/)
