@@ -29,7 +29,7 @@ O Anaconda é uma iniciativa que tem como objetivo agregar todas as ferramentas 
 
 1\. Instalar _pyenv_
 
-Você precisa ter o pyenv instalado para poder controlar as versões do python e do anaconda no seu sistema operacional. Não conhece e/ou não instalou o _pyenv_ no linux? Leia este meu artigo: [Gerenciando versões Python com Pyenv no Ubuntu](/gerenciando-versões-python-com-pyenv-no-ubuntu/) processa com seus passos e depois volte a este tutorial.
+Você precisa ter o pyenv instalado para poder controlar as versões do python e do anaconda no seu sistema operacional. Não conhece e/ou não instalou o _pyenv_ no linux? Leia este meu artigo: [Gerenciando versões Python com Pyenv no Ubuntu](/gerenciando-versoes-python-com-pyenv-no-ubuntu/) processa com seus passos e depois volte a este tutorial.
 
 2\. Instalar _Anaconda_
 
