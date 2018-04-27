@@ -17,7 +17,7 @@ Quero criar um ambiente virtual com a versão do Python 2.7.6 e um outro com a v
 
 1\. Instale do Pyenv.
 
-É preciso ter o _pyenv_ instalado para utilizar seus plugins. Se ainda não tiver instalado o pyenv, entre neste link: [Gerenciando versões Python com Pyenv no Ubuntu](/gerenciando-versões-python-com-pyenv-no-ubuntu/).
+É preciso ter o _pyenv_ instalado para utilizar seus plugins. Se ainda não tiver instalado o pyenv, entre neste link: [Gerenciando versões Python com Pyenv no Ubuntu](/gerenciando-versoes-python-com-pyenv-no-ubuntu/).
 
 2\. Instale do plugin _pyenv-virtualenv_.
 
