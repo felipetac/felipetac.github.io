@@ -77,4 +77,4 @@ $ db.mycol.find()
 { _id: ObjectId(5983548781331adf45ec7), title: "Tutorials Point New Topic", by: "Tutorials Point"}
 ```
 
-**Fonte traduzida:** [Tutorials Point - MongoDB Update Document](w.tutorialspoint.com/mongodb/mongodb_update_document.htm)
+**Fonte traduzida:** [Tutorials Point - MongoDB Update Document](http://www.tutorialspoint.com/mongodb/mongodb_update_document.htm)
