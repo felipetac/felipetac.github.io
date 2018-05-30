@@ -311,7 +311,7 @@ Vou utilizar a classe `has-error` para colocar o estilo.
 E, finalmente, para personalizar as mensagens de erro padrão do plugin, precisamos alterar
 o dicionário de mensagens do validador do VeeValidate.
 
-Mais detalhes de como fazer isso você [encontra aqui](http://vee-validate.logaretm.com/localization.html).
+Mais detalhes de como fazer isso você [encontra aqui](https://baianat.github.io/vee-validate/examples/locale.html).
 
 ```html
 <script src="https://unpkg.com/vue@2.4.2"></script>

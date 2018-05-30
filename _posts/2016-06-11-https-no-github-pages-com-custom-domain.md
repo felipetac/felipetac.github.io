@@ -35,7 +35,7 @@ Mas você pode ter esse protocolo em qualquer site, inclusive, a [Google fez um 
 
 ## Como fazer?
 
-Bom, o primeiro de tudo é, você sabe como fazer uma página no Github Pages? Caso não saiba, dá uma olhada nesse [meu curso de Jekyll](http://willianjusten.teachable.com/courses/criando-sites-estaticos-com-jekyll), lá eu ensino a criar um blog do zero e subir no Github Pages.
+Bom, o primeiro de tudo é, você sabe como fazer uma página no Github Pages? Caso não saiba, dá uma olhada nesse [meu curso de Jekyll](https://www.udemy.com/criando-sites-estaticos-com-jekyll/), lá eu ensino a criar um blog do zero e subir no Github Pages.
 
 A segunda pergunta é, você sabe como fazer um Custom Domain? Não? Então dá uma olhada [nesse post sobre como ter domínio próprio no Github Pages](https://willianjusten.com.br/dominio-proprio-no-github-pages/). Tendo isso feito, só partir para a real tarefa do dia =)
 
