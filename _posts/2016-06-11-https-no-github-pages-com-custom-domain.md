@@ -94,18 +94,3 @@ Se for um blog que vocês estão mudando e utilizarem o disqus, vocês vão prec
 ## Conclusão
 
 Bom pessoal, foi um post bem simples, fiz mais até para salvar o procedimento, vai que no futuro eu precise fazer de novo né? Eu tinha ficado feliz quando vi que teria https no Github Pages, mas quando vi que não funcionaria em Custom Domain, fiquei tristinho e por isso fui ver como resolver o problema. Se você passou pelo mesmo que eu, só seguir aí, que vai funcionar beleza =)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
