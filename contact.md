@@ -22,20 +22,13 @@ permalink: /contato/
         <input type="hidden" name="_subject" value="Novo contato!" />
         <input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
         <input type="hidden" name="_language" value="pt" />
-
-        <input type="text" name="nome" placeholder="Seu nome" v-validate="'required'"
-               :class="{ 'has-error': errors.has('nome') }">
+        <input type="text" name="nome" placeholder="Seu nome" v-validate="'required'" :class="{ 'has-error': errors.has('nome') }">
         <span v-if="errors.has('nome')" v-cloak>${ errors.first('nome') }</span>
-
-        <input type="text" name="email" placeholder="Seu e-mail" v-validate="'required|email'"
-               :class="{ 'has-error': errors.has('email') }">
+        <input type="text" name="email" placeholder="Seu e-mail" v-validate="'required|email'" :class="{ 'has-error': errors.has('email') }">
         <span v-if="errors.has('email')" v-cloak>${ errors.first('email') }</span>
-
-        <textarea name="mensagem" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" v-validate="'required'"
-                  :class="{ 'has-error': errors.has('mensagem') }"></textarea>
+        <textarea name="mensagem" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" v-validate="'required'" :class="{ 'has-error': errors.has('mensagem') }"></textarea>
         <span v-if="errors.has('mensagem')" v-cloak>${ errors.first('mensagem') }</span>
-
-        <button type="submit">Enviar</button>
+        <button type="submit">Enviar</button>    
       </fieldset>
     </form>
   </div>
@@ -43,10 +36,10 @@ permalink: /contato/
 </div>
 
 <script type="text/javascript">
-function adjust_textarea(h) {
-    h.style.height = "200px";
-    h.style.height = (h.scrollHeight)+"px";
-}
+  function adjust_textarea(h) {
+      h.style.height = "200px";
+      h.style.height = (h.scrollHeight)+"px";
+  }
 </script>
 
 <script src="https://unpkg.com/vue@2.4.2"></script>
