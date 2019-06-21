@@ -23,7 +23,7 @@ github_username: felipetac
 #facebook_username: facebook_username
 #twitter_username: felipe_tac
 #instagram_username: instagram_username
-linkedin_username: felipetac
+#linkedin_username: felipetac
 #medium_username: medium_username
 
 # Build settings
@@ -40,9 +40,11 @@ plugins:
 links:
   - title: Home
     url: /
+#  - title: Sobre Mim
+#    url: https://www.linkedin.com/in/felipetac
+#    external: true
   - title: Sobre Mim
-    url: https://www.linkedin.com/in/felipetac
-    external: true
+    url: /sobre-mim/
   - title: Contato
     url: /contato/
 

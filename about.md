@@ -1,17 +1,41 @@
 ---
 layout: page
-title: About
-description: Some description.
-permalink: /about/
+title: Sobre Mim
+description: Mini currículo
+permalink: /sobre-mim/
 ---
 
-<img itemprop="image" class="img-rounded" src="http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_200,w_200/v1504971955/neo_ruqszk.jpg" alt="Your Name">
+<img itemprop="image" class="img-rounded" src="/assets/img/blog-author.png" alt="Felipe Toscano de Azevedo Cardoso">
 
-## About
+<style type="text/css" media="screen">
+	.container {
+		margin: 0px auto;
+		max-width: 780px;
+	}
+    .container p {
+       text-align: justify;
+    }
+    .container h2 {
+       text-align: center;
+    }
+    .container h3 {
+      font-size:20px;
+      text-align: center;
+      color: #b5b3b3;
+      margin-top: -20px;
+    }
+</style>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="container">
+<h2>Felipe Toscano de Azevedo Cardoso</h2>
+<h3>Pesquisador e Arquiteto de Novas Soluções em TI para o Governo Brasileiro</h3>
+
+<p>Lider técnico com excelentes habilidades interpessoais nunca perdendo o intusiasmo pela programação e engenharia de sistemas.</p>
+
+<p>Sólidos conhecimentos em programação web, já tendo atuado na manutenção e criação de novas funcionalidades de alguns dos principais portais governamentais brasileiros, tais como: Senado Federal, Procuradoria da Republica no Distrito Federal, Ministério do Desenvolvimento Social e outros.</p>
+
+<p>Hoje ocupa a posição de analista de sistemas no SERPRO - Serviço Federal de Processamento de Dados, com foco em pesquisa e desenvolvimento de novas tecnologias para o governo brasileiro.</p>
+
+<p>Atuante nos principais projetos de inovação voltados a engenharia e ciências de dados, tais como: GovData, DataLake's Governamentais, Desafio Inovação SERPRO, Hackaton SERPRO.</p>
+</div>
+
