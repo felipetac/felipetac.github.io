@@ -60,4 +60,4 @@ test       0.23012GB
 
 No MongoDB o banco de dados que vem por padrão é o test. Se você não tiver criado nenhum banco de dados, as coleções que forem criadas serão armazenadas no banco de dados test.
 
-**Fonte traduzida:** [Tutorials Point - MongoDB Create Database](http://www.tutorialspoint.com/mongodb/mongodb_drop_database.htm)
+**Fonte traduzida:** [Tutorials Point - MongoDB Create Database](https://www.tutorialspoint.com/mongodb/mongodb_create_database.htm)
