@@ -3,7 +3,7 @@ layout: post
 title: "#2 - O objeto Ndarray do NumPy"
 date: 2019-10-17 19:30:00
 description: Introdução sobre o objeto mais importante definido no NumPy.
-image: 'https://res.cloudinary.com/felipetac/image/upload/c_scale,h_315,w_600/v1571330835/largest-rubiks_yk7sak.jpg'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1571418481/rubiks-object2_zjh50q.jpg'
 category: 'ciência de dados'
 tags:
 - Ciência de Dados
