@@ -27,7 +27,7 @@ Usando o NumPy, um desenvolvedor pode executar as seguintes operações -
 
 - Operações matemáticas e lógicas em matrizes.
 
-- Transformadas de Fourier e rotinas para manipulação de formas.
+- Transformações de Fourier e rotinas para manipulação de formas.
 
 - Operações relacionadas à álgebra linear. O NumPy possui funções integradas para álgebra linear e geração de números aleatórios.
 
