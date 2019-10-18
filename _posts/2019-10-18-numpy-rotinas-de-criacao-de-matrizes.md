@@ -39,7 +39,9 @@ print x
 A saída é a seguinte -
 
 ```py
-[[22649312, 1701344351], [1818321759, 1885959276], [16779776, 156368896]]
+[[1 2]
+ [3 4]
+ [5 6]]
 ```
 
 Nota - Os elementos em uma matriz mostram valores aleatórios, pois não são inicializados.
@@ -64,7 +66,7 @@ print x
 A saída é a seguinte -
 
 ```py
-[ 0., 0., 0., 0., 0.]
+[0. 0. 0. 0. 0.]
 ```
 
 ### Exemplo 2
@@ -78,7 +80,7 @@ print x
 Agora, a saída seria a seguinte -
 
 ```py
-[0, 0, 0, 0, 0]
+[0 0 0 0 0]
 ```
 
 ### Exemplo 3
@@ -92,7 +94,8 @@ print x
 
 Deve produzir a seguinte saída -
 ```py
-[[(0,0)(0,0)], [(0,0)(0,0)]]
+[[(0, 0) (0, 0)]
+ [(0, 0) (0, 0)]]
  ```
 
 ## numpy.ones
@@ -115,7 +118,7 @@ print x
 A saída é a seguinte -
 
 ```py
-[ 1., 1., 1., 1., 1.]
+[1. 1. 1. 1. 1.]
 ```
 
 ### Exemplo 2
@@ -129,7 +132,8 @@ print x
 Agora, a saída seria a seguinte -
 
 ```py
-[[1, 1], [1, 1]]
+[[1 1]
+ [1 1]]
 ```
 
 **Fonte traduzida com adaptações:** [NumPy - Array Creation Routines](https://www.tutorialspoint.com/numpy/numpy_array_creation_routines.htm)

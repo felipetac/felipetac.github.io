@@ -95,7 +95,7 @@ print a
 A saída é a seguinte -
 
 ```py
-[1, 2, 3]
+[1 2 3]
 ```
 
 ### Exemplo 2
@@ -110,7 +110,8 @@ print a
 A saída é a seguinte -
 
 ```py
-[[1, 2], [3, 4]]
+[[1 2]
+ [3 4]]
 ```
 
 ### Exemplo 3
@@ -125,7 +126,7 @@ print a
 A saída é a seguinte -
 
 ```py
-[[1, 2, 3, 4, 5]]
+[[1 2 3 4 5]]
 ```
 
 ### Exemplo 4
@@ -140,7 +141,7 @@ print a
 A saída é a seguinte -
 
 ```py
-[ 1.+0.j,  2.+0.j,  3.+0.j]
+[1.+0.j 2.+0.j 3.+0.j]
 ```
 
 O objeto __ndarray__ consiste em um segmento unidimensional contído na memória do computador, combinado com um esquema de indexação que mapeia cada item para um local no bloco de memória. O bloco de memória mantém os elementos em uma ordem principal de linha (estilo C) ou em uma ordem principal de coluna (estilo FORTRAN ou MatLab).

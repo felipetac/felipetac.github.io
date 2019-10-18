@@ -66,7 +66,7 @@ print a
 Sua saída seria a seguinte -
 
 ```py
-[1 ,2, 3]
+[1 2 3]
 ```
 
 ### Exemplo 2
@@ -84,7 +84,7 @@ print a
 Agora, a saída seria a seguinte -
 
 ```py
-[ 1., 2., 3.]
+[1. 2. 3.]
 ```
 
 ### Exemplo 3
@@ -101,7 +101,7 @@ print a
 Sua saída seria -
 
 ```py
-[1, 2, 3]
+[1 2 3]
 ```
 
 ### Exemplo 4
@@ -118,7 +118,7 @@ print a
 Aqui, a saída seria a seguinte -
 
 ```py
-[(1, 2, 3), (4, 5)]
+[(1, 2, 3) (4, 5)]
 ```
 
 ## numpy.frombuffer
@@ -176,7 +176,7 @@ print a
 Aqui está sua saída -
 
 ```py
-['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
+['H' 'e' 'l' 'l' 'o' ' ' 'W' 'o' 'r' 'l' 'd']
 ```
 
 ## numpy.fromiter
@@ -228,7 +228,7 @@ print list
 Sua saída é a seguinte -
 
 ```py
-[0,  1,  2,  3,  4]
+[0 1 2 3 4]
 ```
 
 ### Exemplo 2
@@ -247,7 +247,7 @@ print x
 Agora, a saída seria a seguinte -
 
 ```py
-[0., 1., 2., 3., 4.]
+[0. 1. 2. 3. 4.]
 ```
 
 **Fonte traduzida com adaptações:** [NumPy - Array From Existing Data](https://www.tutorialspoint.com/numpy/numpy_array_from_existing_data.htm)
