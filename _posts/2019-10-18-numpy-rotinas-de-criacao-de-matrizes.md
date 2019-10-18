@@ -39,7 +39,7 @@ print x
 A saída é a seguinte -
 
 ```py
-[[22649312, 1701344351], [1818321759, 1885959276}, [16779776, 156368896]]
+[[22649312, 1701344351], [1818321759, 1885959276], [16779776, 156368896]]
 ```
 
 Nota - Os elementos em uma matriz mostram valores aleatórios, pois não são inicializados.
