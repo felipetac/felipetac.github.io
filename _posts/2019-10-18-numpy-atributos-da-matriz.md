@@ -3,7 +3,7 @@ layout: post
 title: "#4 - Atributos da matriz no NumPy"
 date: 2019-10-18 12:20:00
 description: Neste capítulo, discutiremos os vários atributos da matriz do NumPy.
-image: 'https://res.cloudinary.com/felipetac/image/upload/c_scale,h_315,w_600/v1571330835/largest-rubiks_yk7sak.jpg'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1571418842/lego-rubrik_bebrfs.jpg'
 category: 'ciência de dados'
 tags:
 - Ciência de Dados
