@@ -3,7 +3,7 @@ layout: post
 title: "#8 - Trabalhando com Indices e Fatiamento no NumPy"
 date: 2019-10-24 13:30:00
 description: Neste capítulo, aprenderemos como trabalhar com índices e fatiamento de matrizes no NumPy.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1571419295/rubrik3_wy9ufi.jpg'
+image: 'https://res.cloudinary.com/felipetac/image/upload/v1571950350/rubrik9_lpzqgl.jpg'
 category: 'ciência de dados'
 tags:
 - Ciência de Dados
