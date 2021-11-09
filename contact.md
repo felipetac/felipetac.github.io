@@ -11,7 +11,7 @@ permalink: /contato/
 		max-width: 600px;
 	}
 
-	.contact-form button[type="submit"] {
+	.contact-form #my-form-button {
         display: block;
         padding: 19px 39px 18px 39px;
         color: rgb(130, 0, 6);
@@ -27,7 +27,7 @@ permalink: /contato/
         outline: none;
 	}
 
-    .contact-form button[type="submit"]:hover {
+    .contact-form #my-form-button:hover {
         background-color: #a30008;
 	}
 
@@ -49,7 +49,7 @@ permalink: /contato/
 				<label>Email:</label>
 				<input type="email" name="email" />
 				<label>Mensagem:</label>
-				<input type="text" onkeyup="adjust_textarea(this)" name="message" />
+				<input type="textarea" onkeyup="adjust_textarea(this)" name="message" />
 				<button id="my-form-button">Enviar</button>
 				<p id="my-form-status"></p>
 			</fieldset>
