@@ -59,13 +59,14 @@ permalink: /contato/
 		<form id="my-form" action="https://formspree.io/f/mpzkgvzj" method="POST">
 			<fieldset>
 				<input type="hidden" name="_subject" value="Blog Felipe Toscano - Novo contato!" />
+				<input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
 				<input type="hidden" name="_language" value="pt" />
-				<label for="full-name">Nome Completo</label>
-    			<input type="text" name="name" id="full-name" required="">
+				<label for="full-name">Nome Completo:</label>
+    			<input type="text" name="name" id="full-name" required />
 				<label>Email:</label>
-				<input type="email" name="email" />
+				<input type="email" name="email" required />
 				<label>Mensagem:</label>
-				<textarea onkeyup="adjust_textarea(this)" name="message"></textarea>
+				<textarea onkeyup="adjust_textarea(this)" name="message" required></textarea>
 				<button id="my-form-button">Enviar</button>
 				<p id="my-form-status"></p>
 			</fieldset>
