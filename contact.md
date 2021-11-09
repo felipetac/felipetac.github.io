@@ -79,7 +79,14 @@ permalink: /contato/
 	$(document).ready(function() {
 		$('#my-form').on('submit', function(e) {
 			e.preventDefault();
-			alert("Entreii!")
+			var status = document.getElementById("my-form-status");
+      		var data = new FormData(event.target);
+			$.post(e.target.action, data, function(res) {
+  				status.innerHTML = "Obrigado por se inscrever!";
+        		$('#my-form').trigger("reset");
+			}).fail(function() {
+    			status.innerHTML = "Ups! Ocorreu um problema ao enviar seu formulário."
+  			});
 		});
   	});
 </script>
