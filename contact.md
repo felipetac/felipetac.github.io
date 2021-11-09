@@ -30,7 +30,7 @@ permalink: /contato/
 		height: 12.5rem;
 	}
 
-	.contact-form #my-form-button {
+	.contact-form button[type="submit"] {
 		display: block;
 		padding: .875rem 2.4375rem .875rem 2.4375rem;
 		color: #ffffff;
@@ -46,7 +46,7 @@ permalink: /contato/
 		outline: none;
 	}
 
-	.contact-form #my-form-button:hover {
+	.contact-form button[type="submit"]:hover {
 		background-color: rgb(130, 0, 6);
 		background-image: none;
 	}
@@ -56,7 +56,7 @@ permalink: /contato/
 <div class="container">
 	<h2>Fale Comigo</h2>
 	<div id="form" class="contact-form">
-		<form id="my-form" action="https://formspree.io/f/mpzkgvzj" method="POST">
+		<form id="my-form">
 			<fieldset>
 				<input type="hidden" name="_subject" value="Blog Felipe Toscano - Novo contato!" />
 				<input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
@@ -67,7 +67,7 @@ permalink: /contato/
 				<input type="email" name="email" placeholder="Seu e-mail" required />
 				<!-- <label>Mensagem:</label> -->
 				<textarea onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" name="message" required></textarea>
-				<button id="my-form-button" type="submit">Enviar</button>
+				<button type="submit">Enviar</button>
 				<p id="my-form-status"></p>
 			</fieldset>
 		</form>
@@ -79,13 +79,12 @@ permalink: /contato/
 	$(document).ready(function() {
 		$('#my-form').on('submit', function(e) {
 			e.preventDefault();
-			var status = document.getElementById("my-form-status");
-      		var data = new FormData(e.target);
-			$.post(e.target.action, data, function(res) {
-  				status.innerHTML = "Obrigado por se inscrever!";
+      		var data = $(this).serialize();
+			$.post("https://formspree.io/f/mpzkgvzj", data, function() {
+				$('#my-form-status').html("Obrigado por se inscrever!");
         		$('#my-form').trigger("reset");
 			}).fail(function() {
-    			status.innerHTML = "Ups! Ocorreu um problema ao enviar seu formulário."
+				$('#my-form-status').html("Ups! Ocorreu um problema ao enviar seu formulário.");
   			});
 		});
   	});
