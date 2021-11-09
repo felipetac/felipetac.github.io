@@ -13,7 +13,7 @@ permalink: /contato/
 </style>
 
 <div class="container">
-	<h2>Fale Comigo</h2>
+	<h2>Fale Comigo</h2>aaaaa
 	<div id="form" class="contact-form">
 		<form accept-charset="UTF-8" method="POST" action="https://formspree.io/{{ site.email }}"
 			v-on:submit.prevent="validateBeforeSubmit" ref="contact">
