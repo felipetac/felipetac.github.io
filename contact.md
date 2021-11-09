@@ -61,12 +61,12 @@ permalink: /contato/
 				<input type="hidden" name="_subject" value="Blog Felipe Toscano - Novo contato!" />
 				<input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
 				<input type="hidden" name="_language" value="pt" />
-				<label for="full-name">Nome Completo:</label>
-    			<input type="text" name="name" id="full-name" required />
-				<label>Email:</label>
-				<input type="email" name="email" required />
-				<label>Mensagem:</label>
-				<textarea onkeyup="adjust_textarea(this)" name="message" required></textarea>
+				<!-- <label for="full-name">Nome Completo:</label> -->
+    			<input type="text" name="name" placeholder="Seu nome" id="full-name" required />
+				<!-- <label>Email:</label> -->
+				<input type="email" name="email" placeholder="Seu e-mail" required />
+				<!-- <label>Mensagem:</label> -->
+				<textarea onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" name="message" required></textarea>
 				<button id="my-form-button">Enviar</button>
 				<p id="my-form-status"></p>
 			</fieldset>
