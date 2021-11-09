@@ -15,6 +15,46 @@ permalink: /contato/
 <div class="container">
 	<h2>Fale Comigo</h2>
 	<div id="form" class="contact-form">
+		<form id="my-form" action="https://formspree.io/f/mpzkgvzj" method="POST">
+		<fieldset>
+			<label>Email:</label>
+			<input type="email" name="email" />
+			<label>Mensagem:</label>
+			<input type="text" name="message" />
+			<button id="my-form-button">Enviar</button>
+			<p id="my-form-status"></p>
+		</fieldset>
+		</form>
+	</div>
+</div>
+
+<!-- Place this script at the end of the body tag -->
+<script>
+    var form = document.getElementById("my-form");
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = "Obrigado por se inscrever!";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Ups! Ocorreu um problema ao enviar seu formulário."
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+</script>
+
+<!--
+<div class="container">
+	<h2>Fale Comigo</h2>
+	<div id="form" class="contact-form">
 		<form accept-charset="UTF-8" method="POST" action="https://formspree.io/{{ site.email }}"
 			v-on:submit.prevent="validateBeforeSubmit" ref="contact">
 			<fieldset>
@@ -81,3 +121,4 @@ permalink: /contato/
 		}
 	});
 </script>
+-->
