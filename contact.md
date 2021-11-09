@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: Contato
 description: Vamos conversar.
 permalink: /contato/
 ---
@@ -10,27 +10,57 @@ permalink: /contato/
 		margin: 0px auto;
 		max-width: 600px;
 	}
+
+	.contact-form button[type="submit"] {
+        display: block;
+        padding: 19px 39px 18px 39px;
+        color: rgb(130, 0, 6);
+        background-color: #1abc9c;
+        font-size: 18px;
+        width: 100%;
+        border: 1px solid rgb(221, 0, 10);
+        border-width: 1px 1px 3px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: all .3s;
+        outline: none;
+	}
+
+    .contact-form button[type="submit"]:hover {
+        background-color: #a30008;
+	}
+
+	.contact-form textarea {
+		height: 12.5rem;
+	}
+
 </style>
 
 <div class="container">
 	<h2>Fale Comigo</h2>
 	<div id="form" class="contact-form">
 		<form id="my-form" action="https://formspree.io/f/mpzkgvzj" method="POST">
-		<fieldset>
-			<label>Email:</label>
-			<input type="email" name="email" />
-			<label>Mensagem:</label>
-			<input type="text" name="message" />
-			<button id="my-form-button">Enviar</button>
-			<p id="my-form-status"></p>
-		</fieldset>
+			<fieldset>
+				<input type="hidden" name="_subject" value="Blog Felipe Toscano - Novo contato!" />
+				<input type="hidden" name="_language" value="pt" />
+				<label for="full-name">Nome Completo</label>
+    			<input type="text" name="name" id="full-name" required="">
+				<label>Email:</label>
+				<input type="email" name="email" />
+				<label>Mensagem:</label>
+				<input type="text" onkeyup="adjust_textarea(this)" name="message" />
+				<button id="my-form-button">Enviar</button>
+				<p id="my-form-status"></p>
+			</fieldset>
 		</form>
 	</div>
 </div>
 
 <!-- Place this script at the end of the body tag -->
-<script>
+<script type="text/javascript">
     var form = document.getElementById("my-form");
+
     async function handleSubmit(event) {
       event.preventDefault();
       var status = document.getElementById("my-form-status");
@@ -49,6 +79,11 @@ permalink: /contato/
       });
     }
     form.addEventListener("submit", handleSubmit)
+
+	function adjust_textarea(h) {
+		h.style.height = "200px";
+		h.style.height = (h.scrollHeight) + "px";
+	}
 </script>
 
 <!--
