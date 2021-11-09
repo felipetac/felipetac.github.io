@@ -79,6 +79,7 @@ permalink: /contato/
 	$(document).ready(function() {
 		$('#my-form').on('submit', function(e) {
 			e.preventDefault();
+			alert("Entreiii")
       		var data = $(this).serialize();
 			$.post("https://formspree.io/f/mpzkgvzj", data, function() {
 				$('#my-form-status').html("Obrigado por se inscrever!");
