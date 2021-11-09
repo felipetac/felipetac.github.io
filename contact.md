@@ -11,28 +11,44 @@ permalink: /contato/
 		max-width: 600px;
 	}
 
-	.contact-form #my-form-button {
-        display: block;
-        padding: 19px 39px 18px 39px;
-        color: rgb(130, 0, 6);
-        background-color: #1abc9c;
-        font-size: 18px;
-        width: 100%;
-        border: 1px solid rgb(221, 0, 10);
-        border-width: 1px 1px 3px;
-        margin-top: 50px;
-        margin-bottom: 10px;
-        cursor: pointer;
-        transition: all .3s;
-        outline: none;
-	}
-
-    .contact-form #my-form-button:hover {
-        background-color: #a30008;
+	.contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
+		box-sizing: border-box;
+		outline: none;
+		display: block;
+		color: #333333;
+		width: 100%;
+		padding: 7px;
+		border: none;
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 10px;
+		font-family: inherit;
+		font-size: 1.125rem;
+		height: 2.8125rem;
 	}
 
 	.contact-form textarea {
 		height: 12.5rem;
+	}
+
+	.contact-form #my-form-button {
+		display: block;
+		padding: .875rem 2.4375rem .875rem 2.4375rem;
+		color: #ffffff;
+		background: #ff0a16;
+		font-size: 1.125rem;
+		width: 100%;
+		border: 1px solid #700005;
+		border-width: 1px 1px 3px;
+		margin-top: 3.125rem;
+		margin-bottom: .625rem;
+		cursor: pointer;
+		transition: all 0.3s;
+		outline: none;
+	}
+
+	.contact-form #my-form-button:hover {
+		background-color: rgb(130, 0, 6);
+		background-image: none;
 	}
 
 </style>
