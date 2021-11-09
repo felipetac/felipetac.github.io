@@ -80,7 +80,7 @@ permalink: /contato/
 		$('#my-form').on('submit', function(e) {
 			e.preventDefault();
 			var status = document.getElementById("my-form-status");
-      		var data = new FormData(event.target);
+      		var data = new FormData(e.target);
 			$.post(e.target.action, data, function(res) {
   				status.innerHTML = "Obrigado por se inscrever!";
         		$('#my-form').trigger("reset");
