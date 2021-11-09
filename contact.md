@@ -13,7 +13,7 @@ permalink: /contato/
 </style>
 
 <div class="container">
-	<h2>Fale Comigo</h2>aaaaa
+	<h2>Fale Comigo</h2>
 	<div id="form" class="contact-form">
 		<form accept-charset="UTF-8" method="POST" action="https://formspree.io/{{ site.email }}"
 			v-on:submit.prevent="validateBeforeSubmit" ref="contact">
@@ -43,8 +43,8 @@ permalink: /contato/
 	}
 </script>
 
-<script src="https://unpkg.com/vue@2.4.2"></script>
-<script src="https://unpkg.com/vee-validate@2.0.0-rc.8"></script>
+<script src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
+<script src="https://unpkg.com/vee-validate@next"></script>
 <script type="text/javascript">
 	Vue.use(VeeValidate);
 
