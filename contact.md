@@ -66,7 +66,7 @@ permalink: /contato/
 				<!-- <label>Email:</label> -->
 				<input type="email" name="email" placeholder="Seu e-mail" required />
 				<!-- <label>Mensagem:</label> -->
-				<textarea onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" name="message" required></textarea>
+				<textarea placeholder="Sua mensagem" name="message" required></textarea>
 				<button type="submit">Enviar</button>
 				<p id="my-form-status"></p>
 			</fieldset>
@@ -79,7 +79,7 @@ permalink: /contato/
 	$(document).ready(function() {
 		$('#my-form').on('submit', function(e) {
 			e.preventDefault();
-			alert("Entreiii")
+			alert("Formulário em Manutenção!")
       		var data = $(this).serialize();
 			$.post("https://formspree.io/f/mpzkgvzj", data, function() {
 				$('#my-form-status').html("Obrigado por se inscrever!");
@@ -93,6 +93,7 @@ permalink: /contato/
 
 
 <!-- Place this script at the end of the body tag -->
+<!--
 <script type="text/javascript">
     var form = document.getElementById("my-form");
 
@@ -121,6 +122,8 @@ permalink: /contato/
 		h.style.height = (h.scrollHeight) + "px";
 	}
 </script>
+
+-->
 
 <!--
 <div class="container">
