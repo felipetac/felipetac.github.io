@@ -67,12 +67,23 @@ permalink: /contato/
 				<input type="email" name="email" placeholder="Seu e-mail" required />
 				<!-- <label>Mensagem:</label> -->
 				<textarea onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" name="message" required></textarea>
-				<button id="my-form-button">Enviar</button>
+				<button id="my-form-button" type="submit">Enviar</button>
 				<p id="my-form-status"></p>
 			</fieldset>
 		</form>
 	</div>
 </div>
+
+<script src="https://unpkg.com/jquery"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#my-form').on('submit', function(e){
+			e.preventDefault();
+			alert("Entreii!")
+		}
+  	});
+</script>
+
 
 <!-- Place this script at the end of the body tag -->
 <script type="text/javascript">
@@ -95,6 +106,7 @@ permalink: /contato/
         status.innerHTML = "Ups! Ocorreu um problema ao enviar seu formulário."
       });
     }
+
     form.addEventListener("submit", handleSubmit)
 
 	function adjust_textarea(h) {
