@@ -65,7 +65,7 @@ permalink: /contato/
 				<label>Email:</label>
 				<input type="email" name="email" />
 				<label>Mensagem:</label>
-				<input type="textarea" onkeyup="adjust_textarea(this)" name="message" />
+				<textarea onkeyup="adjust_textarea(this)" name="message"></textarea>
 				<button id="my-form-button">Enviar</button>
 				<p id="my-form-status"></p>
 			</fieldset>
