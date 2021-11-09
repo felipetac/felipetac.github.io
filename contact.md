@@ -81,10 +81,10 @@ permalink: /contato/
 			e.preventDefault();
 			alert("Formulário em Manutenção!");
       		data = $(this).serialize();
-			$.post("https://formspree.io/f/mpzkgvzj", data, function() {
+			$.post("https://formspree.io/f/mpzkgvzj", data, function(res) {
 				$('#my-form-status').html("Obrigado por se inscrever!");
         		$('#my-form').trigger("reset");
-			}).fail(function() {
+			}).fail(function(res) {
 				$('#my-form-status').html("Ups! Ocorreu um problema ao enviar seu formulário.");
   			});
 		});
