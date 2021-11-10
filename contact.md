@@ -77,8 +77,8 @@ permalink: /contato/
 <script type="text/javascript">
 	$(document).ready(function () {
 		$('#my-form').submit(function (e) {
-			e.preventDefault();
 			alert("Formulário em Manutenção!");
+			e.preventDefault();
 			$.ajax({
 				url: "https://formspree.io/f/mpzkgvzj",
 				type: "POST",
