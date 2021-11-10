@@ -62,12 +62,12 @@ permalink: /contato/
 				<input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
 				<input type="hidden" name="_language" value="pt" />
 				<!-- <label for="full-name">Nome Completo:</label> -->
-    			<input type="text" name="name" placeholder="Seu nome" id="full-name" required />
+				<input type="text" name="name" placeholder="Seu nome" id="full-name" required />
 				<!-- <label>Email:</label> -->
 				<input type="email" name="email" placeholder="Seu e-mail" required />
 				<!-- <label>Mensagem:</label> -->
 				<textarea placeholder="Sua mensagem" name="message" required></textarea>
-				<button>Enviar</button>
+				<button type="submit">Enviar</button>
 				<p id="my-form-status"></p>
 			</fieldset>
 		</form>
@@ -76,32 +76,31 @@ permalink: /contato/
 
 <script src="https://unpkg.com/jquery"></script>
 <script type="text/javascript">
-	$(document).ready(function() {
-		$('#my-form').on('submit', function(e) {
+	$(document).ready(function () {
+		$('#my-form').on('submit', function (e) {
 			e.preventDefault();
-			alert("Formulário em Manutenção!");
-			var dados = new FormData(this);
-			console.log(dados)
+			//alert("Formulário em Manutenção!");
 			$.ajax({
 				url: "https://formspree.io/f/mpzkgvzj",
 				type: "POST",
-				crossDomain: true,
-				data: dados,
-				headers: {
-					'Accept': 'application/json',
-				},
+				data: $(this).serialize(),
 				dataType: "json",
 				success: function (response) {
-					$('#my-form-status').html("Obrigado por se inscrever!");
-        			$('#my-form').trigger("reset");
+					$('#my-form-status').html("Obrigado por entrar em contato! ;)");
+					$('#my-form-status').show()
+					$('#my-form').trigger("reset");
+					setTimeout(function () {
+						$('#my-form-status').hide()
+					}, 5000);
 				},
 				error: function (xhr, status) {
-					$('#my-form-status').html("Ups! Ocorreu um problema ao enviar seu formulário.");
+					$('#my-form-status').html(
+						"Ups! Ocorreu um problema ao enviar seu formulário. :(");
 				}
-        	});
+			});
 
 		});
-  	});
+	});
 </script>
 
 
