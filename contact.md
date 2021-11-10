@@ -30,7 +30,7 @@ permalink: /contato/
 		height: 12.5rem;
 	}
 
-	.contact-form #btn-submit {
+	.contact-form buttom[type="submit"] {
 		display: block;
 		padding: .875rem 2.4375rem .875rem 2.4375rem;
 		color: #ffffff;
@@ -46,7 +46,7 @@ permalink: /contato/
 		outline: none;
 	}
 
-	.contact-form #btn-submit:hover {
+	.contact-form buttom[type="submit"]:hover {
 		background-color: rgb(130, 0, 6);
 		background-image: none;
 	}
@@ -66,7 +66,7 @@ permalink: /contato/
 				<input type="email" name="email" placeholder="Seu e-mail" required />
 				<!-- <label>Mensagem:</label> -->
 				<textarea placeholder="Sua mensagem" name="message" required></textarea>
-				<button type="button" id="btn-submit">Enviar</button>
+				<button type="submit">Enviar</button>
 				<p id="my-form-status"></p>
 			</fieldset>
 		</form>
@@ -76,13 +76,13 @@ permalink: /contato/
 <script src="https://unpkg.com/jquery"></script>
 <script type="text/javascript">
 	$(document).ready(function () {
-		$('#btn-submit').on('click', function (e) {
+		$('#my-form').on('submit', function (e) {
 			e.preventDefault();
 			alert("Formulário em Manutenção!");
 			$.ajax({
 				url: "https://formspree.io/f/mpzkgvzj",
 				type: "POST",
-				data: $('#my-form').serialize(),
+				data: $(this).serialize(),
 				dataType: "json",
 				success: function (response) {
 					$('#my-form-status').html("Obrigado por entrar em contato! ;)");
@@ -97,6 +97,7 @@ permalink: /contato/
 						"Ups! Ocorreu um problema ao enviar seu formulário. :(");
 				}
 			});
+			return false;
 		});
 	});
 </script>
