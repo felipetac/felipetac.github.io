@@ -56,15 +56,15 @@ permalink: /contato/
 <div class="container">
 	<h2>Fale Comigo</h2>
 	<div id="form" class="contact-form">
-		<form id="my-form" method="POST" action="https://formspree.io/f/mpzkgvzj">
+		<form id="my-form" method="POST" action="https://formspree.io/f/felipe.toscano@gmail.com">
 			<fieldset>
 				<input type="hidden" name="_subject" value="Blog Felipe Toscano - Novo contato!" />
 				<input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
-				<input type="hidden" name="_language" value="pt" />
+				<input type="hidden" name="_language" value="pt-BR" />
 				<!-- <label for="full-name">Nome Completo:</label> -->
 				<input type="text" name="name" placeholder="Seu nome" id="full-name" required />
 				<!-- <label>Email:</label> -->
-				<input type="email" name="email" placeholder="Seu e-mail" required />
+				<input type="email" name="_replyto" placeholder="Seu e-mail" required />
 				<!-- <label>Mensagem:</label> -->
 				<textarea placeholder="Sua mensagem" name="message" required></textarea>
 				<button type="submit">Enviar</button>
@@ -72,148 +72,4 @@ permalink: /contato/
 			</fieldset>
 		</form>
 	</div>
-</div>
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script type="text/javascript">
-	$.ready(function() {
-    	console.log("Entreiii!!!");
-		$('.contact-form #my-form').submit(function (e) {
-			e.preventDefault();
-			console.log("Submit CAPTURADO!");
-			return false;
-		});
-	});
-	/*$(document).ready(function () {
-		console.log("Entreii!")
-		$('#my-form').submit(function (e) {
-			e.preventDefault();
-			console.log("Submit CAPTURADO!");
-			return false;
-			$.ajax({
-				url: "https://formspree.io/f/mpzkgvzj",
-				type: "POST",
-				data: $(this).serialize(),
-				dataType: "json",
-				success: function (response) {
-					$('#my-form-status').html("Obrigado por entrar em contato! ;)");
-					$('#my-form-status').show()
-					$('#my-form').trigger("reset");
-					setTimeout(function () {
-						$('#my-form-status').hide()
-					}, 5000);
-				},
-				error: function (xhr, status) {
-					$('#my-form-status').html(
-						"Ups! Ocorreu um problema ao enviar seu formulário. :(");
-				}
-			});
-		});
-	});*/
-</script>
-
-
-<!-- Place this script at the end of the body tag -->
-<!--
-<script type="text/javascript">
-    var form = document.getElementById("my-form");
-
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("my-form-status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        status.innerHTML = "Obrigado por se inscrever!";
-        form.reset()
-      }).catch(error => {
-        status.innerHTML = "Ups! Ocorreu um problema ao enviar seu formulário."
-      });
-    }
-
-    form.addEventListener("submit", handleSubmit)
-
-	function adjust_textarea(h) {
-		h.style.height = "200px";
-		h.style.height = (h.scrollHeight) + "px";
-	}
-</script>
-
--->
-
-<!--
-<div class="container">
-	<h2>Fale Comigo</h2>
-	<div id="form" class="contact-form">
-		<form accept-charset="UTF-8" method="POST" action="https://formspree.io/{{ site.email }}"
-			v-on:submit.prevent="validateBeforeSubmit" ref="contact">
-			<fieldset>
-				<input type="hidden" name="_subject" value="Novo contato!" />
-				<input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
-				<input type="hidden" name="_language" value="pt" />
-				<input type="text" name="nome" placeholder="Seu nome" v-validate="'required'"
-					:class="{ 'has-error': errors.has('nome') }">
-				<span v-if="errors.has('nome')" v-cloak>${ errors.first('nome') }</span>
-				<input type="text" name="email" placeholder="Seu e-mail" v-validate="'required|email'"
-					:class="{ 'has-error': errors.has('email') }">
-				<span v-if="errors.has('email')" v-cloak>${ errors.first('email') }</span>
-				<textarea name="mensagem" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem"
-					v-validate="'required'" :class="{ 'has-error': errors.has('mensagem') }"></textarea>
-				<span v-if="errors.has('mensagem')" v-cloak>${ errors.first('mensagem') }</span>
-				<button type="submit">Enviar</button>
-			</fieldset>
-		</form>
-	</div>
-</div>
-
-<script type="text/javascript">
-	function adjust_textarea(h) {
-		h.style.height = "200px";
-		h.style.height = (h.scrollHeight) + "px";
-	}
-</script>
-
-<script src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
-<script src="https://unpkg.com/vee-validate@next"></script>
-<script type="text/javascript">
-	Vue.use(VeeValidate);
-
-	const dictionary = {
-		pt: {
-			custom: {
-				nome: {
-					required: 'Por favor, insira seu nome'
-				},
-				email: {
-					required: 'Por favor, insira seu e-mail',
-					email: 'O e-mail deve ser válido'
-				},
-				mensagem: {
-					required: 'Por favor, insira sua mensagem'
-				}
-			}
-		}
-	};
-
-	VeeValidate.Validator.updateDictionary(dictionary);
-	VeeValidate.Validator.setLocale('pt');
-
-	new Vue({
-		el: '#form',
-		delimiters: ['${', '}'],
-		methods: {
-			validateBeforeSubmit: function () {
-				this.$validator.validateAll();
-				if (!this.errors.any()) {
-					this.$refs.contact.submit();
-				}
-			}
-		}
-	});
-</script>
--->
+<div>
