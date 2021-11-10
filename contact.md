@@ -56,7 +56,7 @@ permalink: /contato/
 <div class="container">
 	<h2>Fale Comigo</h2>
 	<div id="form" class="contact-form">
-		<form id="my-form" method="POST" action="https://formspree.io/f/felipe.toscano@gmail.com" onload="ClearForm()">
+		<form id="my-form" method="POST" action="https://formspree.io/f/felipe.toscano@gmail.com">
 			<fieldset>
 				<input type="hidden" name="_subject" value="Blog Felipe Toscano - Novo contato!" />
 				<input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
@@ -73,10 +73,3 @@ permalink: /contato/
 		</form>
 	</div>
 <div>
-
-<script type="text/javascript">
-	function ClearForm() {
-		console.log("Limpando Form Contato no Carregamento.")
-		document.getElementById("my-form").reset();
-	}
-</script>
