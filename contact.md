@@ -78,7 +78,7 @@ permalink: /contato/
 <script type="text/javascript">
 	$.ready(function() {
     	console.log("Entreiii!!!");
-		$('#my-form').submit(function (e) {
+		$('.contact-form #my-form').submit(function (e) {
 			e.preventDefault();
 			console.log("Submit CAPTURADO!");
 			return false;
