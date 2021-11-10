@@ -75,29 +75,28 @@ permalink: /contato/
 
 <script src="https://unpkg.com/jquery"></script>
 <script type="text/javascript">
-	$(document).ready(function () {
-		function sendMail() {
-			alert("Formulário em Manutenção!");
-			$.ajax({
-				url: "https://formspree.io/f/mpzkgvzj",
-				type: "POST",
-				data: $('#my-form').serialize(),
-				dataType: "json",
-				success: function (response) {
-					$('#my-form-status').html("Obrigado por entrar em contato! ;)");
-					$('#my-form-status').show()
-					$('#my-form').trigger("reset");
-					setTimeout(function () {
-						$('#my-form-status').hide()
-					}, 5000);
-				},
-				error: function (xhr, status) {
-					$('#my-form-status').html(
-						"Ups! Ocorreu um problema ao enviar seu formulário. :(");
-				}
-			});
-		};
-	});
+	function sendMail() {
+		alert("Formulário em Manutenção!");
+		$.ajax({
+			url: "https://formspree.io/f/mpzkgvzj",
+			type: "POST",
+			data: $('#my-form').serialize(),
+			dataType: "json",
+			success: function (response) {
+				$('#my-form-status').html("Obrigado por entrar em contato! ;)");
+				$('#my-form-status').show()
+				$('#my-form').trigger("reset");
+				setTimeout(function () {
+					$('#my-form-status').hide()
+				}, 5000);
+			},
+			error: function (xhr, status) {
+				$('#my-form-status').html(
+					"Ups! Ocorreu um problema ao enviar seu formulário. :(");
+			};
+		});
+	};
+
 </script>
 
 
