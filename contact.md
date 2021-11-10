@@ -78,6 +78,11 @@ permalink: /contato/
 <script type="text/javascript">
 	$.ready(function() {
     	console.log("Entreiii!!!");
+		$('#my-form').submit(function (e) {
+			e.preventDefault();
+			console.log("Submit CAPTURADO!");
+			return false;
+		});
 	});
 	/*$(document).ready(function () {
 		console.log("Entreii!")
