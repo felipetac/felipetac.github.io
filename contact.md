@@ -30,7 +30,7 @@ permalink: /contato/
 		height: 12.5rem;
 	}
 
-	.contact-form button[type="submit"] {
+	.contact-form #btn-submit {
 		display: block;
 		padding: .875rem 2.4375rem .875rem 2.4375rem;
 		color: #ffffff;
@@ -46,7 +46,7 @@ permalink: /contato/
 		outline: none;
 	}
 
-	.contact-form button[type="submit"]:hover {
+	.contact-form #btn-submit:hover {
 		background-color: rgb(130, 0, 6);
 		background-image: none;
 	}
@@ -67,7 +67,7 @@ permalink: /contato/
 				<input type="email" name="email" placeholder="Seu e-mail" required />
 				<!-- <label>Mensagem:</label> -->
 				<textarea placeholder="Sua mensagem" name="message" required></textarea>
-				<button type="submit">Enviar</button>
+				<button id="btn-submit">Enviar</button>
 				<p id="my-form-status"></p>
 			</fieldset>
 		</form>
