@@ -76,7 +76,7 @@ permalink: /contato/
 <script src="https://unpkg.com/jquery"></script>
 <script type="text/javascript">
 	$(document).ready(function () {
-		$('#my-form').on('submit', function (e) {
+		$('#my-form').submit(function (e) {
 			e.preventDefault();
 			alert("Formulário em Manutenção!");
 			$.ajax({
