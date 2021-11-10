@@ -59,7 +59,6 @@ permalink: /contato/
 		<form id="my-form">
 			<fieldset>
 				<input type="hidden" name="_subject" value="Blog Felipe Toscano - Novo contato!" />
-				<input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
 				<input type="hidden" name="_language" value="pt" />
 				<!-- <label for="full-name">Nome Completo:</label> -->
 				<input type="text" name="name" placeholder="Seu nome" id="full-name" required />
@@ -67,7 +66,7 @@ permalink: /contato/
 				<input type="email" name="email" placeholder="Seu e-mail" required />
 				<!-- <label>Mensagem:</label> -->
 				<textarea placeholder="Sua mensagem" name="message" required></textarea>
-				<button id="btn-submit">Enviar</button>
+				<button type="button" id="btn-submit">Enviar</button>
 				<p id="my-form-status"></p>
 			</fieldset>
 		</form>
@@ -77,13 +76,13 @@ permalink: /contato/
 <script src="https://unpkg.com/jquery"></script>
 <script type="text/javascript">
 	$(document).ready(function () {
-		$('#my-form').on('submit', function (e) {
+		$('#btn-submit').on('click', function (e) {
 			e.preventDefault();
 			alert("Formulário em Manutenção!");
 			$.ajax({
 				url: "https://formspree.io/f/mpzkgvzj",
 				type: "POST",
-				data: $(this).serialize(),
+				data: $('#my-form').serialize(),
 				dataType: "json",
 				success: function (response) {
 					$('#my-form-status').html("Obrigado por entrar em contato! ;)");
@@ -98,7 +97,6 @@ permalink: /contato/
 						"Ups! Ocorreu um problema ao enviar seu formulário. :(");
 				}
 			});
-
 		});
 	});
 </script>
