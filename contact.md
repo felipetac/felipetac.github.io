@@ -76,9 +76,9 @@ permalink: /contato/
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
-	jQuery(function($) {
-		console.log("Entreiii!!!");
-	})(jQuery);
+	jQuery(document).ready(function($) {
+    	console.log("Entreiii!!!");
+	});
 	/*$(document).ready(function () {
 		console.log("Entreii!")
 		$('#my-form').submit(function (e) {
