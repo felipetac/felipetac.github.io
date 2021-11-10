@@ -77,15 +77,15 @@ permalink: /contato/
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
 	jQuery(function($) {
-		console.log("Entreiii!!!")
+		console.log("Entreiii!!!");
 	})(jQuery);
-	$(document).ready(function () {
+	/*$(document).ready(function () {
 		console.log("Entreii!")
 		$('#my-form').submit(function (e) {
 			e.preventDefault();
 			console.log("Submit CAPTURADO!");
 			return false;
-			/*$.ajax({
+			$.ajax({
 				url: "https://formspree.io/f/mpzkgvzj",
 				type: "POST",
 				data: $(this).serialize(),
@@ -102,9 +102,9 @@ permalink: /contato/
 					$('#my-form-status').html(
 						"Ups! Ocorreu um problema ao enviar seu formulário. :(");
 				}
-			});*/
+			});
 		});
-	});
+	});*/
 </script>
 
 
