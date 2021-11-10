@@ -56,7 +56,7 @@ permalink: /contato/
 <div class="container">
 	<h2>Fale Comigo</h2>
 	<div id="form" class="contact-form">
-		<form id="my-form">
+		<form id="my-form" onsubmit="sendMail(); return false;">
 			<fieldset>
 				<input type="hidden" name="_subject" value="Blog Felipe Toscano - Novo contato!" />
 				<input type="hidden" name="_language" value="pt" />
@@ -76,13 +76,13 @@ permalink: /contato/
 <script src="https://unpkg.com/jquery"></script>
 <script type="text/javascript">
 	$(document).ready(function () {
-		$('#my-form').submit(function (e) {
+		function sendMail() {
 			alert("Formulário em Manutenção!");
 			e.preventDefault();
 			$.ajax({
 				url: "https://formspree.io/f/mpzkgvzj",
 				type: "POST",
-				data: $(this).serialize(),
+				data: $('#my-form').serialize(),
 				dataType: "json",
 				success: function (response) {
 					$('#my-form-status').html("Obrigado por entrar em contato! ;)");
@@ -97,8 +97,7 @@ permalink: /contato/
 						"Ups! Ocorreu um problema ao enviar seu formulário. :(");
 				}
 			});
-			return false;
-		});
+		};
 	});
 </script>
 
