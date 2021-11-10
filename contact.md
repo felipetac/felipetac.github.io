@@ -74,6 +74,6 @@ permalink: /contato/
 	</div>
 <div>
 
-<script type="text/javacript">
+<script type="text/javascript">
 	document.getElementById("my-form").reset();
 </script>
