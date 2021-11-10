@@ -56,9 +56,10 @@ permalink: /contato/
 <div class="container">
 	<h2>Fale Comigo</h2>
 	<div id="form" class="contact-form">
-		<form id="my-form" onsubmit="sendMail(); return false;">
+		<form id="my-form" method="POST" action="https://formspree.io/f/mpzkgvzj">
 			<fieldset>
 				<input type="hidden" name="_subject" value="Blog Felipe Toscano - Novo contato!" />
+				<input type="hidden" name="_next" value="{{ site.url }}/contato/mensagem-enviada/" />
 				<input type="hidden" name="_language" value="pt" />
 				<!-- <label for="full-name">Nome Completo:</label> -->
 				<input type="text" name="name" placeholder="Seu nome" id="full-name" required />
@@ -75,28 +76,31 @@ permalink: /contato/
 
 <script src="https://unpkg.com/jquery"></script>
 <script type="text/javascript">
-	function sendMail() {
-		alert("Formulário em Manutenção!");
-		$.ajax({
-			url: "https://formspree.io/f/mpzkgvzj",
-			type: "POST",
-			data: $('#my-form').serialize(),
-			dataType: "json",
-			success: function (response) {
-				$('#my-form-status').html("Obrigado por entrar em contato! ;)");
-				$('#my-form-status').show()
-				$('#my-form').trigger("reset");
-				setTimeout(function () {
-					$('#my-form-status').hide()
-				}, 5000);
-			},
-			error: function (xhr, status) {
-				$('#my-form-status').html(
-					"Ups! Ocorreu um problema ao enviar seu formulário. :(");
-			};
+	$(document).ready(function () {
+		$('#my-form').submit(function (e) {
+			e.preventDefault();
+			console.log("Submit CAPTURADO!")
+			return false;
+			/*$.ajax({
+				url: "https://formspree.io/f/mpzkgvzj",
+				type: "POST",
+				data: $(this).serialize(),
+				dataType: "json",
+				success: function (response) {
+					$('#my-form-status').html("Obrigado por entrar em contato! ;)");
+					$('#my-form-status').show()
+					$('#my-form').trigger("reset");
+					setTimeout(function () {
+						$('#my-form-status').hide()
+					}, 5000);
+				},
+				error: function (xhr, status) {
+					$('#my-form-status').html(
+						"Ups! Ocorreu um problema ao enviar seu formulário. :(");
+				}
+			});*/
 		});
-	};
-
+	});
 </script>
 
 
