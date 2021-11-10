@@ -74,30 +74,33 @@ permalink: /contato/
 	</div>
 </div>
 
-<script src="https://unpkg.com/jquery"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
-	$('#my-form').submit(function (e) {
-		e.preventDefault();
-		console.log("Submit CAPTURADO!")
-		return false;
-		/*$.ajax({
-			url: "https://formspree.io/f/mpzkgvzj",
-			type: "POST",
-			data: $(this).serialize(),
-			dataType: "json",
-			success: function (response) {
-				$('#my-form-status').html("Obrigado por entrar em contato! ;)");
-				$('#my-form-status').show()
-				$('#my-form').trigger("reset");
-				setTimeout(function () {
-					$('#my-form-status').hide()
-				}, 5000);
-			},
-			error: function (xhr, status) {
-				$('#my-form-status').html(
-					"Ups! Ocorreu um problema ao enviar seu formulário. :(");
-			}
-		});*/
+	$(document).ready(function () {
+		console.log("Entreii!")
+		$('#my-form').submit(function (e) {
+			e.preventDefault();
+			console.log("Submit CAPTURADO!");
+			return false;
+			/*$.ajax({
+				url: "https://formspree.io/f/mpzkgvzj",
+				type: "POST",
+				data: $(this).serialize(),
+				dataType: "json",
+				success: function (response) {
+					$('#my-form-status').html("Obrigado por entrar em contato! ;)");
+					$('#my-form-status').show()
+					$('#my-form').trigger("reset");
+					setTimeout(function () {
+						$('#my-form-status').hide()
+					}, 5000);
+				},
+				error: function (xhr, status) {
+					$('#my-form-status').html(
+						"Ups! Ocorreu um problema ao enviar seu formulário. :(");
+				}
+			});*/
+		});
 	});
 </script>
 
