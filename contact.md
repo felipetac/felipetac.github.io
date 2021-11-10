@@ -73,3 +73,7 @@ permalink: /contato/
 		</form>
 	</div>
 <div>
+
+<script type="text/javacript">
+	document.getElementById("my-form").reset();
+</script>
