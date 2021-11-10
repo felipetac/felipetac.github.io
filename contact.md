@@ -80,13 +80,26 @@ permalink: /contato/
 		$('#my-form').on('submit', function(e) {
 			e.preventDefault();
 			alert("Formulário em Manutenção!");
-      		data = $(this).serialize();
-			$.post("https://formspree.io/f/mpzkgvzj", data, function(res) {
-				$('#my-form-status').html("Obrigado por se inscrever!");
-        		$('#my-form').trigger("reset");
-			}).fail(function(res) {
-				$('#my-form-status').html("Ups! Ocorreu um problema ao enviar seu formulário.");
-  			});
+			var dados = new FormData(this);
+			console.log(dados)
+			$.ajax({
+				url: "https://formspree.io/f/mpzkgvzj",
+				type: "POST",
+				crossDomain: true,
+				data: dados,
+				headers: {
+					'Accept': 'application/json',
+				},
+				dataType: "json",
+				success: function (response) {
+					$('#my-form-status').html("Obrigado por se inscrever!");
+        			$('#my-form').trigger("reset");
+				},
+				error: function (xhr, status) {
+					$('#my-form-status').html("Ups! Ocorreu um problema ao enviar seu formulário.");
+				}
+        	});
+
 		});
   	});
 </script>
