@@ -4,7 +4,9 @@ email: felipe.toscano@gmail.com
 description: Blog sobre conhecimentos adquiridos durante estudos em TI.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://felipetoscano.com.br" # the base hostname & protocol for your site
-google_analytics: "UA-111893724-1"
+
+# google_analytics: "UA-111893724-1"
+google_analytics: "G-6K13F5Q8XS"
 
 # Linguagem - Setei GLOBALMENTE pois os posts em principio serão só em português 
 lang: pt_BR
