@@ -1,14 +1,14 @@
 {
-  "name": "thiagorossener.github.io",
+  "name": "felipetac.github.io",
   "version": "1.0.0",
-  "description": "Blog pessoal de Thiago Rossener.",
-  "main": "gulpfile.js",
+  "description": "Blog pessoal de Felipe Toscano.",
+  "main": "gulpfile.mjs",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiagorossener/thiagorossener.github.io.git"
+    "url": "git+https://github.com/felipetac/felipetac.github.io.git"
   },
   "keywords": [
     "jekyll",
@@ -18,25 +18,23 @@
     "gulp",
     "stylus"
   ],
-  "author": "Thiago Rossener",
+  "author": "Felipe Toscano",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thiagorossener/thiagorossener.github.io/issues"
+    "url": "https://github.com/felipetac/felipetac.github.io/issues"
   },
-  "homepage": "https://github.com/thiagorossener/thiagorossener.github.io#readme",
+  "homepage": "https://felipetoscano.com.br",
   "devDependencies": {
-    "autoprefixer-stylus": "^0.14.0",
-    "browser-sync": "^2.18.13",
-    "child_process": "^1.0.2",
-    "gulp": "^3.9.1",
+    "autoprefixer-stylus": "^1.0.0",
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.1",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-stylus": "^2.6.0",
-    "gulp-uglify": "^3.0.0",
-    "jeet": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-stylus": "^3.0.1",
+    "gulp-uglify": "^3.0.2",
+    "jeet": "^7.2.0",
     "kouto-swiss": "^1.1.0",
-    "minimist": "^1.2.0",
-    "rupture": "^0.6.2"
+    "minimist": "^1.2.8",
+    "rupture": "^0.7.1"
   }
 }

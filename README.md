@@ -1,129 +1,103 @@
-# Blog Felipe Toscano
+# Blog do Felipe Toscano
 
-## Bibliotecas Utilizadas
+Blog pessoal do [Felipe Toscano](https://www.linkedin.com/in/felipetac) — publicado em [felipetoscano.com.br](https://felipetoscano.com.br) — com conteúdo em português sobre desenvolvimento de software, banco de dados e ciência de dados.
 
-- Gulp
-- Stylus
-- Live Search
-- Minutes to Read
-- Reading Progress Bar
- 
- ![Progress Bar](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1505357769/jekflix-progress-bar_he7gqf.jpg)
-- "New Post" tag
-- Load images on demand
-- Emojis 😎
-- Push Menu
-- SVG icons
-- Shell Script to create drafts and posts
-- Tags page
-- About page
-- Contact page
-- Feed RSS
-- Sitemap.xml
-- Info Customization
-- Disqus
-- Google Analytics
+Site estático gerado com Jekyll, baseado no [Jekflix Template](https://github.com/thiagorossener/jekflix-template) de Thiago Rossener.
 
-## Instalação
+## Stack
 
-1. Instale o Jekyll (instale o ruby e rubygems. Depois use o comando `gem install jekyll`)
-1. Faça um "Fork" do [Jekflix Template](https://github.com/thiagorossener/jekflix-template/fork)
-1. Clone o repositório local na sua máquina
-1. Edite `_config.yml` para personalizar seu site
-1. Verifique o exemplo de postagem em `_posts` para exemplificar como preencher as categorias, tags, imagem e outros atributos YAML
-1. Lembre-se de compilar os seus arquivos com o Gulp
+- **Jekyll ~> 4.4** (Ruby) — geração do site estático
+- **Gulp 5 + Stylus** — pipeline de assets (CSS/JS), `gulpfile.mjs` (ESM)
+- **GitHub Actions** (`.github/workflows/jekyll-gh-pages.yml`) — builda e publica no GitHub Pages a cada push em `master`
+- **Disqus** — comentários nos posts
+- **Google Analytics (GA4)** — métricas
+- **Formspree** — envio do formulário de contato
 
+## Dependências
 
-## Configurações
+Gemfile e `package.json` apontam para as últimas versões estáveis disponíveis (Jekyll 4.4, Gulp 5, browser-sync 3, etc.).
 
-Você precisa preencher algumas informações no `_config.yml` para customizar seu site.
+- A tarefa `imagemin` do Gulp foi removida: não havia nenhum arquivo em `src/img/` para ela processar (tarefa morta), e a cadeia de dependências do `gulp-imagemin` (via `bin-build`/`decompress`) tinha uma vulnerabilidade crítica de escrita arbitrária de arquivo. Se um dia for necessário otimizar imagens, prefira uma ferramenta mantida atualmente (ex: `sharp`) em vez de reintroduzir esse pacote.
+- `npm audit` ainda acusa ~13 vulnerabilidades vindas de pacotes do ecossistema Stylus sem manutenção desde 2017-2019 (`kouto-swiss`, `autoprefixer-stylus`, o `accord` usado pelo `gulp-stylus`) e da UI opcional do `browser-sync`. Não são coisa que dá pra resolver trocando de versão — a própria "última versão" de cada um já carrega essas dependências antigas fixas. São todas `devDependencies` (uso só em build local, nunca vão para o site publicado); resolver de verdade exigiria trocar essas libs por alternativas mantidas, o que é uma migração maior, não um bump de versão.
+
+## Estrutura
 
 ```
-# Site Settings
-title: Felipe Toscano | Diário de Bordo na Web
-email: youremail@xyz.com
-description: Some text about your blog.
-baseurl: "" # the subpath of your site, e.g. /blog/ or empty.
-url: "https://felipe.github.io" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
-
-# User settings
-username: Thiago Rossener # it will appear on each page title after '|'
-user_description: Some text about you.
-disqus_username: disqus_username
-
-# Social Media settings
-# Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+_config.yml          Configuração do site (título, autor, redes sociais, menu, analytics)
+_posts/               Artigos publicados (AAAA-MM-DD-titulo.md)
+_drafts/               Rascunhos, não versionados (ver .gitignore)
+_layouts/, _includes/  Templates Liquid
+_data/locales/pt.yml   Nomes de dias/meses em português (usado na formatação de datas)
+src/styl/, src/js/     Fontes de estilo (Stylus) e script — compilados para assets/css e assets/js
+assets/                 CSS/JS/imagens já compilados, versionados no git
+bd.html, dev.html,     Páginas de arquivo por categoria
+ciencia-de-dados.html,
+github.html
+tags.html               Página com todas as tags
+about.md                Página "Sobre mim" (/sobre-mim/)
+contact.md              Página "Contato" (/contato/)
+initpost.sh, initdraft.sh  Scripts para criar novos posts/rascunhos
 ```
 
-## Customização de Cores
+## Rodando localmente
 
-Todas as variáveis de cores estão em [src/styl/_variables.styl](src/styl/_variables.styl).
+Requer Ruby + Bundler e Node 18+ (testado com Node 22) + Gulp.
 
-Cores padrões:
+```bash
+bundle install
 
-![#ff0a16](https://placehold.it/15/ff0a16/000000?text=+) `#FF0A16` Theme Color
+npm install
+npm install -g gulp-cli
 
-![#141414](https://placehold.it/15/141414/000000?text=+) `#141414` Primary Dark
-
-![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `#FFFFFF` Accent Dark
-
-![#f2f2f2](https://placehold.it/15/f2f2f2/000000?text=+) `#F2F2F2` Light Gray
-
-![#333333](https://placehold.it/15/333333/000000?text=+) `#333333` Texts
-
-## Criandos Rascunhos "Drafts"
-
-Você pode usar o `initdraft.sh` para criar seus novos rascunhos. Segue o comando:
-
-```
-./initdraft.sh -c Post Title
+gulp
 ```
 
-O novo arquivo será criado em `_drafts` como este formato `date-title.md`.
+`bundle install` sem um `Gemfile.lock` no repo vai resolver e criar um do zero na primeira vez — commite o resultado depois.
 
-## Criando Postagens "Posts"
+`gulp` compila Stylus e JS, builda o Jekyll e sobe um servidor local com live-reload (browser-sync). O gulpfile é `gulpfile.mjs` (ESM); o Gulp CLI descobre ele automaticamente, não precisa apontar o caminho.
 
-Você pode usar o `initpost.sh` para criar seus novas postagens. Segue o comando:
+Alternativamente, só o Jekyll, sem o pipeline de assets:
 
+```bash
+bundle exec jekyll serve
 ```
-./initpost.sh -c Post Title
+
+## Criando um post
+
+```bash
+./initpost.sh -c Título do Post
 ```
 
-O novo arquivo será criado em `_posts` como este formato `date-title.md`.
+Cria `_posts/AAAA-MM-DD-titulo-do-post.md` com o front-matter padrão:
 
-## Front-matter 
-
-Quando você cria uma nova postagem, você precisa inserir informações no front-matter, de acordo com o exemplo:
-
-```
+```yaml
 ---
 layout: post
-title: "Welcome"
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1504807239/morpheus_xdzgg1.jpg'
-category: 'blog'
+title: "Título do Post"
+date: AAAA-MM-DD HH:MM:SS
+image: ''
+description:
+category: ''
 tags:
-- blog
-- jekyll
-twitter_text: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-introduction: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+twitter_text:
+introduction:
 ---
 ```
 
-**O tamanho da sua imagem deverá ter a proporção de 600x315 para ter um boa apresentação na página principal.**
+Use `./initdraft.sh -c Título` para criar em `_drafts/` em vez de `_posts/` (não é publicado até ser movido).
 
-## Executar Localmente
+**Categoria**: o campo `category:` precisa bater exatamente (acentos e caixa incluídos) com uma das páginas de arquivo existentes: `bd`, `dev`, `ciência de dados` ou `github`. Um valor diferente faz o post não aparecer na respectiva página `/categoria/...`, embora ele continue aparecendo normalmente na home.
 
-Para compilar os arquivos e executar o Jekyll localmente você precisa seguir os seguintes passos:
+**Imagem de capa**: proporção recomendada de 600x315 para boa apresentação na página principal.
 
-- Instale o [NodeJS](https://nodejs.org/) (lembre-se de usar a versão mais atualizada)
-- Execute `sudo npm install`
-- Execute `sudo npm install -g gulp gulp-cli`
-- Execute `sudo gulp`
+## Deploy
+
+Publicação via GitHub Actions (`.github/workflows/jekyll-gh-pages.yml`): todo push em `master` builda o site com o Jekyll do `Gemfile` e publica no GitHub Pages. O domínio customizado vem do arquivo `CNAME`.
+
+> **Passo único necessário no GitHub**: em Settings → Pages, o campo "Source" precisa estar em **"GitHub Actions"** (não "Deploy from a branch"). Sem isso o workflow builda mas o Pages continua servindo o build legado antigo.
+
+Os arquivos em `assets/css/` e `assets/js/` (gerados a partir de `src/`) continuam versionados no git — o workflow de deploy não roda `gulp`, então eles precisam ser recompilados localmente com `gulp` e commitados sempre que algo em `src/styl/` ou `src/js/` mudar.
+
+## Licença
+
+[MIT](LICENSE). Baseado no [Jekflix Template](https://github.com/thiagorossener/jekflix-template) de Thiago Rossener.
