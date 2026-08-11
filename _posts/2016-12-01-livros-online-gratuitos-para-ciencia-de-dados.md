@@ -2,7 +2,7 @@
 layout: post
 title: "Livros gratuitos online para Ciência de Dados"
 date: 2016-12-01 18:08:44
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1516652204/books_ilic9n.png'
+image: '/assets/img/posts/livros-online-gratuitos-para-ciencia-de-dados.png'
 description: Lista de links de livros gratuitos online sobre Ciência de Dados
 category: 'ciência de dados'
 tags:

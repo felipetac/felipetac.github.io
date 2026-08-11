@@ -3,7 +3,7 @@ layout: post
 title: "#11 - Inserir Documento no MongoDB"
 date: 2014-12-09 12:30:00
 description: Rápida exemplificação de como inserir dados em uma coleção no MongoDB.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1515004137/write_data_lhjmxh.png'
+image: '/assets/img/posts/inserir-documento-no-mongodb.png'
 category: 'bd'
 tags:
 - Banco de dados

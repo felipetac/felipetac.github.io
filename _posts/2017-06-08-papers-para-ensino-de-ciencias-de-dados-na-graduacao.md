@@ -2,7 +2,7 @@
 layout: post
 title: "Papers para Ensino de Ciências de Dados na Graduação"
 date: 2017-06-08 16:28:48
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1516639799/collegepapers_udthwt.png'
+image: '/assets/img/posts/papers-para-ensino-de-ciencias-de-dados-na-graduacao.png'
 description: Documentos que você deve ler para te direcionar caso queira ensinar ciências de dados na graduação.
 category: 'ciência de dados'
 tags:

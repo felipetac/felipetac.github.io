@@ -3,7 +3,7 @@ layout: post
 title: "#6 - Matriz de dados existentes com Numpy"
 date: 2019-10-18 13:30:00
 description: Neste capítulo, discutiremos como criar uma matriz a partir de dados existentes.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1571419295/rubrik3_wy9ufi.jpg'
+image: '/assets/img/posts/numpy-matriz-de-dados-existentes.jpg'
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

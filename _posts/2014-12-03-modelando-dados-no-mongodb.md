@@ -3,7 +3,7 @@ layout: post
 title: "#5 - Modelando Dados no MongoDB"
 date: 2014-12-03 12:30:00
 description: Introdução a modelagem de dados no MongoDB.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1517002073/modeling-database_lmttpw.png'
+image: '/assets/img/posts/modelando-dados-no-mongodb.png'
 category: 'bd'
 tags:
 - Banco de dados

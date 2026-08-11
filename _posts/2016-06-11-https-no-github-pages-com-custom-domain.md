@@ -2,7 +2,7 @@
 layout: post
 title: "HTTPS no Github Pages com Custom Domain"
 date: 2016-06-11 16:07:32
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1515072898/http_to_https-1_y1lb5i.png'
+image: '/assets/img/posts/https-no-github-pages-com-custom-domain.png'
 description: "Aprenda a colocar a sua página do Github Pages com Custom Domain e HTTPS"
 tags:
 - Github

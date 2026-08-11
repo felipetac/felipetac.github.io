@@ -3,7 +3,7 @@ layout: post
 title: "#5 - Rotinas para criação de matrizes com o NumPy"
 date: 2019-10-18 12:40:00
 description: Introdução sobre as funções no NumPy para criação de matrizes.
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1571419748/rubrik4_ghyneb.jpg'
+image: '/assets/img/posts/numpy-rotinas-de-criacao-de-matrizes.jpg'
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

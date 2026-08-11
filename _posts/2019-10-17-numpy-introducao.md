@@ -3,7 +3,7 @@ layout: post
 title: "#1 - Introdução ao NumPy"
 date: 2019-10-17 19:00:00
 description: Introdução sobre o pacote python, Numpy.
-image: 'https://res.cloudinary.com/felipetac/image/upload/c_scale,h_315,w_600/v1571330835/largest-rubiks_yk7sak.jpg'
+image: '/assets/img/posts/numpy-introducao.jpg'
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

@@ -2,7 +2,7 @@
 layout: post
 title: "Ambientes Virtuais em Python com Pyenv-virtualenv no Ubuntu"
 date: 2018-01-17 12:50:00
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1516206004/virtualenv_ghwzdi.png'
+image: '/assets/img/posts/ambientes-virtuais-em-python-com-pyenv-virtualenv-no-ubuntu.png'
 description: Demonstração de como criar ambientes virtuais em Python com o plugin virtualenv do Pyenv no Ubuntu.
 category: 'dev'
 tags:

@@ -3,7 +3,7 @@ layout: post
 title: "#3 - Tipos de dados no NumPy"
 date: 2019-10-17 20:00:00
 description: Introdução sobre os tipos de dados no Numpy.
-image: 'https://res.cloudinary.com/felipetac/image/upload/c_scale,h_315,w_600/v1571348561/rubiks-types_m2emf6.jpg'
+image: '/assets/img/posts/numpy-tipos-de-dados.jpg'
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

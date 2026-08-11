@@ -2,7 +2,7 @@
 layout: post
 title: "Como ter Domínio Próprio no Github Pages"
 date: 2015-01-29 04:16:36
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1515071730/custom-domain-name_bxb1mk.png'
+image: '/assets/img/posts/como-ter-dominio-proprio-no-github-pages.png'
 description: 'O passo a passo para deixar seu blog com seu domínio.'
 tags:
 - Github

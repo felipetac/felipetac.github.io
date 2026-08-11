@@ -2,7 +2,7 @@
 layout: post
 title: "Small Data, Big Data, Open Data"
 date: 2017-02-05 20:31:08
-image: 'https://res.cloudinary.com/felipetac/image/upload/c_scale,h_315,w_600/v1516739644/Hipsters-42_ou2f6d.png'
+image: '/assets/img/posts/small-data-big-data-open-data.png'
 description: Podcast do Hipsters.tech onde eles relatam experiências em Big Data de forma bem aberta e descontraída.
 category: 'ciência de dados'
 tags:

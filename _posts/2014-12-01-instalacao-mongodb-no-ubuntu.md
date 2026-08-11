@@ -3,7 +3,7 @@ layout: post
 title: "#3 - Instalação MongoDB no Ubuntu"
 date: 2014-12-01 12:30:00
 description: Processo de instalação do MongoDB no Ubuntu.
-image: 'https://res.cloudinary.com/felipetac/image/upload/c_crop,h_315,w_600,x_0,y_80/v1514992059/install2_okjvxy.jpg'
+image: '/assets/img/posts/instalacao-mongodb-no-ubuntu.jpg'
 category: 'bd'
 tags:
 - Banco de dados

@@ -2,7 +2,7 @@
 layout: post
 title: "Gerenciando versões Python com Pyenv no Ubuntu"
 date: 2018-01-16 12:57:09
-image: 'https://res.cloudinary.com/felipetac/image/upload/v1516206003/python-2-vs-python-3_e37ck9.png'
+image: '/assets/img/posts/gerenciando-versoes-python-com-pyenv-no-ubuntu.png'
 description: Demonstração de como gerenciar versões Python em um mesmo ambiente Ubuntu utilizando Pyenv.
 category: 'dev'
 tags:
