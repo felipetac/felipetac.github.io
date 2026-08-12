@@ -2,7 +2,7 @@
 layout: post
 title: "#1 - Introdução ao Python e Primeiros Passos"
 date: 2026-08-11 08:00:00
-image: '/assets/img/posts/tutorial-python-introducao-e-primeiros-passos.png'
+image: '/assets/img/posts/tutorial-python-introducao-e-primeiros-passos.webp'
 description: Uma introdução ao Python, como instalar e rodar seus primeiros scripts, e as regras básicas de sintaxe, statements e comentários da linguagem.
 category: 'dev'
 tags:

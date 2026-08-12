@@ -27,7 +27,7 @@
                 {% endfor %}
 
                 {% if page.image %}
-                    <img src="{{ page.image | escape }}" alt="{{ page.title | escape }}" class="post-cover">
+                    <img src="{{ page.image | escape }}" alt="{{ page.title | escape }}" class="post-cover" width="600" height="315" loading="eager" fetchpriority="high" decoding="async">
                 {% endif %}
 
                 {{ content }}

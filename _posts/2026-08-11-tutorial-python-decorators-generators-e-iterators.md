@@ -2,7 +2,7 @@
 layout: post
 title: "#10 - Decorators, Generators e Iterators"
 date: 2026-08-11 11:00:00
-image: '/assets/img/posts/tutorial-python-decorators-generators-e-iterators.png'
+image: '/assets/img/posts/tutorial-python-decorators-generators-e-iterators.webp'
 description: Como funcionam decorators, generators (com yield) e iterators em Python, além de uma nota sobre o módulo array e sua diferença em relação às listas.
 category: 'dev'
 tags:

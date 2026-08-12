@@ -2,7 +2,7 @@
 layout: post
 title: "3 Podcasts da IBM sobre Machine Learning para conferir"
 date: 2018-01-11 20:43:58
-image: '/assets/img/posts/3-podcasts-da-ibm-sobre-machine-learning-para-conferir.png'
+image: '/assets/img/posts/3-podcasts-da-ibm-sobre-machine-learning-para-conferir.webp'
 description: 3 Podcasts fornecidos pela IBM para escutar e refletir sobre Machine Learning.
 category: 'ciência de dados'
 tags:

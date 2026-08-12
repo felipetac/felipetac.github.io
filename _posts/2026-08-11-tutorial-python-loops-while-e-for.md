@@ -2,7 +2,7 @@
 layout: post
 title: "#8 - Loops: While e For"
 date: 2026-08-11 10:20:00
-image: '/assets/img/posts/tutorial-python-loops-while-e-for.png'
+image: '/assets/img/posts/tutorial-python-loops-while-e-for.webp'
 description: Como repetir blocos de código em Python com while e for, controlando a repetição com break, continue, else e a função range().
 category: 'dev'
 tags:

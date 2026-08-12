@@ -3,7 +3,7 @@ layout: post
 title: "#2 - O objeto Ndarray do NumPy"
 date: 2019-10-17 19:30:00
 description: Entenda o ndarray, o objeto de matriz N-dimensional mais importante do NumPy, e como criá-lo com a função numpy.array.
-image: '/assets/img/posts/numpy-o-objeto-ndarray.jpg'
+image: '/assets/img/posts/numpy-o-objeto-ndarray.webp'
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

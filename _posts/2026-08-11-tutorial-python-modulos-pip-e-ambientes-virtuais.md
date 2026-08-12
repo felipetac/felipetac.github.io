@@ -2,7 +2,7 @@
 layout: post
 title: "#13 - Módulos, PIP e Ambientes Virtuais"
 date: 2026-08-11 12:00:00
-image: '/assets/img/posts/tutorial-python-modulos-pip-e-ambientes-virtuais.png'
+image: '/assets/img/posts/tutorial-python-modulos-pip-e-ambientes-virtuais.webp'
 description: Como criar e importar módulos em Python, gerenciar pacotes com o PIP e isolar dependências de projeto usando o módulo nativo venv.
 category: 'dev'
 tags:

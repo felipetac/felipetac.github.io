@@ -2,7 +2,7 @@
 layout: post
 title: "#4 - Random e Funções Universais (ufunc) no NumPy"
 date: 2026-08-11 14:00:00
-image: '/assets/img/posts/numpy-com-python-random-e-funcoes-universais.png'
+image: '/assets/img/posts/numpy-com-python-random-e-funcoes-universais.webp'
 description: Como gerar números aleatórios com numpy.random e o que são as ufuncs (funções universais), incluindo por que usá-las no lugar de loops puros em Python.
 category: 'ciência de dados'
 tags:

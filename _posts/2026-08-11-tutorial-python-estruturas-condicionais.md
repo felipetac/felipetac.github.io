@@ -2,7 +2,7 @@
 layout: post
 title: "#7 - Estruturas Condicionais"
 date: 2026-08-11 10:00:00
-image: '/assets/img/posts/tutorial-python-estruturas-condicionais.png'
+image: '/assets/img/posts/tutorial-python-estruturas-condicionais.webp'
 description: Como usar if, elif e else em Python, a sintaxe compacta de uma linha, condicionais aninhadas, o statement pass e uma introdução ao match/case.
 category: 'dev'
 tags:

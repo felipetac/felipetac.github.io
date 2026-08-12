@@ -3,7 +3,7 @@ layout: post
 title: "#18 - Indexação no MongoDB"
 date: 2014-12-16 12:30:00
 description: Como criar índices no MongoDB com o método ensureIndex() para melhorar a performance das consultas, com suas principais opções.
-image: '/assets/img/posts/indexacao-no-mongodb.png'
+image: '/assets/img/posts/indexacao-no-mongodb.webp'
 category: 'bd'
 tags:
 - Banco de dados

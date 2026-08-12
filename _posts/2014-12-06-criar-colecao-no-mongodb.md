@@ -3,7 +3,7 @@ layout: post
 title: "#8 - Criar Coleção no MongoDB"
 date: 2014-12-06 12:30:00
 description: Como criar coleções no MongoDB com o método createCollection(), suas opções (capped, size, max) e exemplos práticos.
-image: '/assets/img/posts/criar-colecao-no-mongodb.png'
+image: '/assets/img/posts/criar-colecao-no-mongodb.webp'
 category: 'bd'
 tags:
 - Banco de dados

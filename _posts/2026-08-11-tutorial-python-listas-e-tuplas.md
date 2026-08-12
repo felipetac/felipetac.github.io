@@ -2,7 +2,7 @@
 layout: post
 title: "#5 - Listas e Tuplas"
 date: 2026-08-11 09:20:00
-image: '/assets/img/posts/tutorial-python-listas-e-tuplas.png'
+image: '/assets/img/posts/tutorial-python-listas-e-tuplas.webp'
 description: Como criar, acessar, modificar e percorrer listas e tuplas em Python, e a diferença fundamental entre essas duas estruturas de dados.
 category: 'dev'
 tags:

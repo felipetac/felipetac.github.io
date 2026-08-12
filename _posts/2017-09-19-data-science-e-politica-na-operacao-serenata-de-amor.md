@@ -2,7 +2,7 @@
 layout: post
 title: "Data Science e Política na Operação Serenata de Amor"
 date: 2017-09-19 17:49:53
-image: '/assets/img/posts/data-science-e-politica-na-operacao-serenata-de-amor.png'
+image: '/assets/img/posts/data-science-e-politica-na-operacao-serenata-de-amor.webp'
 description: Podcast do Hipsters.tech sobre a Operação Serenata de Amor, projeto open source que usa ciência de dados e dados abertos para fiscalizar gastos públicos.
 category: 'ciência de dados'
 tags:

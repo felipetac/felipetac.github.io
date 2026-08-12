@@ -3,7 +3,7 @@ layout: post
 title: "#16 - Limitando Registros no MongoDB"
 date: 2014-12-14 12:30:00
 description: Como limitar a quantidade de registros retornados no MongoDB com os métodos limit() e skip(), com exemplos práticos.
-image: '/assets/img/posts/limitando-registros-no-mongodb.png'
+image: '/assets/img/posts/limitando-registros-no-mongodb.webp'
 category: 'bd'
 tags:
 - Banco de dados

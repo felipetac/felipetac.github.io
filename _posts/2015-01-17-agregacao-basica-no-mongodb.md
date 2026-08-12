@@ -3,7 +3,7 @@ layout: post
 title: "#19 - Agregação Básica no MongoDB"
 date: 2014-12-17 12:30:00
 description: Introdução às operações de agregação no MongoDB com o método aggregate(), equivalente ao count() e group by do SQL.
-image: '/assets/img/posts/agregacao-basica-no-mongodb.png'
+image: '/assets/img/posts/agregacao-basica-no-mongodb.webp'
 category: 'bd'
 tags:
 - Banco de dados

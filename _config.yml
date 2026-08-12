@@ -36,7 +36,7 @@ social:
     - "https://www.linkedin.com/in/felipetac"
 
 # jekyll-seo-tag: logo (JSON-LD Organization/publisher)
-logo: /assets/img/blog-author.png
+logo: /assets/img/blog-author.webp
 
 # Build settings
 markdown: kramdown

@@ -3,7 +3,7 @@ layout: post
 title: "#4 - Atributos da matriz no NumPy"
 date: 2019-10-18 12:20:00
 description: 'Conheça os principais atributos de uma matriz NumPy: shape, ndim, itemsize e flags, com exemplos práticos de cada um.'
-image: '/assets/img/posts/numpy-atributos-da-matriz.jpg'
+image: '/assets/img/posts/numpy-atributos-da-matriz.webp'
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

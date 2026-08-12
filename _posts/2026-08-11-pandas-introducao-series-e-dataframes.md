@@ -2,7 +2,7 @@
 layout: post
 title: "#1 - Introdução ao Pandas: Series e DataFrames"
 date: 2026-08-11 14:20:00
-image: '/assets/img/posts/pandas-introducao-series-e-dataframes.png'
+image: '/assets/img/posts/pandas-introducao-series-e-dataframes.webp'
 description: Uma introdução ao Pandas explicando os objetos Series e DataFrame, como acessar dados com .loc e como carregar arquivos CSV e JSON.
 category: 'ciência de dados'
 tags:

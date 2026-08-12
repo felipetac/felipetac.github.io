@@ -2,7 +2,7 @@
 layout: post
 title: "#2 - Analisando e Limpando Dados com Pandas"
 date: 2026-08-11 14:40:00
-image: '/assets/img/posts/pandas-analisando-e-limpando-dados.png'
+image: '/assets/img/posts/pandas-analisando-e-limpando-dados.webp'
 description: Como inspecionar rapidamente um DataFrame e tratar os problemas mais comuns de dados sujos - células vazias, formatos errados, valores incorretos e duplicatas.
 category: 'ciência de dados'
 tags:

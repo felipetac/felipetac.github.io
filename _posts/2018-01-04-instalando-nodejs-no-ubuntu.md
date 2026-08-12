@@ -2,7 +2,7 @@
 layout: post
 title: "Instalando NodeJS no Ubuntu"
 date: 2018-01-04 11:25:44
-image: '/assets/img/posts/instalando-nodejs-no-ubuntu.png'
+image: '/assets/img/posts/instalando-nodejs-no-ubuntu.webp'
 description: "Instalando o NodeJS via Package Manager e configurando para instalar seus pacotes sem a necessidade de sudo."
 category: 'dev'
 tags:

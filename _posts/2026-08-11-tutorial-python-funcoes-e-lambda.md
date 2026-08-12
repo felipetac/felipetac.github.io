@@ -2,7 +2,7 @@
 layout: post
 title: "#9 - Funções e Lambda"
 date: 2026-08-11 10:40:00
-image: '/assets/img/posts/tutorial-python-funcoes-e-lambda.png'
+image: '/assets/img/posts/tutorial-python-funcoes-e-lambda.webp'
 description: Como criar e chamar funções em Python, trabalhar com argumentos posicionais, nomeados, *args/**kwargs, escopo de variáveis, funções lambda e recursão.
 category: 'dev'
 tags:

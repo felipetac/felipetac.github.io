@@ -2,7 +2,7 @@
 layout: post
 title: "As 3 etapas da Ciência de Dados"
 date: 2018-01-29 17:20:11
-image: '/assets/img/posts/as-3-etapas-da-ciencia-de-dados.png'
+image: '/assets/img/posts/as-3-etapas-da-ciencia-de-dados.webp'
 description: Neste post falo sobre as três etapas da ciência de dados de uma organização verdadeiramente madura.
 category: 'ciência de dados'
 tags:

@@ -3,7 +3,7 @@ layout: post
 title: Exemplo - SQL vs MongoDB
 date: 2015-04-22 12:30:00
 description: Comandos SQL comparados lado a lado com seus equivalentes em MongoDB, cobrindo select, insert, update, delete e agregações.
-image: '/assets/img/posts/exemplo-sql-vs-mongodb.png'
+image: '/assets/img/posts/exemplo-sql-vs-mongodb.webp'
 category: 'bd'
 tags:
 - Banco de dados

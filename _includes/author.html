@@ -1,6 +1,6 @@
 <section class="author">
   <div class="details">
-    <img class="img-rounded" src="/assets/img/blog-author.png" alt="{{ site.author }}">
+    <img class="img-rounded" src="/assets/img/blog-author.webp" alt="{{ site.author }}" width="200" height="200" loading="lazy" decoding="async">
     <p class="def">Autor</p>
     <h3 class="name">
       <a href="https://github.com/{{ site.github_username }}">{{ site.author }}</a>
@@ -39,11 +39,11 @@
       {% endif %}
       <span style="display:none;" itemprop="author" itemtype="http://schema.org/Person" itemscope="">
         <meta itemprop="name" content="{{ site.author }}">
-        <img itemprop="image" class="img-rounded" src="/assets/img/blog-author.png" alt="{{ site.author }}">
+        <img itemprop="image" class="img-rounded" src="/assets/img/blog-author.webp" alt="{{ site.author }}" loading="lazy" decoding="async">
       </span>
       <span style="display:none;" itemprop="publisher" itemtype="http://schema.org/Organization" itemscope="">
         <meta itemprop="name" content="{{ site.author }}">
-        <img itemprop="logo" src="assets/img/blog-image.png" />
+        <img itemprop="logo" src="assets/img/blog-image.png" loading="lazy" decoding="async" />
       </span>
     </p>
   </div>

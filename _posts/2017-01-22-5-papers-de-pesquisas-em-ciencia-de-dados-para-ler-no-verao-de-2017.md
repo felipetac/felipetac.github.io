@@ -2,7 +2,7 @@
 layout: post
 title: "5 Papers de pesquisas em Ciência de Dados para ler no verão de 2017"
 date: 2017-06-01 17:25:36
-image: '/assets/img/posts/5-papers-de-pesquisas-em-ciencia-de-dados-para-ler-no-verao-de-2017.png'
+image: '/assets/img/posts/5-papers-de-pesquisas-em-ciencia-de-dados-para-ler-no-verao-de-2017.webp'
 description: 5 Documentos interessantes sobre ciência de dados que vale a pena ler.
 category: 'ciência de dados'
 tags:

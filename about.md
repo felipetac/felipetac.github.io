@@ -5,7 +5,7 @@ description: Conheça a trajetória de Felipe Toscano, engenheiro de software co
 permalink: /sobre-mim/
 ---
 
-<img itemprop="image" class="img-rounded" src="/assets/img/blog-author.png" alt="Felipe Toscano de Azevedo Cardoso">
+<img itemprop="image" class="img-rounded" src="/assets/img/blog-author.webp" alt="Felipe Toscano de Azevedo Cardoso" width="200" height="200" loading="eager" decoding="async">
 
 <style type="text/css" media="screen">
 	.container {

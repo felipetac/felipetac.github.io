@@ -3,7 +3,7 @@ layout: post
 title: "#7 - Apagar Banco de Dados no MongoDB"
 date: 2014-12-05 12:30:00
 description: Como apagar um banco de dados no MongoDB usando o método dropDatabase(), com sintaxe e exemplo prático.
-image: '/assets/img/posts/apagar-banco-de-dados-no-mongodb.png'
+image: '/assets/img/posts/apagar-banco-de-dados-no-mongodb.webp'
 category: 'bd'
 tags:
 - Banco de dados

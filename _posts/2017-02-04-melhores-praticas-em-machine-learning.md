@@ -2,7 +2,7 @@
 layout: post
 title: "Melhores práticas em Machine Learning"
 date: 2017-02-04 19:40:54
-image: '/assets/img/posts/melhores-praticas-em-machine-learning.png'
+image: '/assets/img/posts/melhores-praticas-em-machine-learning.webp'
 description: Compilado das melhores prática em Machine Learning segundo um ciêntista de dados da google.
 category: 'ciência de dados'
 tags:

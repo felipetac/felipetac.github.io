@@ -2,7 +2,7 @@
 layout: post
 title: "#4 - Operadores em Python"
 date: 2026-08-11 09:00:00
-image: '/assets/img/posts/tutorial-python-operadores.png'
+image: '/assets/img/posts/tutorial-python-operadores.webp'
 description: Um panorama completo dos operadores do Python — aritméticos, de atribuição, comparação, lógicos, identidade, pertencimento, bit a bit e o operador ternário.
 category: 'dev'
 tags:

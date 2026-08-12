@@ -3,7 +3,7 @@ layout: post
 title: "#7 - Matriz de intervalos numéricos no NumPy"
 date: 2019-10-21 13:30:00
 description: Neste capítulo, veremos como criar uma matriz a partir de intervalos numéricos.
-image: '/assets/img/posts/numpy-matriz-de-intervalos-numericos.jpg'
+image: '/assets/img/posts/numpy-matriz-de-intervalos-numericos.webp'
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

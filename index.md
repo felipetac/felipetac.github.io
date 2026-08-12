@@ -17,7 +17,9 @@ layout: main
                         {% include new-post-tag.html date=post.date %}
                         <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
                             <meta itemprop="image" content="{{ post.image | escape }}">
-                            <img src="assets/img/placeholder.png" data-url="{{ post.image | escape }}" class="preload">
+                            <img src="{{ post.image | escape }}" alt="{{ post.title | escape }}" width="600" height="315"
+                                {% if forloop.first %}loading="eager" fetchpriority="high"{% else %}loading="lazy"{% endif %}
+                                decoding="async">
                         </a>
                     </div>
                 {% endif %}

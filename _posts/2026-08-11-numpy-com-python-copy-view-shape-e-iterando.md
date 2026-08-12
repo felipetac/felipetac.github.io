@@ -2,7 +2,7 @@
 layout: post
 title: "#2 - Copy vs View, Shape e Iterando Arrays no NumPy"
 date: 2026-08-11 13:20:00
-image: '/assets/img/posts/numpy-com-python-copy-view-shape-e-iterando.png'
+image: '/assets/img/posts/numpy-com-python-copy-view-shape-e-iterando.webp'
 description: A diferença entre copy e view no NumPy, como consultar e mudar o shape de um array com reshape, e as formas de iterar sobre arrays de qualquer dimensão.
 category: 'ciência de dados'
 tags:

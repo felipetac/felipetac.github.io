@@ -2,7 +2,7 @@
 layout: post
 title: "Typescript em 5 minutos"
 date: 2018-01-05 12:51:37
-image: '/assets/img/posts/typescript-em-5-minutos.png'
+image: '/assets/img/posts/typescript-em-5-minutos.webp'
 description: Introdução prática ao TypeScript em 5 minutos, cobrindo instalação, tipagem, interfaces e classes com exemplos passo a passo.
 category: 'dev'
 tags:

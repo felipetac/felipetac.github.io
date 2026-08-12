@@ -3,7 +3,7 @@ layout: post
 title: Introdução MongoDB + Java
 date: 2015-02-06 12:30:00
 description: Como integrar o MongoDB com Java usando o driver JDBC, com exemplos de conexão, criação de coleções e operações de CRUD.
-image: '/assets/img/posts/introducao-mongodb-java.png'
+image: '/assets/img/posts/introducao-mongodb-java.webp'
 category: 'bd'
 tags:
 - Banco de dados

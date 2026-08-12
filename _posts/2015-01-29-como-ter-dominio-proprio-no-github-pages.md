@@ -2,7 +2,7 @@
 layout: post
 title: "Como ter Domínio Próprio no Github Pages"
 date: 2015-01-29 04:16:36
-image: '/assets/img/posts/como-ter-dominio-proprio-no-github-pages.png'
+image: '/assets/img/posts/como-ter-dominio-proprio-no-github-pages.webp'
 description: 'Passo a passo para usar um domínio próprio no GitHub Pages: subir o site, comprar o domínio, configurar o DNS e criar o arquivo CNAME.'
 tags:
 - Github

@@ -3,7 +3,7 @@ layout: post
 title: Introdução MongoDB + PHP
 date: 2015-02-10 12:30:00
 description: Como integrar o MongoDB com PHP usando o driver oficial, com exemplos de conexão, inserção, consulta e atualização de documentos.
-image: '/assets/img/posts/introducao-mongodb-php.jpg'
+image: '/assets/img/posts/introducao-mongodb-php.webp'
 category: 'bd'
 tags:
 - Banco de dados

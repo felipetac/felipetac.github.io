@@ -2,7 +2,7 @@
 layout: post
 title: "#11 - Orientação a Objetos em Python"
 date: 2026-08-11 11:20:00
-image: '/assets/img/posts/tutorial-python-orientacao-a-objetos.png'
+image: '/assets/img/posts/tutorial-python-orientacao-a-objetos.webp'
 description: Uma introdução prática à orientação a objetos em Python - classes, __init__, self, atributos, métodos, herança, polimorfismo, encapsulamento e classes internas.
 category: 'dev'
 tags:

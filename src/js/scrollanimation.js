@@ -69,17 +69,7 @@
         return a;
     }
 
-    function loadImageUrl(img) {
-        if (img) {
-            var image = new Image();
-            image.onload = function () {
-                img.src = image.src;
-            };
-            image.src = img.getAttribute('data-url');
-        }
-    }
-
-    function AnimOnScroll( el, options ) {  
+    function AnimOnScroll( el, options ) {
         this.el = el;
         this.options = extend( this.defaults, options );
         this._init();
@@ -107,8 +97,6 @@
                     if( inViewport( el ) ) {
                         self._checkTotalRendered();
                         classie.add( el, 'shown' );
-                        
-                        loadImageUrl(el.querySelector('.preload'));
                     }
                 } );
 
@@ -147,9 +135,6 @@
                         }
                         
                         classie.add( el, 'animate' );
-
-                        loadImageUrl(el.querySelector('.preload'));
-
                     }, 25 );
                 }
             });

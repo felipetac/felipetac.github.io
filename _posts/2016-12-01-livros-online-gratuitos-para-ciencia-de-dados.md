@@ -2,7 +2,7 @@
 layout: post
 title: "Livros gratuitos online para Ciência de Dados"
 date: 2016-12-01 18:08:44
-image: '/assets/img/posts/livros-online-gratuitos-para-ciencia-de-dados.png'
+image: '/assets/img/posts/livros-online-gratuitos-para-ciencia-de-dados.webp'
 description: Uma seleção de livros gratuitos online sobre Ciência de Dados e Machine Learning, incluindo o Deep Learning Book e outros títulos acadêmicos.
 category: 'ciência de dados'
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: "#12 - Tratamento de Erros, Entrada do Usuário e Arquivos"
 date: 2026-08-11 11:40:00
-image: '/assets/img/posts/tutorial-python-erros-input-e-arquivos.png'
+image: '/assets/img/posts/tutorial-python-erros-input-e-arquivos.webp'
 description: Como tratar exceções com try/except/else/finally, capturar entrada do usuário com input() e ler, escrever e apagar arquivos em Python.
 category: 'dev'
 tags:

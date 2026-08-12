@@ -3,7 +3,7 @@ layout: post
 title: "#3 - Tipos de dados no NumPy"
 date: 2019-10-17 20:00:00
 description: Conheça os tipos de dados escalares do NumPy (int, float, complex e mais) e como criar objetos dtype personalizados, com exemplos.
-image: '/assets/img/posts/numpy-tipos-de-dados.jpg'
+image: '/assets/img/posts/numpy-tipos-de-dados.webp'
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

@@ -2,7 +2,7 @@
 layout: post
 title: "Fazendo um formulário de Contato no Jekyll com Vue.js"
 date: 2017-08-07 23:04:08
-image: '/assets/img/posts/fazendo-um-formulario-de-contato-no-jekyll-com-vue.js.png'
+image: '/assets/img/posts/fazendo-um-formulario-de-contato-no-jekyll-com-vue.js.webp'
 description: Um formulário de contato para o Jekyll usando o Formspree e fazendo a validação com Vue.js
 category: 'dev'
 tags:

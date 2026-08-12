@@ -2,7 +2,7 @@
 layout: post
 title: "#14 - Datas, Matemática, JSON e Expressões Regulares"
 date: 2026-08-11 12:20:00
-image: '/assets/img/posts/tutorial-python-datas-matematica-json-e-regex.png'
+image: '/assets/img/posts/tutorial-python-datas-matematica-json-e-regex.webp'
 description: Uma volta pelos módulos datetime, math, json e re do Python - datas e horas, funções matemáticas, conversão de e para JSON e expressões regulares.
 category: 'dev'
 tags:

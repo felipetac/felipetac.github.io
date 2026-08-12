@@ -2,7 +2,7 @@
 layout: post
 title: "#Datathon2018: um Hackathon de dados on-line"
 date: 2018-02-05 14:57:55
-image: '/assets/img/posts/datathon2018-um-hackathon-de-dados-on-line.png'
+image: '/assets/img/posts/datathon2018-um-hackathon-de-dados-on-line.webp'
 description: O Datathon é uma das iniciativas da Data Science Society, acontecendo pela terceira vez, desta vez totalmente digital!
 category: 'ciência de dados'
 tags:
