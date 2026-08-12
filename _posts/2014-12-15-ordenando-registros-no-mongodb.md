@@ -2,7 +2,7 @@
 layout: post
 title: "#17 - Ordenando Registros no MongoDB"
 date: 2014-12-15 12:30:00
-description: Breve explicação de como ordenar registros no MongoDB.
+description: Como ordenar registros no MongoDB de forma crescente ou decrescente usando o método sort(), com exemplo prático.
 image: '/assets/img/posts/ordenando-registros-no-mongodb.png'
 category: 'bd'
 tags:

@@ -2,7 +2,7 @@
 layout: post
 title: "#2 - Perguntas Frequentes sobre MongoDB"
 date: 2014-11-27 12:30:00
-description: Perguntas e Respostas sobre MongoDB.
+description: 'Tire dúvidas sobre o MongoDB em formato de perguntas e respostas: esquemas dinâmicos, suporte a transações ACID, uso de memória e cache.'
 image: '/assets/img/posts/perguntas-frequentes-sobre-mongodb.png'
 category: 'bd'
 tags:

@@ -1,5 +1,6 @@
 # Site Settings
-title: Felipe Toscano | Diário de Bordo na Web
+title: Felipe Toscano
+tagline: Diário de Bordo na Web
 email: felipe.toscano@gmail.com
 description: Blog sobre conhecimentos adquiridos durante estudos em TI.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -27,6 +28,16 @@ github_username: felipetac
 linkedin_username: felipetac
 #medium_username: medium_username
 
+# jekyll-seo-tag: usado no JSON-LD "sameAs" (perfis oficiais)
+social:
+  name: Felipe Toscano
+  links:
+    - "https://github.com/felipetac"
+    - "https://www.linkedin.com/in/felipetac"
+
+# jekyll-seo-tag: logo (JSON-LD Organization/publisher)
+logo: /assets/img/blog-author.png
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -35,6 +46,9 @@ permalink: /:title/
 # Plugins
 plugins:
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
 # Links to include in menu navigation
 # For external links add external: true

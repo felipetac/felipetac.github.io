@@ -3,7 +3,7 @@ layout: post
 title: "#5 - Estilos, Anotações e Texto no Matplotlib"
 date: 2026-08-11 18:20:00
 image: '/assets/img/posts/matplotlib-estilos-anotacoes-e-texto.png'
-description: Como aplicar estilos visuais prontos com plt.style.use(), adicionar texto livre com plt.text() e apontar para pontos específicos de um gráfico com plt.annotate().
+description: Como aplicar estilos prontos com plt.style.use(), adicionar texto livre com plt.text() e apontar para pontos de um gráfico com plt.annotate().
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

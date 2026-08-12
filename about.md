@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre Mim
-description: Mini currículo
+description: Conheça a trajetória de Felipe Toscano, engenheiro de software com atuação em projetos de TI para o governo brasileiro e ciência de dados.
 permalink: /sobre-mim/
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "#5 - Rotinas para criação de matrizes com o NumPy"
 date: 2019-10-18 12:40:00
-description: Introdução sobre as funções no NumPy para criação de matrizes.
+description: Como criar matrizes no NumPy com as funções empty, zeros e ones, com exemplos práticos de cada uma.
 image: '/assets/img/posts/numpy-rotinas-de-criacao-de-matrizes.jpg'
 category: 'ciência de dados'
 tags:

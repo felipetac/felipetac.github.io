@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contato
-description: Vamos conversar.
+description: Entre em contato com Felipe Toscano para tirar dúvidas, trocar ideias sobre tecnologia ou propor parcerias no blog.
 permalink: /contato/
 ---
 

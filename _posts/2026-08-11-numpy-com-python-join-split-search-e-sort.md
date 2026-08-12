@@ -3,7 +3,7 @@ layout: post
 title: "#3 - Join, Split, Search e Sort no NumPy"
 date: 2026-08-11 13:40:00
 image: '/assets/img/posts/numpy-com-python-join-split-search-e-sort.png'
-description: Como juntar arrays com concatenate e stack, dividi-los com array_split, buscar valores com where e searchsorted, ordenar com sort e filtrar com máscaras booleanas.
+description: Como juntar arrays com concatenate e stack, dividi-los com array_split, buscar valores com where e searchsorted e ordenar com sort no NumPy.
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

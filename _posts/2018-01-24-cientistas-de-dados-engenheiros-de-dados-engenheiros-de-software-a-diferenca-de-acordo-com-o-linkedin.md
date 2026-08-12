@@ -3,7 +3,7 @@ layout: post
 title: "Cientistas de Dados, Engenheiros de Dados, Engenheiros de Software: a diferença de acordo com o LinkedIn"
 date: 2018-01-24 13:19:02
 image: '/assets/img/posts/cientistas-de-dados-engenheiros-de-dados-engenheiros-de-software-a-diferenca-de-acordo-com-o-linkedin.jpg'
-description: As diferenças entre Cientistas de Dados, Engenheiros de Dados e Engenheiros de Software podem ficar um pouco confusos às vezes. Sendo assim, aqui está um post fornecido pelo convidado Jake Stein, CEO da Stitch anteriormente RJ Metrics, que visa esclarecer algumas dessas confusões com base em dados do LinkedIn.
+description: Entenda as diferenças entre Cientistas de Dados, Engenheiros de Dados e Engenheiros de Software com base em dados do LinkedIn, por Jake Stein, CEO da Stitch.
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

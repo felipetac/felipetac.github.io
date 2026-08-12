@@ -2,7 +2,7 @@
 layout: post
 title: "#1 - Introdução ao NumPy"
 date: 2019-10-17 19:00:00
-description: Introdução sobre o pacote python, Numpy.
+description: Introdução ao NumPy, o pacote Python para computação numérica com matrizes multidimensionais, muito usado em Ciência de Dados.
 image: '/assets/img/posts/numpy-introducao.jpg'
 category: 'ciência de dados'
 tags:

@@ -3,7 +3,7 @@ layout: post
 title: "#3 - Interface Orientada a Objetos do Matplotlib: Figure e Axes"
 date: 2026-08-11 17:40:00
 image: '/assets/img/posts/matplotlib-interface-orientada-a-objetos-figure-e-axes.png'
-description: A diferença entre a interface implícita do pyplot e a interface orientada a objetos do Matplotlib, usando plt.subplots() para criar e controlar objetos Figure e Axes explicitamente.
+description: A diferença entre a interface implícita do pyplot e a interface orientada a objetos do Matplotlib, usando plt.subplots() para criar Figure e Axes.
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

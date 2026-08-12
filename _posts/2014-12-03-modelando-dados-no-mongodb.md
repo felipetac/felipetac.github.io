@@ -2,7 +2,7 @@
 layout: post
 title: "#5 - Modelando Dados no MongoDB"
 date: 2014-12-03 12:30:00
-description: Introdução a modelagem de dados no MongoDB.
+description: Boas práticas para modelar dados no MongoDB, com um exemplo prático comparando o esquema de documentos com um banco relacional.
 image: '/assets/img/posts/modelando-dados-no-mongodb.png'
 category: 'bd'
 tags:

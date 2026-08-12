@@ -3,7 +3,7 @@ layout: post
 title: "#7 - Trabalhando com Texto e Dados Categóricos no Pandas"
 date: 2026-08-11 16:20:00
 image: '/assets/img/posts/pandas-texto-e-dados-categoricos.png'
-description: Como manipular colunas de texto com o acessor .str do Pandas e como usar dados categóricos com astype('category') para economizar memória e impor uma ordem lógica.
+description: Como manipular texto com o acessor .str do Pandas e usar dados categóricos com astype('category') para economizar memória.
 category: 'ciência de dados'
 tags:
 - Ciência de Dados

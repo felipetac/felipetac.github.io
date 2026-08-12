@@ -1,7 +1,8 @@
 ---
 layout: default
 permalink: /contato/mensagem-enviada/
-insitemap: false
+sitemap: false
+robots: noindex, follow
 ---
 
 <style type="text/css" media="screen">

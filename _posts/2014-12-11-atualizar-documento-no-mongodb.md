@@ -2,7 +2,7 @@
 layout: post
 title: "#13 - Atualizar Documento no MongoDB"
 date: 2014-12-11 12:30:00
-description: Breve exemplificação de como alterar um documento no MongoDB.
+description: Como atualizar documentos no MongoDB com os métodos update() e save(), com exemplos práticos de cada abordagem.
 image: '/assets/img/posts/atualizar-documento-no-mongodb.png'
 category: 'bd'
 tags:

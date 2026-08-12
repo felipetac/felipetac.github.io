@@ -2,7 +2,7 @@
 layout: post
 title: "#6 - Criar Banco de Dados no MongoDB"
 date: 2014-12-04 12:30:00
-description: Criando banco de dados no MongoDB.
+description: Como criar um banco de dados no MongoDB com o comando use, incluindo sintaxe e exemplos práticos de verificação.
 image: '/assets/img/posts/criar-banco-de-dados-no-mongodb.png'
 category: 'bd'
 tags:

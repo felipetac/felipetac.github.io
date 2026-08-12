@@ -1,5 +1,5 @@
 ---
-insitemap: false
+sitemap: false
 ---
 [
   {% for post in site.posts %}

@@ -27,7 +27,7 @@
                 {% endfor %}
 
                 {% if page.image %}
-                    <img src="{{ page.image | escape }}" alt="Imagem de capa" class="post-cover">
+                    <img src="{{ page.image | escape }}" alt="{{ page.title | escape }}" class="post-cover">
                 {% endif %}
 
                 {{ content }}
