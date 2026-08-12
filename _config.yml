@@ -49,18 +49,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-loading-lazy
 
-# jekyll-paginate-v2: pagina a home. Antes a home listava site.posts inteiro
-# (image + meta itemprop por post, 88 posts e crescendo) numa única página.
-pagination:
-  enabled: true
-  per_page: 10
-  permalink: '/pagina/:num/'
-  title: ':title — Página :num'
-  sort_field: 'date'
-  sort_reverse: true
+# jekyll-paginate (clássico): pagina a home (index.html). Antes a home listava
+# site.posts inteiro (image + meta itemprop por post, 88 posts e crescendo) numa
+# única página. Requer que a home seja "index.html" (page.name literal) — por
+# isso index.md virou index.html nesta sessão, não é só estética.
+paginate: 10
+paginate_path: '/pagina/:num/'
 
 # Links to include in menu navigation
 # For external links add external: true
