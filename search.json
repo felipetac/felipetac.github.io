@@ -5,8 +5,8 @@ insitemap: false
   {% for post in site.posts %}
     {
       "title"    : "{{ post.title | escape }}",
-      "tags"     : "{{ post.tags | array_to_sentence_string }}",
-      "categories" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | array_to_sentence_string | escape }}",
+      "categories" : "{{ post.category | escape }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date | date: '%d/%m/%Y'}}"
     } {% unless forloop.last %},{% endunless %}

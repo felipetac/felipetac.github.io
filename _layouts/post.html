@@ -18,16 +18,16 @@
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
                     <span>{{ minutesText }}</span>
                 </p>
-                <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-                <meta itemprop="headline" content="{{ page.description }}">
-                <p itemprop="description" class="subtitle">{{ page.description }}</p>
+                <h1 class="post-title" itemprop="name">{{ page.title | escape }}</h1>
+                <meta itemprop="headline" content="{{ page.description | escape }}">
+                <p itemprop="description" class="subtitle">{{ page.description | escape }}</p>
 
                 {% for tag in page.tags %}
-                <meta itemprop="keywords" content="{{ tag }}">          
+                <meta itemprop="keywords" content="{{ tag | escape }}">
                 {% endfor %}
 
                 {% if page.image %}
-                    <img src="{{ page.image }}" alt="Imagem de capa" class="post-cover">
+                    <img src="{{ page.image | escape }}" alt="Imagem de capa" class="post-cover">
                 {% endif %}
 
                 {{ content }}

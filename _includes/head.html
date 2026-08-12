@@ -5,8 +5,8 @@
 
     <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
 
-    <title>{% if page.title %}{{ page.title }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <title>{% if page.title %}{{ page.title | escape }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 | escape }}{% else %}{{ site.description }}{% endif %}">
     
     {% if site.author %}
     <meta name="author" content="{{ site.author }}" />
@@ -15,23 +15,23 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{site.twitter_username}}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 | escape }}{% else %}{{ site.description }}{% endif %}">
     {% if page.image %}
-    <meta property="twitter:image:src" content="{{ page.image }}">
+    <meta property="twitter:image:src" content="{{ page.image | escape }}">
     {% else %}
     <meta property="twitter:image:src" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
 
     <!-- Social: Facebook / Open Graph -->
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}">
     {% if page.image %}
-    <meta property="og:image" content="{{ page.image }}">
+    <meta property="og:image" content="{{ page.image | escape }}">
     {% else %}
     <meta property="og:image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
-    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 | escape }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title }}">
     {% if page.date %}
     <meta property="og:type" content="article" />
@@ -42,10 +42,10 @@
     {% endif %}
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="{% if page.title %}{{ page.title }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}"/>
-    <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta itemprop="name" content="{% if page.title %}{{ page.title | escape }} | {{ site.username }}{% else %}{{ site.title }}{% endif %}"/>
+    <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 | escape }}{% else %}{{ site.description }}{% endif %}">
     {% if page.image %}
-    <meta itemprop="image" content="{{ page.image }}"/>
+    <meta itemprop="image" content="{{ page.image | escape }}"/>
     {% else %}
     <meta itemprop="image" content="{{ "/assets/img/blog-image.png" | prepend: site.baseurl | prepend: site.url }}"/>
     {% endif %}
@@ -72,7 +72,7 @@
     <meta name="msapplication-square310x310logo" content="largetile.png" />
     
     <!-- Android Lolipop Theme Color -->
-    <meta name="theme-color" content="{{ page.color }}">
+    <meta name="theme-color" content="{{ page.color | escape }}">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">

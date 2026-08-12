@@ -55,4 +55,4 @@ links:
 # arquivos .md sem front-matter ainda são tratados como páginas e passam pelo Liquid — como
 # CLAUDE.md cita `{% if %}` como texto (documentando um trecho de bd.html/dev.html), isso já
 # quebrou o build com "Liquid syntax error: 'if' tag was never closed".
-exclude: ['package.json', 'package-lock.json', 'gulpfile.mjs', 'src', 'node_modules', 'CLAUDE.md', 'README.md']
+exclude: ['package.json', 'package-lock.json', 'gulpfile.mjs', 'src', 'node_modules', 'CLAUDE.md', 'README.md', 'initpost.sh', 'initdraft.sh']

@@ -30,7 +30,7 @@
 # CORE: Do not change these lines
 # ----------------------------------------------------------------
 POST_TITLE="${@:2:$(($#-1))}"
-POST_NAME="$(echo ${@:2:$(($#-1))} | sed -e 's/ /-/g' | sed "y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/")"
+POST_NAME="$(echo "${@:2:$(($#-1))}" | sed -e 's/ /-/g' | sed "y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/" | sed -e 's/\.\.//g' -e 's/\///g')"
 CURRENT_DATE="$(date -u +'%Y-%m-%d')"
 TIME=$(date -u +"%T")
 FILE_NAME="${CURRENT_DATE}-${POST_NAME}.md"
@@ -152,11 +152,11 @@ main() {
 
     # Create
     if [[ "${1}" == "-c" || "${1}" == "--create" ]]; then
-        initpost_file $*
+        initpost_file "$@"
         exit
     fi
 
 }
 
 # Initialize
-main $*
+main "$@"
