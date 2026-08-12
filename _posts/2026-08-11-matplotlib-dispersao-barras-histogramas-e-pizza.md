@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "#2 - Dispersão, Barras, Histogramas e Pizza no Matplotlib"
-date: 2026-08-11 15:40:00
+date: 2026-08-11 17:20:00
 image: '/assets/img/posts/matplotlib-dispersao-barras-histogramas-e-pizza.png'
 description: Como criar gráficos de dispersão, barras, histogramas e pizza com o Matplotlib, incluindo cores, tamanhos e a opção de destacar uma fatia do gráfico de pizza.
 category: 'ciência de dados'

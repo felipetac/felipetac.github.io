@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "#8 - Datas e Séries Temporais no Pandas"
-date: 2026-08-11 17:20:00
+date: 2026-08-11 16:40:00
 image: '/assets/img/posts/pandas-datas-e-series-temporais.png'
 description: Como gerar sequências de datas com date_range(), usar datas como índice de um DataFrame, extrair ano, mês e dia da semana com o acessor .dt e reamostrar séries temporais com resample().
 category: 'ciência de dados'
