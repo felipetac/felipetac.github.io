@@ -1,10 +1,12 @@
 ---
 layout: main
+pagination:
+  enabled: true
 ---
 
 <main class="home" id="post" role="main" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
         <article class="box-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <span class="category">
                 <a href="{{ site.url }}{{ site.baseurl }}/categoria/{{ post.category | slugify | replace: 'ê', 'e' }}">
@@ -51,4 +53,14 @@ layout: main
         </article>
     {% endfor %}
     </div>
+    {% if paginator.total_pages > 1 %}
+    <div class="page-navigation">
+        {% if paginator.previous_page %}
+        <a class="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">&laquo; Mais recentes</a>
+        {% endif %}
+        {% if paginator.next_page %}
+        <a class="next" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Mais antigas &raquo;</a>
+        {% endif %}
+    </div>
+    {% endif %}
 </main>

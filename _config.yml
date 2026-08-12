@@ -49,6 +49,18 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-loading-lazy
+
+# jekyll-paginate-v2: pagina a home. Antes a home listava site.posts inteiro
+# (image + meta itemprop por post, 88 posts e crescendo) numa única página.
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/pagina/:num/'
+  title: ':title — Página :num'
+  sort_field: 'date'
+  sort_reverse: true
 
 # Links to include in menu navigation
 # For external links add external: true
