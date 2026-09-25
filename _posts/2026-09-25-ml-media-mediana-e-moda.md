@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#2 - Média, Mediana e Moda"
+title: "Machine Learning | #2 - Média, Mediana e Moda"
 date: 2026-09-25 12:00:00
 image: '/assets/img/posts/ml-media-mediana-e-moda.webp'
 description: Como calcular média, mediana e moda de um conjunto de números em Python usando NumPy e SciPy - os três valores centrais mais usados em Machine Learning.

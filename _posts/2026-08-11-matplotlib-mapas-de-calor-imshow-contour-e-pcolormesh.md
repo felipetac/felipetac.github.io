@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#10 - Mapas de Calor e Dados 2D com imshow, contour e pcolormesh"
+title: "Matplotlib | #10 - Mapas de Calor e Dados 2D com imshow, contour e pcolormesh"
 date: 2026-08-11 22:40:00
 image: '/assets/img/posts/matplotlib-mapas-de-calor-imshow-contour-e-pcolormesh.webp'
 description: Como visualizar matrizes como mapas de calor com imshow(), desenhar curvas de nível com contour() e contourf(), e controlar a escala de cores com Normalize e LogNorm.

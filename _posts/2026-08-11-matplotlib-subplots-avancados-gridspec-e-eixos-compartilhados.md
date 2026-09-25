@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#5 - Subplots Avançados: GridSpec, subplot2grid e Eixos Compartilhados"
+title: "Matplotlib | #5 - Subplots Avançados: GridSpec, subplot2grid e Eixos Compartilhados"
 date: 2026-08-11 21:00:00
 image: '/assets/img/posts/matplotlib-subplots-avancados-gridspec-e-eixos-compartilhados.webp'
 description: Como criar layouts de subplot irregulares com GridSpec e subplot2grid, e como sincronizar eixos entre gráficos com sharex e sharey no Matplotlib.

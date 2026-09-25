@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#9 - Árvore de Decisão"
+title: "Machine Learning | #9 - Árvore de Decisão"
 date: 2026-09-25 14:20:00
 image: '/assets/img/posts/ml-arvore-de-decisao.webp'
 description: Como criar e interpretar uma árvore de decisão em Python com scikit-learn, incluindo como o algoritmo escolhe onde dividir os dados usando o método Gini.

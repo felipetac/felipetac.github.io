@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#9 - Correlações e Visualização de Dados com Pandas"
+title: "Pandas | #9 - Correlações e Visualização de Dados com Pandas"
 date: 2026-08-11 17:40:00
 image: '/assets/img/posts/pandas-correlacoes-e-visualizacao-de-dados.webp'
 description: Como encontrar correlações entre colunas numéricas de um DataFrame com .corr() e como gerar gráficos rápidos com o método .plot() do Pandas.

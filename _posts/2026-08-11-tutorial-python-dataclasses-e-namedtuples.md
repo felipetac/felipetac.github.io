@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#17 - Dataclasses e Namedtuples: Alternativas para Guardar Dados"
+title: "Python | #17 - Dataclasses e Namedtuples: Alternativas para Guardar Dados"
 date: 2026-08-11 13:20:00
 image: '/assets/img/posts/tutorial-python-dataclasses-e-namedtuples.webp'
 description: Como usar o decorator @dataclass para criar classes que guardam dados com menos código repetitivo, e como namedtuple oferece uma alternativa ainda mais leve baseada em tuplas.

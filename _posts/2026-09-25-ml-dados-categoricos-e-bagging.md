@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#14 - Dados Categóricos e Bagging"
+title: "Machine Learning | #14 - Dados Categóricos e Bagging"
 date: 2026-09-25 16:00:00
 image: '/assets/img/posts/ml-dados-categoricos-e-bagging.webp'
 description: Como transformar colunas de texto em números com one hot encoding, e como combinar vários modelos com bootstrap aggregation (bagging) pra reduzir overfitting.

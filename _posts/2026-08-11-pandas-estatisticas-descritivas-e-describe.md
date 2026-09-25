@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#7 - Estatísticas Descritivas e describe()"
+title: "Pandas | #7 - Estatísticas Descritivas e describe()"
 date: 2026-08-11 17:30:00
 image: '/assets/img/posts/pandas-estatisticas-descritivas-e-describe.webp'
 description: Como resumir um DataFrame inteiro com describe(), contar valores únicos com value_counts(), unique() e nunique(), e localizar o índice do maior e do menor valor com idxmax() e idxmin().

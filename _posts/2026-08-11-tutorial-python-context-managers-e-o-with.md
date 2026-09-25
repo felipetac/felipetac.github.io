@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#19 - Context Managers: Controlando Recursos com with"
+title: "Python | #19 - Context Managers: Controlando Recursos com with"
 date: 2026-08-11 14:00:00
 image: '/assets/img/posts/tutorial-python-context-managers-e-o-with.webp'
 description: O que acontece por trás do with open(...), como criar seu próprio context manager com uma classe usando __enter__ e __exit__, e a versão mais curta com contextlib.

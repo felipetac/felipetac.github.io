@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#1 - Criando e Indexando Arrays no NumPy"
+title: "NumPy | #1 - Criando e Indexando Arrays no NumPy"
 date: 2026-08-11 15:40:00
 image: '/assets/img/posts/numpy-com-python-criando-e-indexando-arrays.webp'
 description: Como criar arrays com o NumPy, entender suas dimensões e o parâmetro dtype, e acessar elementos com indexação e fatiamento (slicing).

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#12 - Regressão Logística"
+title: "Machine Learning | #12 - Regressão Logística"
 date: 2026-09-25 15:20:00
 image: '/assets/img/posts/ml-regressao-logistica.webp'
 description: Como usar regressão logística para prever resultados categóricos (sim/não) em Python, e como interpretar coeficiente, odds e probabilidade de cada previsão.

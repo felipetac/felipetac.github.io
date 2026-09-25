@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#8 - Funções Cumulativas, rank() e Janelas Móveis"
+title: "Pandas | #8 - Funções Cumulativas, rank() e Janelas Móveis"
 date: 2026-08-11 17:35:00
 image: '/assets/img/posts/pandas-funcoes-cumulativas-rank-e-janelas-moveis.webp'
 description: Como calcular somas e produtos acumulados com cumsum() e cumprod(), medir variação entre linhas com diff() e pct_change(), ranquear valores com rank() e suavizar séries com médias móveis usando rolling().

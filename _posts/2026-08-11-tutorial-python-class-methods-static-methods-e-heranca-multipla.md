@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#14 - Class Methods, Static Methods e Herança Múltipla"
+title: "Python | #14 - Class Methods, Static Methods e Herança Múltipla"
 date: 2026-08-11 12:20:00
 image: '/assets/img/posts/tutorial-python-class-methods-static-methods-e-heranca-multipla.webp'
 description: A diferença entre métodos de instância, class methods e static methods em Python, o decorator @property, e como funciona herança múltipla e multinível entre classes.

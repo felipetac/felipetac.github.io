@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#8 - Grafos"
+title: "Estruturas de Dados | #8 - Grafos"
 date: 2026-09-25 10:20:00
 image: '/assets/img/posts/dsa-grafos.webp'
 description: O que são grafos, onde essa estrutura de dados não linear aparece no dia a dia, e como representá-los em Python com matriz de adjacência e lista de adjacência.

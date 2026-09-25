@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#15 - MultiIndex: Índices Hierárquicos no Pandas"
+title: "Pandas | #15 - MultiIndex: Índices Hierárquicos no Pandas"
 date: 2026-08-11 18:10:00
 image: '/assets/img/posts/pandas-multiindex-indices-hierarquicos.webp'
 description: Como criar um índice hierárquico (MultiIndex) com from_arrays() e from_tuples(), selecionar dados em múltiplos níveis com .loc e reordenar níveis com swaplevel().

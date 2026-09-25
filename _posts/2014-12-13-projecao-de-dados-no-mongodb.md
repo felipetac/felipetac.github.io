@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#15 - Projeção de Dados no MongoDB"
+title: "MongoDB | #15 - Projeção de Dados no MongoDB"
 date: 2014-12-13 12:30:00
 description: Como usar projeção de dados no MongoDB para retornar apenas os campos necessários de um documento com o método find().
 image: '/assets/img/posts/projecao-de-dados-no-mongodb.webp'

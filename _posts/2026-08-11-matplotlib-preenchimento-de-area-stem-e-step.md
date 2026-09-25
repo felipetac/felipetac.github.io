@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#3 - Preenchimento de Área, Stem e Step no Matplotlib"
+title: "Matplotlib | #3 - Preenchimento de Área, Stem e Step no Matplotlib"
 date: 2026-08-11 20:20:00
 image: '/assets/img/posts/matplotlib-preenchimento-de-area-stem-e-step.webp'
 description: Como preencher a área sob uma curva ou entre duas curvas com fill_between(), empilhar séries com stackplot(), e desenhar gráficos stem() e step() no Matplotlib.

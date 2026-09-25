@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#6 - Sets e Dicionários"
+title: "Python | #6 - Sets e Dicionários"
 date: 2026-08-11 09:40:00
 image: '/assets/img/posts/tutorial-python-sets-e-dicionarios.webp'
 description: Como criar e manipular sets e dicionários em Python, incluindo frozenset, dicionários aninhados e os principais métodos de cada estrutura.

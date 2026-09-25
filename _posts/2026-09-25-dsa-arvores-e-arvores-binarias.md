@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#6 - Árvores e Árvores Binárias"
+title: "Estruturas de Dados | #6 - Árvores e Árvores Binárias"
 date: 2026-09-25 09:40:00
 image: '/assets/img/posts/dsa-arvores-e-arvores-binarias.webp'
 description: O que são árvores como estrutura de dados hierárquica, o que diferencia uma árvore binária, seus tipos (balanceada, completa, cheia, perfeita) e as três formas de percorrê-la - pré-ordem, em ordem e pós-ordem.

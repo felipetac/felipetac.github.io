@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#1 - Introdução a Estruturas de Dados e Complexidade"
+title: "Estruturas de Dados | #1 - Introdução a Estruturas de Dados e Complexidade"
 date: 2026-09-25 08:00:00
 image: '/assets/img/posts/dsa-introducao-e-complexidade.webp'
 description: Uma introdução a Estruturas de Dados e Algoritmos (DSA) em Python - o que são, por que importam, e como medir a eficiência de um algoritmo com complexidade de tempo e notação Big O.

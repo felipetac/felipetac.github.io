@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#17 - Lendo e Escrevendo Excel, HTML e Exportando Arquivos"
+title: "Pandas | #17 - Lendo e Escrevendo Excel, HTML e Exportando Arquivos"
 date: 2026-08-11 18:20:00
 image: '/assets/img/posts/pandas-lendo-e-escrevendo-excel-html-e-exportando-arquivos.webp'
 description: Como ler planilhas Excel com read_excel(), extrair tabelas de páginas HTML com read_html(), e exportar um DataFrame de volta para CSV, JSON e Excel.

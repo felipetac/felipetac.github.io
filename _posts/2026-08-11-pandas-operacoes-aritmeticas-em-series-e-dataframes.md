@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#3 - Operações Aritméticas em Series e DataFrames"
+title: "Pandas | #3 - Operações Aritméticas em Series e DataFrames"
 date: 2026-08-11 17:10:00
 image: '/assets/img/posts/pandas-operacoes-aritmeticas-em-series-e-dataframes.webp'
 description: Como usar operadores aritméticos em Series e DataFrames do Pandas, como funciona o alinhamento automático pelo índice e como usar fill_value para evitar valores NaN.

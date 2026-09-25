@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#6 - Regressão Linear"
+title: "Machine Learning | #6 - Regressão Linear"
 date: 2026-09-25 13:20:00
 image: '/assets/img/posts/ml-regressao-linear.webp'
 description: Como traçar uma reta de regressão linear com SciPy, medir a força da relação entre duas variáveis com o coeficiente r, e usar isso pra prever valores futuros.

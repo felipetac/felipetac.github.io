@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#16 - Métodos Mágicos (Dunder Methods)"
+title: "Python | #16 - Métodos Mágicos (Dunder Methods)"
 date: 2026-08-11 13:00:00
 image: '/assets/img/posts/tutorial-python-metodos-magicos.webp'
 description: Como personalizar o comportamento de print(), comparações, operadores, len() e chamadas de objetos em Python usando métodos mágicos como __str__, __repr__, __eq__, __add__, __len__, __lt__, __contains__ e __call__.

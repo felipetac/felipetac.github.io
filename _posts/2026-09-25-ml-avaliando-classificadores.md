@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#10 - Avaliando Classificadores: Matriz de Confusão e Curva AUC-ROC"
+title: "Machine Learning | #10 - Avaliando Classificadores: Matriz de Confusão e Curva AUC-ROC"
 date: 2026-09-25 14:40:00
 image: '/assets/img/posts/ml-avaliando-classificadores.webp'
 description: Como avaliar um modelo de classificação além da acurácia simples, usando matriz de confusão (accuracy, precision, recall, specificity, F-score) e a curva AUC-ROC.

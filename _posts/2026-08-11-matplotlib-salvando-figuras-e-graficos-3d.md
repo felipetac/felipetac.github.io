@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#11 - Salvando Figuras e Gráficos 3D no Matplotlib"
+title: "Matplotlib | #11 - Salvando Figuras e Gráficos 3D no Matplotlib"
 date: 2026-08-11 23:00:00
 image: '/assets/img/posts/matplotlib-salvando-figuras-e-graficos-3d.webp'
 description: Como exportar gráficos para arquivo com savefig() controlando resolução e formato, e como plotar em três dimensões com o módulo mplot3d.

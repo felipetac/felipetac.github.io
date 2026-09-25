@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#16 - Combinando DataFrames: merge, join e concat"
+title: "Pandas | #16 - Combinando DataFrames: merge, join e concat"
 date: 2026-08-11 18:15:00
 image: '/assets/img/posts/pandas-combinando-dataframes-merge-join-e-concat.webp'
 description: Como combinar DataFrames diferentes no Pandas usando merge() para joins ao estilo SQL, join() por índice e concat() para empilhar tabelas.

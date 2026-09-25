@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#20 - Exceções Personalizadas, Assertions e Logging"
+title: "Python | #20 - Exceções Personalizadas, Assertions e Logging"
 date: 2026-08-11 14:20:00
 image: '/assets/img/posts/tutorial-python-excecoes-personalizadas-assertions-e-logging.webp'
 description: Como criar suas próprias classes de exceção em Python, usar assert para verificar suposições no código, e registrar eventos de um programa com o módulo logging.

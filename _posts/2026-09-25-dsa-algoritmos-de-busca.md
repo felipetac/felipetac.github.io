@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#9 - Algoritmos de Busca: Linear e Binária"
+title: "Estruturas de Dados | #9 - Algoritmos de Busca: Linear e Binária"
 date: 2026-09-25 10:40:00
 image: '/assets/img/posts/dsa-algoritmos-de-busca.webp'
 description: A diferença entre busca linear e busca binária em Python - como implementar cada uma, e por que a busca binária exige uma lista ordenada pra ser tão mais rápida.

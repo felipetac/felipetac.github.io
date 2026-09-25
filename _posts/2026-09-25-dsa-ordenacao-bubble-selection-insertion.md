@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#10 - Algoritmos de Ordenação I: Bubble, Selection e Insertion Sort"
+title: "Estruturas de Dados | #10 - Algoritmos de Ordenação I: Bubble, Selection e Insertion Sort"
 date: 2026-09-25 11:00:00
 image: '/assets/img/posts/dsa-ordenacao-bubble-selection-insertion.webp'
 description: Como funcionam os algoritmos de ordenação Bubble Sort, Selection Sort e Insertion Sort em Python, incluindo o problema do deslocamento de memória e como cada um pode ser otimizado.

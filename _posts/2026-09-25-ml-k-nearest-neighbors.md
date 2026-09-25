@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#15 - K-Nearest Neighbors (KNN)"
+title: "Machine Learning | #15 - K-Nearest Neighbors (KNN)"
 date: 2026-09-25 16:20:00
 image: '/assets/img/posts/ml-k-nearest-neighbors.webp'
 description: Como funciona o algoritmo K-Nearest Neighbors (KNN) em Python, e como o valor de K muda a classificação de um novo ponto de dados.

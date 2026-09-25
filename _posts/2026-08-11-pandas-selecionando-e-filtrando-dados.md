@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#2 - Selecionando e Filtrando Dados com loc, iloc e Máscaras Booleanas"
+title: "Pandas | #2 - Selecionando e Filtrando Dados com loc, iloc e Máscaras Booleanas"
 date: 2026-08-11 17:05:00
 image: '/assets/img/posts/pandas-selecionando-e-filtrando-dados.webp'
 description: Como selecionar linhas e colunas específicas de um DataFrame com .loc e .iloc, e como filtrar dados com máscaras booleanas e o método .query().

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#5 - Tabelas Hash"
+title: "Estruturas de Dados | #5 - Tabelas Hash"
 date: 2026-09-25 09:20:00
 image: '/assets/img/posts/dsa-tabelas-hash.webp'
 description: Como construir uma tabela hash do zero em Python - função hash, inserção, busca rápida, e como lidar com colisões usando chaining.

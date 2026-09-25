@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#3 - Pilhas e Filas"
+title: "Estruturas de Dados | #3 - Pilhas e Filas"
 date: 2026-09-25 08:40:00
 image: '/assets/img/posts/dsa-pilhas-e-filas.webp'
 description: Como implementar pilhas (LIFO) e filas (FIFO) em Python, usando listas soltas e classes dedicadas, e onde cada uma é usada na prática.

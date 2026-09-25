@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#10 - Argumentos Avançados e Type Hints"
+title: "Python | #10 - Argumentos Avançados e Type Hints"
 date: 2026-08-11 11:00:00
 image: '/assets/img/posts/tutorial-python-argumentos-avancados-e-type-hints.webp'
 description: Como forçar argumentos somente-posicionais ou somente-nomeados numa função Python, e como usar type hints e anotações de função para documentar os tipos esperados.

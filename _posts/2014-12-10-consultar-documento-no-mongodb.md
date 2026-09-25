@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#12 - Consultar Documento no MongoDB"
+title: "MongoDB | #12 - Consultar Documento no MongoDB"
 date: 2014-12-10 12:30:00
 description: Como consultar documentos no MongoDB com o método find(), incluindo condições AND, OR e os equivalentes das cláusulas WHERE do SQL.
 image: '/assets/img/posts/consultar-documento-no-mongodb.webp'

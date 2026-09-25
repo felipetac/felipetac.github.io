@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#8 - Escala de Dados e Divisão Treino/Teste"
+title: "Machine Learning | #8 - Escala de Dados e Divisão Treino/Teste"
 date: 2026-09-25 14:00:00
 image: '/assets/img/posts/ml-escala-e-treino-teste.webp'
 description: Como padronizar colunas em escalas diferentes com StandardScaler, e como dividir um dataset em treino e teste pra avaliar se um modelo generaliza bem.

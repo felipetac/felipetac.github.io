@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#5 - Dados Ausentes: isna(), ffill(), bfill() e interpolate()"
+title: "Pandas | #5 - Dados Ausentes: isna(), ffill(), bfill() e interpolate()"
 date: 2026-08-11 17:20:00
 image: '/assets/img/posts/pandas-dados-ausentes-isna-ffill-bfill-e-interpolate.webp'
 description: Como inspecionar dados ausentes com isna() e notna(), preencher lacunas na direção certa com ffill() e bfill(), e estimar valores intermediários com interpolate().

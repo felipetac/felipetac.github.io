@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#10 - Tipos de Dados no MongoDB"
+title: "MongoDB | #10 - Tipos de Dados no MongoDB"
 date: 2014-12-08 12:30:00
 description: Conheça os tipos de dados suportados pelo MongoDB, como String, Integer, Boolean, Array, Date, ObjectID e Binary data.
 image: '/assets/img/posts/tipos-de-dados-no-mongodb.webp'
