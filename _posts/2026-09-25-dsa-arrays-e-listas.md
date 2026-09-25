@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Estruturas de Dados | #2 - Arrays e Listas"
+title: "Estruturas de Dados #2 - Arrays e Listas"
 date: 2026-09-25 08:20:00
 image: '/assets/img/posts/dsa-arrays-e-listas.webp'
 description: Como a lista nativa do Python funciona como um array dinâmico, os métodos prontos que ela já traz, e como criar seu próprio algoritmo em cima dela.

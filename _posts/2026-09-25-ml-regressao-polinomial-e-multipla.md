@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning | #7 - Regressão Polinomial e Múltipla"
+title: "Machine Learning #7 - Regressão Polinomial e Múltipla"
 date: 2026-09-25 13:40:00
 image: '/assets/img/posts/ml-regressao-polinomial-e-multipla.webp'
 description: Como usar regressão polinomial quando os dados não seguem uma linha reta, e regressão múltipla quando a previsão depende de mais de uma variável - com R² e coeficientes explicados.

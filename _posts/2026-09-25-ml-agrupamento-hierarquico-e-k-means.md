@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning | #11 - Agrupamento: Hierárquico e K-Means"
+title: "Machine Learning #11 - Agrupamento: Hierárquico e K-Means"
 date: 2026-09-25 15:00:00
 image: '/assets/img/posts/ml-agrupamento-hierarquico-e-k-means.webp'
 description: Como agrupar dados sem rótulos usando clustering hierárquico (com dendrograma) e K-Means (com o método do cotovelo pra escolher o número de clusters).

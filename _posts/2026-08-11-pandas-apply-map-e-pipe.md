@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pandas | #10 - apply(), map() e pipe(): Aplicando Funções"
+title: "Pandas #10 - apply(), map() e pipe(): Aplicando Funções"
 date: 2026-08-11 17:45:00
 image: '/assets/img/posts/pandas-apply-map-e-pipe.webp'
 description: Como aplicar funções personalizadas a DataFrames e Series com apply() e map(), e como encadear transformações num fluxo legível com pipe().

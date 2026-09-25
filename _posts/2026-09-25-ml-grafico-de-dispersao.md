@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning | #5 - Gráfico de Dispersão"
+title: "Machine Learning #5 - Gráfico de Dispersão"
 date: 2026-09-25 13:00:00
 image: '/assets/img/posts/ml-grafico-de-dispersao.webp'
 description: Como desenhar e interpretar um gráfico de dispersão (scatter plot) com Matplotlib, o primeiro passo pra enxergar a relação entre duas variáveis antes de qualquer regressão.

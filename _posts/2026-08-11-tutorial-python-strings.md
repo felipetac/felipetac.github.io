@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python | #3 - Strings em Python"
+title: "Python #3 - Strings em Python"
 date: 2026-08-11 08:40:00
 image: '/assets/img/posts/tutorial-python-strings.webp'
 description: Como criar, indexar, fatiar e formatar strings em Python, além dos principais métodos de manipulação de texto da linguagem.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python | #11 - Funções de Alta Ordem e Closures"
+title: "Python #11 - Funções de Alta Ordem e Closures"
 date: 2026-08-11 11:20:00
 image: '/assets/img/posts/tutorial-python-funcoes-de-alta-ordem-e-closures.webp'
 description: Como funções são tratadas como qualquer outro valor em Python, o uso de map(), filter() e reduce(), e o que são closures - funções que "lembram" do escopo onde foram criadas.

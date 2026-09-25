@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Estruturas de Dados | #11 - Algoritmos de Ordenação II: Quick, Merge, Counting e Radix Sort"
+title: "Estruturas de Dados #11 - Algoritmos de Ordenação II: Quick, Merge, Counting e Radix Sort"
 date: 2026-09-25 11:20:00
 image: '/assets/img/posts/dsa-ordenacao-quick-merge-counting-radix.webp'
 description: Como funcionam Quick Sort, Merge Sort, Counting Sort e Radix Sort em Python - algoritmos de ordenação mais rápidos que O(n²), com complexidades O(n log n), O(n+k) e O(n·k).

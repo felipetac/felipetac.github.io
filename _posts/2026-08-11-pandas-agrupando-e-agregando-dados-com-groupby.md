@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pandas | #13 - Agrupando e Agregando Dados com groupby()"
+title: "Pandas #13 - Agrupando e Agregando Dados com groupby()"
 date: 2026-08-11 18:00:00
 image: '/assets/img/posts/pandas-agrupando-e-agregando-dados-com-groupby.webp'
 description: Como usar o groupby() do Pandas para agrupar dados por categoria e calcular agregações com o padrão split-apply-combine, incluindo o método agg().

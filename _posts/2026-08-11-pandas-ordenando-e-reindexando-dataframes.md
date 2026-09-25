@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pandas | #6 - Ordenando e Reindexando DataFrames"
+title: "Pandas #6 - Ordenando e Reindexando DataFrames"
 date: 2026-08-11 17:25:00
 image: '/assets/img/posts/pandas-ordenando-e-reindexando-dataframes.webp'
 description: Como ordenar um DataFrame por valores ou por índice com sort_values() e sort_index(), e como reindexar com reindex() para encaixar dados em um novo conjunto de rótulos.

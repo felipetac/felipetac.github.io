@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Estruturas de Dados | #7 - Árvores de Busca Binária e AVL"
+title: "Estruturas de Dados #7 - Árvores de Busca Binária e AVL"
 date: 2026-09-25 10:00:00
 image: '/assets/img/posts/dsa-arvores-de-busca-binaria-e-avl.webp'
 description: Como funciona uma árvore de busca binária (BST) - busca, inserção e remoção - e como as árvores AVL usam fator de balanceamento e rotações pra se manterem sempre balanceadas.

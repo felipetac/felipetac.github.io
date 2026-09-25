@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MongoDB | #4 - Primeiros Passos no MongoDB"
+title: "MongoDB #4 - Primeiros Passos no MongoDB"
 date: 2014-12-02 12:30:00
 description: 'Primeiros comandos do shell do MongoDB: conectar ao servidor, criar bancos de dados e coleções e inserir e listar documentos.'
 image: '/assets/img/posts/primeiros-passos-no-mongodb.webp'

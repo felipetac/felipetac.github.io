@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning | #4 - Distribuição de Dados"
+title: "Machine Learning #4 - Distribuição de Dados"
 date: 2026-09-25 12:40:00
 image: '/assets/img/posts/ml-distribuicao-de-dados.webp'
 description: Como gerar grandes conjuntos de dados aleatórios com NumPy, visualizá-los com histogramas do Matplotlib, e o que é a distribuição normal (a curva em forma de sino).

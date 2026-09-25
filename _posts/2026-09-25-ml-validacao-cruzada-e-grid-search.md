@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning | #13 - Validação Cruzada e Grid Search"
+title: "Machine Learning #13 - Validação Cruzada e Grid Search"
 date: 2026-09-25 15:40:00
 image: '/assets/img/posts/ml-validacao-cruzada-e-grid-search.webp'
 description: Como validar um modelo com técnicas de validação cruzada (K-Fold, Stratified K-Fold, Leave-One-Out, Leave-P-Out, Shuffle Split) e como ajustar hiperparâmetros com grid search.

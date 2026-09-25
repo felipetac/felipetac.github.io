@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MongoDB | #9 - Apagar Coleção no MongoDB"
+title: "MongoDB #9 - Apagar Coleção no MongoDB"
 date: 2014-12-07 12:30:00
 description: Como apagar uma coleção no MongoDB com o método drop(), com sintaxe e exemplo de verificação antes e depois.
 image: '/assets/img/posts/apagar-colecao-no-mongodb.webp'

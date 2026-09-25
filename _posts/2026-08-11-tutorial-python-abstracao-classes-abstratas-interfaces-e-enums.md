@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python | #15 - Abstração com Classes Abstratas, Interfaces e Enums"
+title: "Python #15 - Abstração com Classes Abstratas, Interfaces e Enums"
 date: 2026-08-11 12:40:00
 image: '/assets/img/posts/tutorial-python-abstracao-classes-abstratas-interfaces-e-enums.webp'
 description: O que é abstração em orientação a objetos, como criar classes abstratas com o módulo abc, o conceito de interfaces informais em Python e como usar a classe Enum.

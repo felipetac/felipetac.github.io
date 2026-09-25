@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MongoDB | #11 - Inserir Documento no MongoDB"
+title: "MongoDB #11 - Inserir Documento no MongoDB"
 date: 2014-12-09 12:30:00
 description: Rápida exemplificação de como inserir dados em uma coleção no MongoDB.
 image: '/assets/img/posts/inserir-documento-no-mongodb.webp'

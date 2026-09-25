@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Matplotlib | #8 - Texto Matemático, rcParams e Gráficos Polares no Matplotlib"
+title: "Matplotlib #8 - Texto Matemático, rcParams e Gráficos Polares no Matplotlib"
 date: 2026-08-11 22:00:00
 image: '/assets/img/posts/matplotlib-texto-matematico-rcparams-e-graficos-polares.webp'
 description: Como escrever símbolos e fórmulas matemáticas com mathtext, mudar configurações globais com matplotlib.rcParams, e criar gráficos em coordenadas polares.

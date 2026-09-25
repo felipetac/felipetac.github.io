@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python | #22 - Argumentos de Linha de Comando e Serialização com Pickle"
+title: "Python #22 - Argumentos de Linha de Comando e Serialização com Pickle"
 date: 2026-08-11 15:00:00
 image: '/assets/img/posts/tutorial-python-argumentos-de-linha-de-comando-e-pickle.webp'
 description: Como ler argumentos passados na linha de comando com sys.argv e argparse, e como salvar e carregar objetos Python inteiros em disco usando o módulo pickle.

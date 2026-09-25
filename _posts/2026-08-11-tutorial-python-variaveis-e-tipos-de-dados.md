@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python | #2 - Variáveis e Tipos de Dados"
+title: "Python #2 - Variáveis e Tipos de Dados"
 date: 2026-08-11 08:20:00
 image: '/assets/img/posts/tutorial-python-variaveis-e-tipos-de-dados.webp'
 description: Como criar e nomear variáveis em Python, os tipos de dados nativos da linguagem, conversão entre tipos, booleanos e o valor None.

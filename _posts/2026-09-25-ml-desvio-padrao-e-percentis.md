@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning | #3 - Desvio Padrão e Percentis"
+title: "Machine Learning #3 - Desvio Padrão e Percentis"
 date: 2026-09-25 12:20:00
 image: '/assets/img/posts/ml-desvio-padrao-e-percentis.webp'
 description: Como medir o quanto os valores de um conjunto de dados estão espalhados usando desvio padrão e variância, e como encontrar percentis com NumPy.

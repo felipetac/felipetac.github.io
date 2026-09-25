@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pandas | #14 - Remodelando Dados: pivot_table(), melt() e stack()/unstack()"
+title: "Pandas #14 - Remodelando Dados: pivot_table(), melt() e stack()/unstack()"
 date: 2026-08-11 18:05:00
 image: '/assets/img/posts/pandas-remodelando-dados-pivot-table-melt-stack-e-unstack.webp'
 description: Como transformar o formato de um DataFrame com pivot() e pivot_table(), voltar ao formato longo com melt(), alternar entre linhas e colunas com stack() e unstack(), e criar variáveis dummy com get_dummies().

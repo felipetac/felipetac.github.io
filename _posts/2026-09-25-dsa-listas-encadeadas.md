@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Estruturas de Dados | #4 - Listas Encadeadas"
+title: "Estruturas de Dados #4 - Listas Encadeadas"
 date: 2026-09-25 09:00:00
 image: '/assets/img/posts/dsa-listas-encadeadas.webp'
 description: O que são listas encadeadas (linked lists), como implementá-las em Python com classes, e como elas se comparam a arrays em memória e desempenho.
