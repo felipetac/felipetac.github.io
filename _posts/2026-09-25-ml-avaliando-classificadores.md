@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Avaliação de Modelos
-twitter_text: Avaliando Classificadores - Matriz de Confusão e AUC-ROC
+twitter_text: "Machine Learning #10 - Avaliando Classificadores: Matriz de Confusão e Curva AUC-ROC"
 introduction: "Nesta parte da série, você vai aprender a avaliar um modelo de classificação de verdade, usando matriz de confusão e a curva AUC-ROC."
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Papers
 - Data Science
 - Ciência de Dados
-twitter_text: Papers de direcionamento em ciência de dados para ensinar na graduação
+twitter_text: "Papers para Ensino de Ciências de Dados na Graduação"
 introduction: Documentos que você deve ler para te direcionar caso queira ensinar ciências de dados na graduação.
 ---
 Se você trabalha em uma universidade e está pensando em começar um programa de graduação em ciência dos dados, a publicação de hoje é para você.

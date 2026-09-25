@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Árvores
-twitter_text: Árvores e Árvores Binárias em Python
+twitter_text: "Estruturas de Dados #6 - Árvores e Árvores Binárias"
 introduction: "Nesta parte da série, você vai conhecer as árvores - uma estrutura de dados hierárquica - e as árvores binárias, com suas três formas de percorrer os nós."
 ---
 

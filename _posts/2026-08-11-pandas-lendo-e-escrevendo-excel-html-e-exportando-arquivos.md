@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: Lendo e Escrevendo Excel, HTML e Exportando Arquivos
+twitter_text: "Pandas #17 - Lendo e Escrevendo Excel, HTML e Exportando Arquivos"
 introduction: "Nesta parte do tutorial, você vai aprender a ler arquivos Excel e HTML com o Pandas, e a exportar um DataFrame para CSV, JSON e Excel."
 ---
 

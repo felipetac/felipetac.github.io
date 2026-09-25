@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Condicionais
-twitter_text: Estruturas Condicionais em Python
+twitter_text: "Python #7 - Estruturas Condicionais"
 introduction: "Nesta parte do tutorial, você vai aprender a tomar decisões no seu código com if, elif, else e a nova estrutura match/case."
 ---
 

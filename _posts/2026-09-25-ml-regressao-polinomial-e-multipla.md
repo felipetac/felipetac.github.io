@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Regressão
-twitter_text: Regressão Polinomial e Múltipla em Python
+twitter_text: "Machine Learning #7 - Regressão Polinomial e Múltipla"
 introduction: "Nesta parte da série, você vai aprender regressão polinomial, pra quando os dados não seguem uma reta, e regressão múltipla, pra quando a previsão depende de mais de uma variável."
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Breve explicação sobre indexações no MongoDB.
+twitter_text: "MongoDB #18 - Indexação"
 introduction: Nesta parte do tutorial explico brevemente a criação de índices no MongoDB.
 ---
 

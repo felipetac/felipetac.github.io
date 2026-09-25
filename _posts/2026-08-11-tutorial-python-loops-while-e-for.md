@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Loops
-twitter_text: Loops - While e For
+twitter_text: "Python #8 - Loops: While e For"
 introduction: "Nesta parte do tutorial, você vai aprender a repetir código em Python usando os loops while e for, controlando a repetição com break, continue, else e range()."
 ---
 

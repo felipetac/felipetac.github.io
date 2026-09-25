@@ -9,7 +9,7 @@ tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Rápida exemplificação entre comandos SQL e comandos MongoDB. 
+twitter_text: Exemplo - SQL vs MongoDB
 introduction: Neste artigo exemplifico como seria alguns comandos SQL na linguagem de consulta do MongoDB.
 ---
 Supondo que temos uma coleção de usuarios na base mydb do MongoDB, ex:

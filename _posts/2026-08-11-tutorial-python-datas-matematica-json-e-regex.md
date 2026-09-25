@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - JSON
-twitter_text: Datas, Matemática, JSON e Regex
+twitter_text: "Python #23 - Datas, Matemática, JSON e Expressões Regulares"
 introduction: "Nesta parte do tutorial, você vai conhecer quatro módulos essenciais do Python: datetime, math, json e re (expressões regulares)."
 ---
 

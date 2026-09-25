@@ -10,7 +10,7 @@ tags:
 - Ciência de Dados
 - Data Science
 - Podcast
-twitter_text: 3 Podcasts da IBM sobre Machine Learning para conferir
+twitter_text: "3 Podcasts da IBM sobre Machine Learning para conferir"
 introduction: 3 Podcasts fornecidos pela IBM para escutar e refletir sobre Machine Learning.
 ---
 Segue 3 podcast sobre _Machine Learning_ que achei interessante no [site de Podcasts da IBM](https://www.acast.com/ibmanalyticsinsightspodcasts/). São eles:

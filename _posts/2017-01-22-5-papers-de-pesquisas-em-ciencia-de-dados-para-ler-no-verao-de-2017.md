@@ -9,7 +9,7 @@ tags:
 - Papers
 - Ciência de Dados
 - Data Science
-twitter_text: 5 Papers de pesquisas em Ciência de Dados para ler no verão de 2017
+twitter_text: "5 Papers de pesquisas em Ciência de Dados para ler no verão de 2017"
 introduction: 5 Documentos interessantes sobre ciência de dados que vale a pena ler.
 ---
 Segue abaixo 5 papers interessantes sobre ciência de dados listados no [Data Science 101](http://101.datascience.community/2017/06/01/5-datascience-research-papers-summer-2017/).

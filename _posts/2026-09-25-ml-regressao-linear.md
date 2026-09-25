@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Regressão
-twitter_text: Regressão Linear em Python
+twitter_text: "Machine Learning #6 - Regressão Linear"
 introduction: "Nesta parte da série, você vai aprender a traçar uma reta de regressão linear, medir a força dessa relação com o coeficiente r, e prever valores futuros."
 ---
 

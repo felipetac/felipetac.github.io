@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Exceções
-twitter_text: Exceções Personalizadas, Assertions e Logging
+twitter_text: "Python #20 - Exceções Personalizadas, Assertions e Logging"
 introduction: "Nesta parte do tutorial, você vai aprender a criar exceções personalizadas, usar assert e registrar eventos do seu programa com o módulo logging."
 ---
 

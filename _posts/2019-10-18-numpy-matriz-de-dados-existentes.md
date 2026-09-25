@@ -11,7 +11,7 @@ tags:
 - Python
 - Programação
 - Numpy
-twitter_text: Numpy - Matriz de dados existentes.
+twitter_text: "#6 - Matriz de dados existentes com Numpy"
 introduction: Neste capítulo, discutiremos como criar uma matriz a partir dos dados existentes.
 ---
 

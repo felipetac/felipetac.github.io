@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Estatística
-twitter_text: Desvio Padrão e Percentis em Python
+twitter_text: "Machine Learning #3 - Desvio Padrão e Percentis"
 introduction: "Nesta parte da série, você vai aprender a medir o quanto os dados estão espalhados com desvio padrão e variância, e a encontrar percentis com NumPy."
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Pré-processamento
-twitter_text: Dados Categóricos e Bagging em Python
+twitter_text: "Machine Learning #14 - Dados Categóricos e Bagging"
 introduction: "Nesta parte da série, você vai aprender a transformar colunas de texto em números com one hot encoding, e a combinar vários modelos com bagging."
 ---
 

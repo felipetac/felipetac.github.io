@@ -11,7 +11,7 @@ tags:
 - Python
 - Programação
 - Numpy
-twitter_text: Numpy - Indexação e Fatiamento.
+twitter_text: "#8 - Trabalhando com Indices e Fatiamento no NumPy"
 introduction: Neste capítulo, aprenderemos como trabalhar com índices e fatiamento de matrizes no NumPy.
 ---
 O conteúdo do objeto ndarray pode ser acessado e modificado por via da indexação ou fatiamento, do mesmo jeito que a linguagem Python acessa o conteúdo dos objetos por padrão.

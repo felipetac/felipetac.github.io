@@ -11,7 +11,7 @@ tags:
 - Python
 - Programação
 - Numpy
-twitter_text: Numpy - Matriz de intervalos numéricos.
+twitter_text: "#7 - Matriz de intervalos numéricos no NumPy"
 introduction: Neste capítulo, veremos como criar uma matriz a partir de intervalos numéricos.
 ---
 

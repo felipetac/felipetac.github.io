@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Matplotlib
-twitter_text: Mapas de Calor e Dados 2D com imshow, contour e pcolormesh
+twitter_text: "Matplotlib #10 - Mapas de Calor e Dados 2D com imshow, contour e pcolormesh"
 introduction: "Nesta parte do tutorial, você vai aprender a visualizar matrizes como mapas de calor com imshow(), curvas de nível com contour() e a controlar a escala de cores."
 ---
 

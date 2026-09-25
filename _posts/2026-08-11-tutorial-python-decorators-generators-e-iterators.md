@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Funções Avançadas
-twitter_text: Decorators, Generators e Iterators
+twitter_text: "Python #12 - Decorators, Generators e Iterators"
 introduction: "Nesta parte do tutorial, você vai conhecer três recursos mais avançados de funções em Python: decorators, generators e iterators."
 ---
 

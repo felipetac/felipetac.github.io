@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Funções
-twitter_text: Funções e Lambda
+twitter_text: "Python #9 - Funções e Lambda"
 introduction: "Nesta parte do tutorial, você vai aprender a criar funções em Python, lidar com diferentes tipos de argumentos, entender escopo de variáveis, usar lambda e recursão."
 ---
 

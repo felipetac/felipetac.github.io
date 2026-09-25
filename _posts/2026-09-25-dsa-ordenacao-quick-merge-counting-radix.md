@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Ordenação
-twitter_text: Ordenação II - Quick, Merge, Counting e Radix Sort
+twitter_text: "Estruturas de Dados #11 - Algoritmos de Ordenação II: Quick, Merge, Counting e Radix Sort"
 introduction: "Nesta parte da série, você vai conhecer quatro algoritmos de ordenação mais rápidos que os do post anterior - Quick Sort, Merge Sort, Counting Sort e Radix Sort."
 ---
 

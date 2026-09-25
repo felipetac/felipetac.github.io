@@ -11,7 +11,7 @@ tags:
 - Python
 - Programação
 - Numpy
-twitter_text: Numpy - Atributos da matriz.
+twitter_text: "#4 - Atributos da matriz no NumPy"
 introduction: Neste capítulo, discutiremos os vários atributos da matriz do NumPy.
 ---
 

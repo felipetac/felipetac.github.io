@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Orientação a Objetos
-twitter_text: Dataclasses e Namedtuples
+twitter_text: "Python #17 - Dataclasses e Namedtuples: Alternativas para Guardar Dados"
 introduction: "Nesta parte do tutorial, você vai aprender a usar @dataclass e namedtuple para criar classes que guardam dados com bem menos código repetitivo."
 ---
 

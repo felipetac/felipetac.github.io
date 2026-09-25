@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: "apply(), map() e pipe(): Aplicando Funções"
+twitter_text: "Pandas #10 - apply(), map() e pipe(): Aplicando Funções"
 introduction: "Nesta parte do tutorial, você vai aprender a aplicar funções personalizadas com apply(), map() e a encadear transformações com pipe()."
 ---
 

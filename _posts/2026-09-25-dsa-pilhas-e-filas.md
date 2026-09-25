@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Pilhas e Filas
-twitter_text: Pilhas e Filas em Python
+twitter_text: "Estruturas de Dados #3 - Pilhas e Filas"
 introduction: "Nesta parte da série, você vai aprender a implementar pilhas (LIFO) e filas (FIFO) em Python, e onde cada uma é usada na prática."
 ---
 

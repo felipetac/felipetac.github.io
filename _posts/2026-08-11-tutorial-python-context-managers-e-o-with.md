@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Context Managers
-twitter_text: Context Managers em Python
+twitter_text: "Python #19 - Context Managers: Controlando Recursos com with"
 introduction: "Nesta parte do tutorial, você vai entender o que o with faz por trás dos panos e vai aprender a criar seus próprios context managers."
 ---
 

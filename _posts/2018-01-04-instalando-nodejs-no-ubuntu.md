@@ -10,7 +10,7 @@ tags:
 - Ubuntu
 - NPM
 - Javascript
-twitter_text: "Instalando NodeJS no Ubuntu e configurando a instalação dos pacotes sem sudo"
+twitter_text: "Instalando NodeJS no Ubuntu"
 introduction: "Instalando NodeJS no Ubuntu e configurando a instalação dos pacotes sem sudo."
 ---
 

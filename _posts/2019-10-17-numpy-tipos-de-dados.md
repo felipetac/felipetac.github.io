@@ -11,7 +11,7 @@ tags:
 - Python
 - Programação
 - Numpy
-twitter_text: Numpy - Tipos de dados.
+twitter_text: "#3 - Tipos de dados no NumPy"
 introduction: Nesta parte do tutorial faço uma breve introdução aos tipos de dados no Numpy.
 ---
 

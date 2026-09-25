@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Distribuição
-twitter_text: Distribuição de Dados em Python
+twitter_text: "Machine Learning #4 - Distribuição de Dados"
 introduction: "Nesta parte da série, você vai aprender a gerar grandes conjuntos de dados aleatórios, visualizá-los com histogramas, e entender a distribuição normal."
 ---
 

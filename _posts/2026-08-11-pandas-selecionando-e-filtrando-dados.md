@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: Selecionando e Filtrando Dados com loc, iloc e Máscaras Booleanas
+twitter_text: "Pandas #2 - Selecionando e Filtrando Dados com loc, iloc e Máscaras Booleanas"
 introduction: "Nesta parte do tutorial, você vai aprender a selecionar linhas e colunas específicas de um DataFrame com .loc e .iloc, e a filtrar dados com máscaras booleanas."
 ---
 

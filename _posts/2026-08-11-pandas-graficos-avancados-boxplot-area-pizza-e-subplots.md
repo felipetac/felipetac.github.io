@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pandas #18 - Gráficos Avançados com Pandas: Boxplot, Área, Pizza e Subplots"
+title: "Pandas #18 - Gráficos Avançados: Boxplot, Área, Pizza e Subplots"
 date: 2026-08-11 18:25:00
 image: '/assets/img/posts/pandas-graficos-avancados-boxplot-area-pizza-e-subplots.webp'
 description: Como ir além do gráfico de linha e dispersão com plot(kind="box"), gráfico de área, pizza, múltiplos subplots de uma vez e barras/áreas empilhadas com stacked=True.
@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: "Gráficos Avançados com Pandas"
+twitter_text: "Pandas #18 - Gráficos Avançados: Boxplot, Área, Pizza e Subplots"
 introduction: "Nesta parte do tutorial, você vai aprender tipos de gráfico mais avançados do Pandas: boxplot, área, pizza, subplots e barras empilhadas."
 ---
 

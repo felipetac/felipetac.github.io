@@ -11,7 +11,7 @@ tags:
 - Python
 - Programação
 - Numpy
-twitter_text: Numpy - Objeto Ndarray.
+twitter_text: "#2 - O objeto Ndarray do NumPy"
 introduction: Nesta parte do tutorial faço uma breve introdução ao principal objeto do Numpy.
 ---
 

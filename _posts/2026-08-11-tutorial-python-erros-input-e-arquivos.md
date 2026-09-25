@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Exceções
-twitter_text: Tratamento de Erros, Input e Arquivos
+twitter_text: "Python #18 - Tratamento de Erros, Entrada do Usuário e Arquivos"
 introduction: "Nesta parte do tutorial, você vai aprender a tratar erros com try/except, capturar entrada do usuário e manipular arquivos em Python."
 ---
 

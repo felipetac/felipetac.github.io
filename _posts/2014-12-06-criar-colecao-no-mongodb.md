@@ -9,7 +9,7 @@ tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Rápida exemplificação de como criar coleções no MongoDB.
+twitter_text: "MongoDB #8 - Criando Coleção"
 introduction: Nesta parte do tutorial explico como criar coleções no MongoDB.
 ---
 

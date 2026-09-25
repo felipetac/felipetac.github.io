@@ -8,7 +8,7 @@ tags:
 - Github
 - Jekyll
 category: 'github'
-twitter_text: 'Como ter Domínio Próprio no Github Pages'
+twitter_text: "Como ter Domínio Próprio no Github Pages"
 introduction: "Um tutorial ensinando como colocar um domínio próprio no Github Pages personalizando seu Blog."
 ---
 

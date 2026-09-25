@@ -9,7 +9,7 @@ tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Introdução sobre o MongoDB.
+twitter_text: "MongoDB #1 - Visão Geral"
 introduction: Nesta parte do tutorial faço uma breve introdução sobre o MongoDB.
 ---
 ## O que é MongoDB

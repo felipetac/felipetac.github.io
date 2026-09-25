@@ -11,7 +11,7 @@ tags:
 - Python
 - Programação
 - Numpy
-twitter_text: Numpy - Introdução.
+twitter_text: "#1 - Introdução ao NumPy"
 introduction: Nesta parte do tutorial faço uma breve introdução sobre o pacote Numpy.
 ---
 

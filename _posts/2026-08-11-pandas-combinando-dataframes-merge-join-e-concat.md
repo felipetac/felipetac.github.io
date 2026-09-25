@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: Combinando DataFrames com merge, join e concat
+twitter_text: "Pandas #16 - Combinando DataFrames: merge, join e concat"
 introduction: "Nesta parte do tutorial, você vai aprender a combinar DataFrames diferentes com merge(), join() e concat()."
 ---
 

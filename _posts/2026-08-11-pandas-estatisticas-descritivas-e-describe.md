@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: Estatísticas Descritivas e describe()
+twitter_text: "Pandas #7 - Estatísticas Descritivas e describe()"
 introduction: "Nesta parte do tutorial, você vai aprender a resumir dados numéricos e categóricos com describe(), value_counts(), unique(), nunique(), idxmax() e idxmin()."
 ---
 

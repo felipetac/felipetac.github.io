@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Busca
-twitter_text: Algoritmos de Busca - Linear e Binária
+twitter_text: "Estruturas de Dados #9 - Algoritmos de Busca: Linear e Binária"
 introduction: "Nesta parte da série, você vai aprender dois algoritmos de busca - linear e binária - e entender por que a binária é tão mais rápida quando a lista está ordenada."
 ---
 

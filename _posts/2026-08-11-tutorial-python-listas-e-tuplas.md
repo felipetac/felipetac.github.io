@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Listas
-twitter_text: Listas e Tuplas em Python
+twitter_text: "Python #5 - Listas e Tuplas"
 introduction: "Nesta parte do tutorial, você vai aprender a trabalhar com listas e tuplas, duas das estruturas de dados mais usadas em Python."
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Python
 - Pyenv
 - Ubuntu
-twitter_text: Gerenciando versões Python com Pyenv no Ubuntu
+twitter_text: "Gerenciando versões Python com Pyenv no Ubuntu"
 introduction: Demonstração de como gerenciar versões Python em um mesmo ambiente Ubuntu utilizando Pyenv.
 ---
 O _pyenv_ é um gerenciador de versões do _Python_. Ele permite que se instale e gerencie várias versões do _Python_ usando a conta de usuário normal e permite manter várias versões isoladas umas das outras.

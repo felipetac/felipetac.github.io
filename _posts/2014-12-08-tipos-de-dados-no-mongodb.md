@@ -9,7 +9,7 @@ tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Apresentação dos tipos de dados existentes no MongoDB.
+twitter_text: "MongoDB #10 - Tipos de Dados"
 introduction: Nesta parte do tutorial explico quais são so tipos de dados suportados no MongoDB.
 ---
 MongoDB suporta vários tipos de dados, cuja lista é dada abaixo:

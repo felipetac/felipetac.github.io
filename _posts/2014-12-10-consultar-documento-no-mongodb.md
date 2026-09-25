@@ -9,7 +9,7 @@ tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Rápida exemplificação de como efetuar consultas no MongoDB.
+twitter_text: "MongoDB #12 - Consultando Documento"
 introduction: Nesta parte do tutorial explico como efetuar consultas nas coleções no MongoDB.
 ---
 ## O método ```find()```

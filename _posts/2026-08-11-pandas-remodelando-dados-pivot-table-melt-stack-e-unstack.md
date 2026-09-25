@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: "Remodelando Dados: pivot_table(), melt() e stack()/unstack()"
+twitter_text: "Pandas #14 - Remodelando Dados: pivot_table(), melt() e stack()/unstack()"
 introduction: "Nesta parte do tutorial, você vai aprender a remodelar DataFrames com pivot(), pivot_table(), melt(), stack(), unstack() e get_dummies()."
 ---
 

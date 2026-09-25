@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: Dados Ausentes - isna(), ffill(), bfill() e interpolate()
+twitter_text: "Pandas #5 - Dados Ausentes: isna(), ffill(), bfill() e interpolate()"
 introduction: "Nesta parte do tutorial, você vai aprofundar no tratamento de dados ausentes no Pandas, com isna(), notna(), ffill(), bfill() e interpolate()."
 ---
 

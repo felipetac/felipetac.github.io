@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Matplotlib
-twitter_text: Subplots Avançados - GridSpec, subplot2grid e Eixos Compartilhados
+twitter_text: "Matplotlib #5 - Subplots Avançados: GridSpec, subplot2grid e Eixos Compartilhados"
 introduction: "Nesta parte do tutorial, você vai aprender a criar layouts de subplot irregulares com GridSpec e subplot2grid, e a sincronizar eixos com sharex e sharey."
 ---
 

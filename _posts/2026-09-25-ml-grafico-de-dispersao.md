@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Dispersão
-twitter_text: Gráfico de Dispersão em Python
+twitter_text: "Machine Learning #5 - Gráfico de Dispersão"
 introduction: "Nesta parte da série, você vai aprender a desenhar e interpretar um gráfico de dispersão (scatter plot), o primeiro passo pra enxergar relações entre duas variáveis."
 ---
 

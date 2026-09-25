@@ -9,7 +9,7 @@ tags:
 - SSL
 - Https
 category: 'github'
-twitter_text: "Tenha https no seu domínio próprio dentro do Github Pages"
+twitter_text: "HTTPS no Github Pages com Custom Domain"
 introduction: "Aprenda a colocar a sua página do Github Pages com Custom Domain e HTTPS."
 ---
 

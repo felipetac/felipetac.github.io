@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pandas #11 - Trabalhando com Texto e Dados Categóricos no Pandas"
+title: "Pandas #11 - Trabalhando com Texto e Dados Categóricos"
 date: 2026-08-11 17:50:00
 image: '/assets/img/posts/pandas-texto-e-dados-categoricos.webp'
 description: Como manipular texto com o acessor .str do Pandas e usar dados categóricos com astype('category') para economizar memória.
@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: Trabalhando com Texto e Dados Categóricos no Pandas
+twitter_text: "Pandas #11 - Trabalhando com Texto e Dados Categóricos"
 introduction: "Nesta parte do tutorial, você vai aprender a manipular texto com o acessor .str e a trabalhar com dados categóricos no Pandas."
 ---
 

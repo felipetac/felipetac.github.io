@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Módulos
-twitter_text: Módulos, PIP e Ambientes Virtuais
+twitter_text: "Python #21 - Módulos, PIP e Ambientes Virtuais"
 introduction: "Nesta parte do tutorial, você vai aprender a organizar código em módulos, instalar pacotes com o PIP e isolar dependências com ambientes virtuais."
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Estatística
-twitter_text: Média, Mediana e Moda em Python
+twitter_text: "Machine Learning #2 - Média, Mediana e Moda"
 introduction: "Nesta parte da série, você vai aprender a calcular média, mediana e moda de um conjunto de dados usando NumPy e SciPy."
 ---
 

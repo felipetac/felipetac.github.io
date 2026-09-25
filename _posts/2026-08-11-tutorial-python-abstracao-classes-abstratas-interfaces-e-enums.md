@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Orientação a Objetos
-twitter_text: Abstração com Classes Abstratas, Interfaces e Enums
+twitter_text: "Python #15 - Abstração com Classes Abstratas, Interfaces e Enums"
 introduction: "Nesta parte do tutorial, você vai aprender sobre abstração em Python usando classes abstratas, interfaces informais e a classe Enum."
 ---
 

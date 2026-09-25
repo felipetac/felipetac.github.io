@@ -9,7 +9,7 @@ tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Processo de instalação do MongoDB no Ubuntu.
+twitter_text: "MongoDB #3 - Instalação no Ubuntu"
 introduction: Nesta parte do tutorial explico como instalar o MongoDB no Ubuntu Linux.
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Funções Avançadas
-twitter_text: Funções de Alta Ordem e Closures
+twitter_text: "Python #11 - Funções de Alta Ordem e Closures"
 introduction: "Nesta parte do tutorial, você vai aprender que funções em Python são valores como qualquer outro, conhecer map(), filter() e reduce(), e entender o que são closures."
 ---
 

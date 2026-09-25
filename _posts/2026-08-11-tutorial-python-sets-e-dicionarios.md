@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Dicionários
-twitter_text: Sets e Dicionários em Python
+twitter_text: "Python #6 - Sets e Dicionários"
 introduction: "Nesta parte do tutorial, você vai aprender a trabalhar com sets e dicionários, fechando o conjunto de estruturas de dados nativas do Python."
 ---
 

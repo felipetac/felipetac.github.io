@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Árvores de Busca
-twitter_text: Árvores de Busca Binária e AVL em Python
+twitter_text: "Estruturas de Dados #7 - Árvores de Busca Binária e AVL"
 introduction: "Nesta parte da série, você vai aprender como funciona uma Árvore de Busca Binária (BST), e como as árvores AVL se autobalanceiam pra manter buscas rápidas."
 ---
 

@@ -10,7 +10,7 @@ tags:
 - Pyenv
 - Virtualenv
 - Ubuntu
-twitter_text: Ambientes Virtuais em Python com Pyenv-virtualenv no Ubuntu
+twitter_text: "Ambientes Virtuais em Python com Pyenv-virtualenv no Ubuntu"
 introduction: Demonstração de como criar ambientes virtuais em Python com o plugin virtualenv do Pyenv no Ubuntu.
 ---
 Quero criar um ambiente virtual com a versão do Python 2.7.6 e um outro com a versão 3.6.2. E ai, como faço? É ai que entra o _pyenv_ + _pyenv-virtualenv_, pois com o _pyenv_ conseguimos instalar facilmente versões diferentes do _python_ na mesma máquina e alternar entre elas apenas com um simples comando. Já o _pyenv-virtualenv_ é um plugin do pyenv que nos permite criar ambientes isolados escolhendo a versão do _Python_ antes de criá-los.Chique né e como começar?

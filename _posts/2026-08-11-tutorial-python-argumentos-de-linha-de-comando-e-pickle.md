@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Scripts
-twitter_text: Argumentos de Linha de Comando e Pickle
+twitter_text: "Python #22 - Argumentos de Linha de Comando e Serialização com Pickle"
 introduction: "Nesta parte do tutorial, você vai aprender a receber argumentos na linha de comando e a salvar objetos Python em disco com o módulo pickle."
 ---
 

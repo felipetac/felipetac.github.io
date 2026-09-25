@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Regressão
-twitter_text: Regressão Logística em Python
+twitter_text: "Machine Learning #12 - Regressão Logística"
 introduction: "Nesta parte da série, você vai aprender a usar regressão logística pra prever resultados categóricos, e a interpretar coeficiente, odds e probabilidade."
 ---
 

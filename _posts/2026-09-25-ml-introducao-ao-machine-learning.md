@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning #1 - Introdução ao Machine Learning"
+title: "Machine Learning #1 - Introdução"
 date: 2026-09-25 11:40:00
 image: '/assets/img/posts/ml-introducao-ao-machine-learning.webp'
 description: O que é Machine Learning, o que é um dataset, e os três tipos de dados (numéricos, categóricos e ordinais) que você precisa saber reconhecer antes de analisar qualquer conjunto de dados.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Introdução
-twitter_text: Introdução ao Machine Learning
+twitter_text: "Machine Learning #1 - Introdução"
 introduction: "Nesta parte da série, você vai entender o que é Machine Learning, o que é um dataset, e os três tipos de dados que aparecem em qualquer análise."
 ---
 

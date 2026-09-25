@@ -11,7 +11,7 @@ tags:
 - Data Science
 - Dados Abertos
 - Open Source
-twitter_text: "#Podcast - Data Science e Política na Operação Serenata de Amor"
+twitter_text: "Data Science e Política na Operação Serenata de Amor"
 introduction: Podcast do Hipsters.tech com os colaboradores do projeto "Operação Serenata de Amor" que utilizam ciência de dados e dados abertos do governo.
 ---
 

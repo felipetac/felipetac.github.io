@@ -9,7 +9,7 @@ tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Primeiras instruções de como usar o MongoDB.
+twitter_text: "MongoDB #4 - Primeiros Passos"
 introduction: Primeiras instruções de como usar o MongoDB.
 ---
 Este tutorial fornecerá uma introdução das operações básicas para usar o shell do MongoDB. O shell é parte padrão da distribuição do MongoDB e fornece uma completa interface JavaScript com acesso completo a linguagem JavaScript além de todas as funções padrões para melhor interfacear o MongoBD.

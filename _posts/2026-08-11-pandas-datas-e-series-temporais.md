@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pandas #12 - Datas e Séries Temporais no Pandas"
+title: "Pandas #12 - Datas e Séries Temporais"
 date: 2026-08-11 17:55:00
 image: '/assets/img/posts/pandas-datas-e-series-temporais.webp'
 description: Como gerar datas com date_range(), usar datas como índice de um DataFrame, extrair ano e mês com o acessor .dt e reamostrar séries com resample().
@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: Datas e Séries Temporais no Pandas
+twitter_text: "Pandas #12 - Datas e Séries Temporais"
 introduction: "Nesta parte do tutorial, você vai aprender a trabalhar com datas no Pandas: date_range(), índice temporal, o acessor .dt e resample()."
 ---
 

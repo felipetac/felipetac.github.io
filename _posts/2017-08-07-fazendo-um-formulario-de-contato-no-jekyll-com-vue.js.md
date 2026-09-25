@@ -9,7 +9,7 @@ tags:
 - VueJS
 - Jekyll
 - Blog
-twitter_text: Um formulário de contato para o Jekyll fazendo a validação com Vue.js
+twitter_text: "Fazendo um formulário de Contato no Jekyll com Vue.js"
 introduction: Nesse tutorial explico como fazer o formulário que uso aqui no blog com o Vue.js para a validação dos dados.
 ---
 

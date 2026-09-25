@@ -9,7 +9,7 @@ tags:
 - Ciência de Dados
 - Data Science
 - Livros
-twitter_text: Livros gratuitos online para Ciência de Dados
+twitter_text: "Livros gratuitos online para Ciência de Dados"
 introduction: Lista de links de livros gratuitos online sobre Ciência de Dados.
 ---
 Esta é apenas uma pequena lista de alguns livros descobertos na web:

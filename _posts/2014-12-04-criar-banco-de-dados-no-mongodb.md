@@ -9,7 +9,7 @@ tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Criando banco de dados no MongoDB.
+twitter_text: "MongoDB #6 - Criando Banco de Dados"
 introduction: Nesta parte do tutorial explico como criar um banco de dados no MongoDB.
 ---
 ## O comando ```use```

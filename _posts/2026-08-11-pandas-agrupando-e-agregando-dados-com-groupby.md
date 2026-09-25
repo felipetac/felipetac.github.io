@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: Agrupando e Agregando Dados com groupby()
+twitter_text: "Pandas #13 - Agrupando e Agregando Dados com groupby()"
 introduction: "Nesta parte do tutorial, você vai aprender a agrupar dados por categoria e calcular agregações com groupby() e agg()."
 ---
 

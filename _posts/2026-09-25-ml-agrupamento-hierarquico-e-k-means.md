@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Clustering
-twitter_text: Agrupamento - Hierárquico e K-Means em Python
+twitter_text: "Machine Learning #11 - Agrupamento: Hierárquico e K-Means"
 introduction: "Nesta parte da série, você vai aprender duas técnicas de agrupamento sem rótulos: clustering hierárquico e K-Means."
 ---
 

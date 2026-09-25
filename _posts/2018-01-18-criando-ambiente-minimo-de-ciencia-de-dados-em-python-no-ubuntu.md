@@ -13,7 +13,7 @@ tags:
 - Ciência de Dados
 - Data Science
 - Ubuntu
-twitter_text: Montando ambiente mínimo de ciência de dados em Python utilizando Anaconda
+twitter_text: "Criando ambiente mínimo de ciência de dados em Python no Ubuntu"
 introduction: Montando um ambinente mínimo de ciência de dados em Python e Jupyter Notebook utilizando Anaconda.
 ---
 

@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: Funções Cumulativas, rank() e Janelas Móveis
+twitter_text: "Pandas #8 - Funções Cumulativas, rank() e Janelas Móveis"
 introduction: "Nesta parte do tutorial, você vai aprender funções cumulativas, rank(), pct_change(), cov() e médias móveis com rolling()."
 ---
 

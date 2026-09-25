@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Pré-processamento
-twitter_text: Escala de Dados e Treino/Teste em Python
+twitter_text: "Machine Learning #8 - Escala de Dados e Divisão Treino/Teste"
 introduction: "Nesta parte da série, você vai aprender a padronizar dados em escalas diferentes, e a dividir um dataset em treino e teste pra avaliar seu modelo de verdade."
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Listas Encadeadas
-twitter_text: Listas Encadeadas em Python
+twitter_text: "Estruturas de Dados #4 - Listas Encadeadas"
 introduction: "Nesta parte da série, você vai aprender o que são listas encadeadas, como implementá-las em Python, e como elas se comparam a arrays."
 ---
 

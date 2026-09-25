@@ -8,7 +8,7 @@ category: 'ciência de dados'
 tags:
 - Ciência de Dados
 - Data Science
-twitter_text: Construindo Habilidades em Ciência de Dados na Graduação
+twitter_text: "Construindo habilidades em Ciência de Dados na graduação"
 introduction: Pequenas dicas de como direcionar sua abordagem de estudos para Ciência de Dados já na graduação.
 ---
 

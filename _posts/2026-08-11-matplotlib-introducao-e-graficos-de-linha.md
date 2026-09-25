@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Matplotlib #1 - Introdução ao Matplotlib e Gráficos de Linha"
+title: "Matplotlib #1 - Introdução e Gráficos de Linha"
 date: 2026-08-11 19:40:00
 image: '/assets/img/posts/matplotlib-introducao-e-graficos-de-linha.webp'
 description: Introdução ao Matplotlib e ao módulo pyplot, cobrindo gráficos de linha, marcadores, personalização visual, rótulos, grade e múltiplos gráficos na mesma figura.
@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Matplotlib
-twitter_text: Introdução ao Matplotlib e Gráficos de Linha
+twitter_text: "Matplotlib #1 - Introdução e Gráficos de Linha"
 introduction: "Nesta parte do tutorial, você vai conhecer o Matplotlib, o módulo pyplot e como desenhar e personalizar gráficos de linha."
 ---
 

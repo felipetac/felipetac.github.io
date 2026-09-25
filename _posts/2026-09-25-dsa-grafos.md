@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Grafos
-twitter_text: Grafos em Python
+twitter_text: "Estruturas de Dados #8 - Grafos"
 introduction: "Nesta parte da série, você vai conhecer os grafos - uma estrutura de dados não linear - e duas formas de representá-los em Python."
 ---
 

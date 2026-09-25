@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Hash Tables
-twitter_text: Tabelas Hash em Python
+twitter_text: "Estruturas de Dados #5 - Tabelas Hash"
 introduction: "Nesta parte da série, você vai aprender a construir uma tabela hash do zero em Python, e como ela consegue buscar dados muito mais rápido que uma lista."
 ---
 

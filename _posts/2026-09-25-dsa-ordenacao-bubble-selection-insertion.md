@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Ordenação
-twitter_text: Ordenação I - Bubble, Selection e Insertion Sort
+twitter_text: "Estruturas de Dados #10 - Algoritmos de Ordenação I: Bubble, Selection e Insertion Sort"
 introduction: "Nesta parte da série, você vai aprender três algoritmos clássicos de ordenação - Bubble Sort, Selection Sort e Insertion Sort - e como otimizar cada um."
 ---
 

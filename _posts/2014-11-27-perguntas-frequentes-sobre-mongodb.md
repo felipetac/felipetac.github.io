@@ -9,7 +9,7 @@ tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Perguntas e Respostas sobre MongoDB.
+twitter_text: "MongoDB #2 - Perguntas Frequentes"
 introduction: Perguntas e Respostas sobre MongoDB.
 ---
 

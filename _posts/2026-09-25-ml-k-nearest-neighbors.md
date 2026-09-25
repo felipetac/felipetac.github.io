@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - KNN
-twitter_text: K-Nearest Neighbors (KNN) em Python
+twitter_text: "Machine Learning #15 - K-Nearest Neighbors (KNN)"
 introduction: "Nesta parte da série, você vai aprender o algoritmo K-Nearest Neighbors (KNN), e como o valor de K muda a classificação de um ponto novo."
 ---
 

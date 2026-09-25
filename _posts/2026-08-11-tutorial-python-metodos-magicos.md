@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Métodos Mágicos
-twitter_text: Métodos Mágicos (Dunder Methods) em Python
+twitter_text: "Python #16 - Métodos Mágicos (Dunder Methods)"
 introduction: "Nesta parte do tutorial, você vai conhecer os métodos mágicos (dunder methods) do Python — funções especiais que o interpretador chama automaticamente por trás dos panos, como __str__, __eq__ e __call__."
 ---
 

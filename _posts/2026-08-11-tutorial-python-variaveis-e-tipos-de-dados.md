@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Variáveis
-twitter_text: Variáveis e Tipos de Dados em Python
+twitter_text: "Python #2 - Variáveis e Tipos de Dados"
 introduction: "Nesta parte do tutorial, você vai aprender a criar variáveis, conhecer os tipos de dados nativos do Python e como converter entre eles."
 ---
 

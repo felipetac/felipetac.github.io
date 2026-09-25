@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Orientação a Objetos
-twitter_text: Class Methods, Static Methods e Herança Múltipla
+twitter_text: "Python #14 - Class Methods, Static Methods e Herança Múltipla"
 introduction: "Nesta parte do tutorial, você vai aprender a diferença entre métodos de instância, class methods e static methods, e como funciona herança múltipla em Python."
 ---
 

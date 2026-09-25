@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Funções
-twitter_text: Argumentos Avançados e Type Hints
+twitter_text: "Python #10 - Argumentos Avançados e Type Hints"
 introduction: "Nesta parte do tutorial, você vai aprender a controlar como os argumentos de uma função podem ser passados, e a documentar os tipos esperados com type hints."
 ---
 

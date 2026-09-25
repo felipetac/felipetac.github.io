@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Validação de Modelos
-twitter_text: Validação Cruzada e Grid Search em Python
+twitter_text: "Machine Learning #13 - Validação Cruzada e Grid Search"
 introduction: "Nesta parte da série, você vai aprender técnicas de validação cruzada e como usar grid search pra ajustar os hiperparâmetros de um modelo."
 ---
 

@@ -9,7 +9,7 @@ tags:
 - Big Data
 - Podcast
 - Open Data
-twitter_text: "#Podcast - Small Data, Big Data, Open Data"
+twitter_text: "Small Data, Big Data, Open Data"
 introduction: Podcast do Hipsters.tech onde eles relatam experiências em Big Data de forma bem aberta e descontraída.
 ---
 <iframe class="podcast" src="https://hipsters.tech/?powerpress_embed=871-podcast&amp;powerpress_player=mediaelement-audio" frameborder="0" scrolling="no"></iframe>

@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: Operações Aritméticas em Series e DataFrames
+twitter_text: "Pandas #3 - Operações Aritméticas em Series e DataFrames"
 introduction: "Nesta parte do tutorial, você vai aprender a fazer contas com Series e DataFrames, incluindo o alinhamento automático pelo índice e o parâmetro fill_value."
 ---
 

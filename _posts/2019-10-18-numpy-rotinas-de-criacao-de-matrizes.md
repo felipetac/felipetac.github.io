@@ -11,7 +11,7 @@ tags:
 - Python
 - Programação
 - Numpy
-twitter_text: Numpy - Rotinas para criação de matrizes.
+twitter_text: "#5 - Rotinas para criação de matrizes com o NumPy"
 introduction: Introdução sobre as funções no NumPy para criação de matrizes.
 ---
 

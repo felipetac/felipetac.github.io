@@ -9,7 +9,7 @@ tags:
 - Desenvolvimento
 - Typescript
 - Programação
-twitter_text: Rápida exemplificação sobre desenvolvimento em Typescript
+twitter_text: "Typescript em 5 minutos"
 introduction: Rápida exemplificação sobre desenvolvimento em Typescript.
 ---
 Vamos começar criando um aplicativo web simples com o TypeScript.

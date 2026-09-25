@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Arrays
-twitter_text: Arrays e Listas em Python
+twitter_text: "Estruturas de Dados #2 - Arrays e Listas"
 introduction: "Nesta parte da série, você vai ver como a lista do Python funciona como um array dinâmico, os métodos prontos que ela já traz, e como criar seu próprio algoritmo em cima dela."
 ---
 

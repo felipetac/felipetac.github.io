@@ -9,7 +9,7 @@ tags:
 - Banco de dados
 - MongoDB
 - NoSQL
-twitter_text: Modelando Dados no MongoDB.
+twitter_text: "MongoDB #5 - Modelando Dados"
 introduction: Nesta parte do tutorial dou dicas de como modelar dados no MongoDB.
 ---
 Dados no MongoDB tem documentos de esquemas flexíveis em uma mesma coleção. Isso quer dizer que não há necessidade ter o mesmo conjunto de campos ou estrutura e campos comuns. Documentos de uma coleção podem conter diferentes tipos de dados.

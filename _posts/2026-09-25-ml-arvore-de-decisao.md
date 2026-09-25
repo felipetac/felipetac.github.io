@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Árvore de Decisão
-twitter_text: Árvore de Decisão em Python
+twitter_text: "Machine Learning #9 - Árvore de Decisão"
 introduction: "Nesta parte da série, você vai aprender a criar e interpretar uma árvore de decisão em Python, e como o algoritmo decide onde dividir os dados."
 ---
 

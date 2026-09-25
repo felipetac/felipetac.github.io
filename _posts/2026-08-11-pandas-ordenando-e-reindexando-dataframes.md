@@ -10,7 +10,7 @@ tags:
 - Python
 - Programação
 - Pandas
-twitter_text: Ordenando e Reindexando DataFrames
+twitter_text: "Pandas #6 - Ordenando e Reindexando DataFrames"
 introduction: "Nesta parte do tutorial, você vai aprender a ordenar DataFrames com sort_values() e sort_index(), e a reindexar dados com reindex()."
 ---
 
