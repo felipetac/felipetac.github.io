@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "#9 - Boxplot, Violin Plot e Barras de Erro no Matplotlib"
-date: 2026-08-11 19:40:00
+date: 2026-08-11 22:20:00
 image: '/assets/img/posts/matplotlib-boxplot-violin-plot-e-barras-de-erro.webp'
 description: Como visualizar a distribuição estatística de uma variável com boxplot() e violinplot(), e como representar incerteza com barras de erro usando errorbar().
 category: 'ciência de dados'

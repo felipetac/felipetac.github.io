@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "#6 - Legendas, Eixos Duplos e Escalas no Matplotlib"
-date: 2026-08-11 18:40:00
+date: 2026-08-11 21:20:00
 image: '/assets/img/posts/matplotlib-legendas-eixos-e-escalas.webp'
 description: Como adicionar e posicionar legendas com legend(), criar eixos duplos com twinx(), usar escala logarítmica e personalizar ticks no Matplotlib.
 category: 'ciência de dados'
