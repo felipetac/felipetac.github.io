@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#7 - Salvando Figuras e Gráficos 3D no Matplotlib"
-date: 2026-08-11 19:00:00
+title: "#11 - Salvando Figuras e Gráficos 3D no Matplotlib"
+date: 2026-08-11 20:20:00
 image: '/assets/img/posts/matplotlib-salvando-figuras-e-graficos-3d.webp'
 description: Como exportar gráficos para arquivo com savefig() controlando resolução e formato, e como plotar em três dimensões com o módulo mplot3d.
 category: 'ciência de dados'
@@ -125,6 +125,6 @@ O `ax.scatter()` 3D aceita os mesmos parâmetros de cor e colormap do `plt.scatt
 
 > **Nota:** gráficos 3D do Matplotlib são ótimos pra explorar dados interativamente num notebook Jupyter (onde dá pra girar o gráfico com o mouse), mas exportados como imagem estática eles mostram só um ângulo fixo — vale escolher o ângulo de visualização com `ax.view_init(elev=..., azim=...)` antes de salvar, pra garantir que o ponto mais importante do gráfico fique visível.
 
-Com `savefig()` e o módulo `mplot3d`, encerramos esta segunda leva sobre Matplotlib: interface orientada a objetos, legendas e escalas, estilos e anotações, gráficos estatísticos e, agora, exportação e três dimensões. Entre Pandas e Matplotlib, a série já cobre o ciclo quase completo de uma análise de dados em Python — do carregamento bruto até um gráfico pronto pra apresentar.
+Com `savefig()` e o módulo `mplot3d`, encerramos esta segunda leva sobre Matplotlib: mais tipos de gráfico, interface orientada a objetos, subplots avançados, legendas e escalas, estilos, texto matemático e anotações, gráficos estatísticos, mapas de calor e, agora, exportação e três dimensões. Entre Pandas e Matplotlib, a série já cobre o ciclo quase completo de uma análise de dados em Python — do carregamento bruto até um gráfico pronto pra apresentar.
 
 **Fonte adaptada:** [Matplotlib - Saving Figures](https://www.tutorialspoint.com/matplotlib/matplotlib_saving_figures.htm), [Matplotlib - 3D Plotting](https://www.tutorialspoint.com/matplotlib/matplotlib_3d_plotting.htm)

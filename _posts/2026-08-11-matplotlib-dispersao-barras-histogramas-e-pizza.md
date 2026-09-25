@@ -210,6 +210,6 @@ plt.show()
 
 `shadow=True` adiciona uma sombra por baixo do gráfico, dando uma sensação de profundidade. `colors` define a cor de cada fatia manualmente, na mesma ordem dos valores. E `plt.legend()` desenha uma legenda ao lado do gráfico, com um título opcional, associando cada cor ao nome da categoria correspondente — bem útil quando os rótulos já não cabem direto ao lado das fatias.
 
-Com dispersão, barras, histograma e pizza no repertório, você já tem os tipos de gráfico mais usados no dia a dia de qualquer análise exploratória de dados.
+Com dispersão, barras, histograma e pizza no repertório, você já tem os tipos de gráfico mais usados no dia a dia de qualquer análise exploratória de dados. No próximo post, mais dois tipos de gráfico que fecham o repertório de visualizações "clássicas": preenchimento de área e gráficos em degraus.
 
 **Fonte adaptada:** [Matplotlib Scatter](https://www.w3schools.com/python/matplotlib_scatter.asp), [Matplotlib Bars](https://www.w3schools.com/python/matplotlib_bars.asp), [Matplotlib Histograms](https://www.w3schools.com/python/matplotlib_histograms.asp), [Matplotlib Pie Charts](https://www.w3schools.com/python/matplotlib_pie_charts.asp)

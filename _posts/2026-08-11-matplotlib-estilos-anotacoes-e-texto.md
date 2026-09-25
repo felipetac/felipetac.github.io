@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#5 - Estilos, Anotações e Texto no Matplotlib"
-date: 2026-08-11 18:20:00
+title: "#7 - Estilos, Anotações e Texto no Matplotlib"
+date: 2026-08-11 19:00:00
 image: '/assets/img/posts/matplotlib-estilos-anotacoes-e-texto.webp'
 description: Como aplicar estilos prontos com plt.style.use(), adicionar texto livre com plt.text() e apontar para pontos de um gráfico com plt.annotate().
 category: 'ciência de dados'
@@ -14,7 +14,7 @@ twitter_text: Estilos, Anotações e Texto no Matplotlib
 introduction: "Nesta parte do tutorial, você vai aprender a aplicar estilos prontos e a adicionar texto e anotações a um gráfico do Matplotlib."
 ---
 
-Os últimos dois posts trataram de controle e estrutura — `Figure`, `Axes`, legendas, escalas. Este post é sobre a camada mais visual: como dar uma cara diferente a um gráfico inteiro com um estilo pronto, e como chamar atenção pra um ponto específico dos dados com texto e anotações.
+Os últimos posts trataram de estrutura e controle — `Figure`, `Axes`, layouts de subplots, legendas, escalas. Este post é sobre a camada mais visual: como dar uma cara diferente a um gráfico inteiro com um estilo pronto, e como chamar atenção pra um ponto específico dos dados com texto e anotações.
 
 ## Estilos prontos com plt.style.use()
 
@@ -127,6 +127,6 @@ plt.show()
 
 Esse padrão — percorrer os dados com um `for` e anotar só os pontos que atendem a uma condição — é comum pra destacar automaticamente outliers ou valores acima de um limite, sem precisar identificar as coordenadas manualmente. O parâmetro `ha` (_horizontal alignment_) centraliza o texto em relação ao ponto.
 
-Com estilos prontos, texto livre e anotações, um gráfico deixa de ser só um desenho de dados e passa a contar uma história com contexto embutido. O próximo post da série é sobre um tipo diferente de gráfico: os que resumem a distribuição estatística de uma variável, como boxplot, violin plot e barras de erro.
+Com estilos prontos, texto livre e anotações, um gráfico deixa de ser só um desenho de dados e passa a contar uma história com contexto embutido. O próximo post ainda fica na camada de personalização — texto matemático, configurações globais com rcParams e um novo sistema de coordenadas, os gráficos polares. Depois disso, a série muda de rumo para gráficos que resumem a distribuição estatística de uma variável, como boxplot, violin plot e barras de erro.
 
 **Fonte adaptada:** [Matplotlib - Styles](https://www.tutorialspoint.com/matplotlib/matplotlib_styles.htm), [Matplotlib - Working With Text](https://www.tutorialspoint.com/matplotlib/matplotlib_working_with_text.htm), [Matplotlib - Annotations](https://www.tutorialspoint.com/matplotlib/matplotlib_annotations.htm)

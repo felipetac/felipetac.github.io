@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#6 - Boxplot, Violin Plot e Barras de Erro no Matplotlib"
-date: 2026-08-11 18:40:00
+title: "#9 - Boxplot, Violin Plot e Barras de Erro no Matplotlib"
+date: 2026-08-11 19:40:00
 image: '/assets/img/posts/matplotlib-boxplot-violin-plot-e-barras-de-erro.webp'
 description: Como visualizar a distribuição estatística de uma variável com boxplot() e violinplot(), e como representar incerteza com barras de erro usando errorbar().
 category: 'ciência de dados'
@@ -122,6 +122,6 @@ plt.show()
 
 `ecolor` controla a cor específica das barras de erro, independente da cor dos marcadores — útil pra deixar a barra mais discreta que o ponto central, ou vice-versa.
 
-Boxplot, violin plot e barras de erro completam o repertório de gráficos voltados pra estatística descritiva. Fechando esta leva de posts sobre Matplotlib, o próximo (e último, por enquanto) trata de dois temas mais práticos: como salvar figuras em arquivo e como plotar em três dimensões.
+Boxplot, violin plot e barras de erro completam o repertório de gráficos voltados pra estatística descritiva. O próximo post explora mais um tipo de visualização — mapas de calor e dados bidimensionais com imshow, contour e pcolormesh — antes de fechar esta leva de posts sobre Matplotlib com um tema mais prático: como salvar figuras em arquivo e como plotar em três dimensões.
 
 **Fonte adaptada:** [Matplotlib - Box Plot](https://www.tutorialspoint.com/matplotlib/matplotlib_box_plot.htm), [Matplotlib - Violin Plot](https://www.tutorialspoint.com/matplotlib/matplotlib_violin_plot.htm), [Matplotlib - Errorbar](https://www.tutorialspoint.com/matplotlib/matplotlib_errorbar.htm)

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#3 - Interface Orientada a Objetos do Matplotlib: Figure e Axes"
-date: 2026-08-11 17:40:00
+title: "#4 - Interface Orientada a Objetos do Matplotlib: Figure e Axes"
+date: 2026-08-11 18:00:00
 image: '/assets/img/posts/matplotlib-interface-orientada-a-objetos-figure-e-axes.webp'
 description: A diferença entre a interface implícita do pyplot e a interface orientada a objetos do Matplotlib, usando plt.subplots() para criar Figure e Axes.
 category: 'ciência de dados'
@@ -119,6 +119,6 @@ Não existe uma resposta única, mas uma régua prática que costuma funcionar b
 
 Vale notar que os dois estilos se misturam sem problema: é comum criar `fig, ax = plt.subplots()` e ainda assim chamar `plt.show()` no final, como nos exemplos deste post.
 
-Com `Figure` e `Axes` sob controle direto, os próximos posts da série vão explorar recursos que ficam mais naturais nessa interface: legendas, escalas de eixo e anotações.
+Com `Figure` e `Axes` sob controle direto, o próximo post aprofunda ainda mais essa interface com layouts de subplots mais avançados — e depois a série segue para legendas, escalas de eixo e anotações.
 
 **Fonte adaptada:** [Matplotlib - Object-Oriented Interface](https://www.tutorialspoint.com/matplotlib/matplotlib_object_oriented_interface.htm), [Matplotlib - Figure Class](https://www.tutorialspoint.com/matplotlib/matplotlib_figure_class.htm), [Matplotlib - Axes Class](https://www.tutorialspoint.com/matplotlib/matplotlib_axes_class.htm)
