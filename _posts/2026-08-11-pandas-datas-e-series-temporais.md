@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#8 - Datas e Séries Temporais no Pandas"
-date: 2026-08-11 19:20:00
+title: "#12 - Datas e Séries Temporais no Pandas"
+date: 2026-08-11 17:55:00
 image: '/assets/img/posts/pandas-datas-e-series-temporais.webp'
 description: Como gerar datas com date_range(), usar datas como índice de um DataFrame, extrair ano e mês com o acessor .dt e reamostrar séries com resample().
 category: 'ciência de dados'
@@ -14,7 +14,7 @@ twitter_text: Datas e Séries Temporais no Pandas
 introduction: "Nesta parte do tutorial, você vai aprender a trabalhar com datas no Pandas: date_range(), índice temporal, o acessor .dt e resample()."
 ---
 
-Fechando esta segunda leva de posts sobre Pandas, falta um tipo de dado que aparece o tempo todo em análises reais: datas. Vendas por dia, pedidos por mês, sensores registrando uma medida por hora — sempre que existe uma dimensão de tempo envolvida, vale a pena aprender a trabalhar com ela do jeito que o Pandas foi desenhado pra lidar: não como texto solto, mas como uma estrutura temporal de verdade.
+Depois de texto e categorias, falta um último tipo de dado com regras próprias que aparece o tempo todo em análises reais: datas. Vendas por dia, pedidos por mês, sensores registrando uma medida por hora — sempre que existe uma dimensão de tempo envolvida, vale a pena aprender a trabalhar com ela do jeito que o Pandas foi desenhado pra lidar: não como texto solto, mas como uma estrutura temporal de verdade.
 
 ## Relembrando o to_datetime()
 
@@ -163,6 +163,6 @@ print(df.resample("5D").sum())
 
 Os 12 dias do _DataFrame_ viraram três intervalos de 5 dias — o primeiro de `01` a `05`, o segundo de `06` a `10`, e o terceiro com só os 2 dias restantes (`11` e `12`), já que a sequência acabou antes de completar mais um intervalo cheio. Cada rótulo mostra a data de **início** do intervalo correspondente.
 
-Isso fecha esta segunda leva de posts sobre Pandas: seleção e filtragem, agrupamento e agregação, combinação de tabelas, texto e categorias, e agora datas e séries temporais. Combinado com o que a série já tinha sobre limpeza e visualização, você tem agora um conjunto bem completo de ferramentas pra qualquer análise no dia a dia. A partir do próximo post, a série volta ao Matplotlib pra ir além do básico: a interface orientada a objetos com Figure e Axes.
+Com datas e séries temporais no repertório, você já sabe representar qualquer dimensão de tempo dos seus dados como uma estrutura de verdade, não como texto solto. O próximo post volta a um tema que já apareceu de leve — agrupar dados — só que agora de forma sistemática: como usar `groupby()` pra resumir um _DataFrame_ inteiro por categoria.
 
 **Fonte adaptada:** [Pandas - Date Functionality](https://www.tutorialspoint.com/python_pandas/python_pandas_date_functionality.htm)

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#5 - Agrupando e Agregando Dados com groupby()"
-date: 2026-08-11 18:20:00
+title: "#13 - Agrupando e Agregando Dados com groupby()"
+date: 2026-08-11 18:00:00
 image: '/assets/img/posts/pandas-agrupando-e-agregando-dados-com-groupby.webp'
 description: Como usar o groupby() do Pandas para agrupar dados por categoria e calcular agregações com o padrão split-apply-combine, incluindo o método agg().
 category: 'ciência de dados'
@@ -14,7 +14,7 @@ twitter_text: Agrupando e Agregando Dados com groupby()
 introduction: "Nesta parte do tutorial, você vai aprender a agrupar dados por categoria e calcular agregações com groupby() e agg()."
 ---
 
-No post anterior você aprendeu a filtrar um _DataFrame_ pra ficar só com as linhas que interessam. O próximo passo natural, depois de filtrar, é resumir: em vez de olhar linha por linha, você quer respostas como "qual a média de vendas por região?" ou "quantos produtos cada categoria tem?". É exatamente pra isso que existe o `groupby()`.
+No post anterior você viu como representar datas como uma estrutura de tempo de verdade — e de quebra conheceu `resample()`, que agrupa uma série temporal em intervalos regulares antes de agregar. Esse mesmo raciocínio, aplicado a categorias em vez de intervalos de tempo, é exatamente o que o `groupby()` faz: em vez de olhar linha por linha, você quer respostas como "qual a média de vendas por região?" ou "quantos produtos cada categoria tem?".
 
 ## O padrão split-apply-combine
 
@@ -207,6 +207,6 @@ print(df.groupby("regiao").get_group("Sul"))
 6       Sul   Teclado        15     2250
 ```
 
-Com `groupby()` e `agg()` você já consegue transformar uma tabela de linhas soltas em resumos por categoria — a base de praticamente qualquer relatório ou dashboard. No próximo post, vamos ver o que fazer quando essa informação está espalhada em mais de um _DataFrame_: como combinar tabelas diferentes com `merge()`, `join()` e `concat()`.
+Com `groupby()` e `agg()` você já consegue transformar uma tabela de linhas soltas em resumos por categoria — a base de praticamente qualquer relatório ou dashboard. O próximo post pega esse mesmo tipo de resumo e olha pra ele de outro ângulo: como reorganizar a **forma** de um _DataFrame_ com `pivot_table()`, `melt()` e `stack()`/`unstack()`.
 
 **Fonte adaptada:** [Pandas - GroupBy](https://www.tutorialspoint.com/python_pandas/python_pandas_groupby.htm), [Pandas - Aggregations](https://www.tutorialspoint.com/python_pandas/python_pandas_aggregations.htm)

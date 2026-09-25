@@ -256,6 +256,6 @@ df = pd.DataFrame(dados_json)
 print(df)
 ```
 
-Com isso você já tem a base pra começar a trabalhar com dados de verdade. No próximo post da série, vamos usar essas mesmas ideias pra inspecionar e limpar um _DataFrame_ — porque dados do mundo real quase nunca vêm perfeitos.
+Com isso você já tem a base pra começar a trabalhar com dados de verdade. No próximo post da série, vamos usar esse mesmo _DataFrame_ pra aprender a selecionar exatamente as linhas e colunas que interessam, com `.loc`, `.iloc` e máscaras booleanas.
 
 **Fonte adaptada:** [Pandas Introduction](https://www.w3schools.com/python/pandas/pandas_intro.asp), [Pandas Getting Started](https://www.w3schools.com/python/pandas/pandas_getting_started.asp), [Pandas Series](https://www.w3schools.com/python/pandas/pandas_series.asp), [Pandas DataFrames](https://www.w3schools.com/python/pandas/pandas_dataframes.asp), [Pandas Read CSV](https://www.w3schools.com/python/pandas/pandas_csv.asp), [Pandas Read JSON](https://www.w3schools.com/python/pandas/pandas_json.asp)

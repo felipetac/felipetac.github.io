@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#3 - Correlações e Visualização de Dados com Pandas"
+title: "#9 - Correlações e Visualização de Dados com Pandas"
 date: 2026-08-11 17:40:00
 image: '/assets/img/posts/pandas-correlacoes-e-visualizacao-de-dados.webp'
 description: Como encontrar correlações entre colunas numéricas de um DataFrame com .corr() e como gerar gráficos rápidos com o método .plot() do Pandas.
@@ -14,7 +14,7 @@ twitter_text: Correlações e Visualização de Dados com Pandas
 introduction: "Nesta parte do tutorial, você vai aprender a encontrar correlações entre colunas com .corr() e a gerar gráficos rápidos com .plot()."
 ---
 
-Com os dados já limpos, chegou a hora da parte mais interessante: extrair alguma informação útil deles. Neste post você vai ver como medir o quanto duas colunas de um _DataFrame_ "andam juntas" usando correlação, e como transformar esses números em gráficos com poucas linhas de código.
+No post anterior você viu `cov()`, a covariância entre duas colunas — um primeiro sinal de como elas se relacionam, mas numa escala difícil de interpretar sozinha. `.corr()` resolve exatamente esse problema, normalizando esse valor pra um intervalo fácil de ler. Neste post você vai ver como medir o quanto duas colunas de um _DataFrame_ "andam juntas" usando correlação, e como transformar esses números em gráficos com poucas linhas de código.
 
 ## Encontrando correlações com corr()
 
@@ -77,7 +77,7 @@ A coluna `instrutor` some do resultado sem gerar nenhum erro — o `.corr()` sim
 
 Números soltos numa tabela raramente contam a história inteira — às vezes um gráfico simples revela um padrão que passaria despercebido. O Pandas tem um método `.plot()` embutido em todo _DataFrame_ e _Series_, que é uma forma rápida de gerar visualizações sem escrever muito código.
 
-> **Nota:** por baixo dos panos, o `.plot()` do Pandas usa o Matplotlib pra desenhar o gráfico de fato. É por isso que, além do `import pandas`, você também precisa importar `matplotlib.pyplot` e chamar `plt.show()` pra exibir o resultado na tela — e é justamente o Matplotlib o assunto dos próximos dois posts da série.
+> **Nota:** por baixo dos panos, o `.plot()` do Pandas usa o Matplotlib pra desenhar o gráfico de fato. É por isso que, além do `import pandas`, você também precisa importar `matplotlib.pyplot` e chamar `plt.show()` pra exibir o resultado na tela — mais adiante nesta série, depois de esgotar o que o Pandas oferece, vale a pena mergulhar direto no Matplotlib pra ter controle fino sobre cada detalhe do gráfico.
 
 ### Gráfico de linha
 
@@ -153,6 +153,6 @@ plt.show()
 
 O gráfico agrupa os valores de `duracao` em faixas (chamadas de _bins_) e desenha uma barra pra cada faixa, com a altura representando quantos treinos caíram naquele intervalo — por exemplo, quantos treinos duraram entre 40 e 50 minutos.
 
-Com `.corr()` e `.plot()` você já consegue extrair e visualizar as primeiras conclusões reais de um dataset. A partir daqui, vale mergulhar direto no Matplotlib pra ter controle fino sobre cada detalhe dos gráficos — que é exatamente pra onde a série vai a seguir.
+Com `.corr()` e `.plot()` você já consegue extrair e visualizar as primeiras conclusões reais de um dataset. O próximo post muda de assunto: como aplicar suas próprias funções a um _DataFrame_ ou Series com `apply()`, `map()` e `pipe()`, pra ir além do que os métodos prontos do Pandas cobrem.
 
 **Fonte adaptada:** [Pandas - Data Correlations](https://www.w3schools.com/python/pandas/pandas_correlations.asp), [Pandas - Plotting](https://www.w3schools.com/python/pandas/pandas_plotting.asp)

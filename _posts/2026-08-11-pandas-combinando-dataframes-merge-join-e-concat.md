@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#6 - Combinando DataFrames: merge, join e concat"
-date: 2026-08-11 18:40:00
+title: "#16 - Combinando DataFrames: merge, join e concat"
+date: 2026-08-11 18:15:00
 image: '/assets/img/posts/pandas-combinando-dataframes-merge-join-e-concat.webp'
 description: Como combinar DataFrames diferentes no Pandas usando merge() para joins ao estilo SQL, join() por índice e concat() para empilhar tabelas.
 category: 'ciência de dados'
@@ -14,7 +14,7 @@ twitter_text: Combinando DataFrames com merge, join e concat
 introduction: "Nesta parte do tutorial, você vai aprender a combinar DataFrames diferentes com merge(), join() e concat()."
 ---
 
-Dificilmente todos os dados de uma análise real vêm de uma única tabela. É bem mais comum ter um _DataFrame_ de clientes, outro de pedidos, outro de produtos — cada um numa fonte diferente — e precisar juntá-los antes de conseguir responder qualquer pergunta que cruze essas informações. O Pandas tem três ferramentas principais pra isso: `merge()`, `join()` e `concat()`.
+Depois de ver como reorganizar a forma de um único _DataFrame_ e como usar índices hierárquicos, falta resolver um problema diferente: juntar dados que vêm de tabelas separadas. Dificilmente todos os dados de uma análise real vêm de uma única tabela. É bem mais comum ter um _DataFrame_ de clientes, outro de pedidos, outro de produtos — cada um numa fonte diferente — e precisar juntá-los antes de conseguir responder qualquer pergunta que cruze essas informações. O Pandas tem três ferramentas principais pra isso: `merge()`, `join()` e `concat()`.
 
 ## merge(): joins ao estilo SQL
 
@@ -197,6 +197,6 @@ c3 Carla       NaN
 
 Nesse caso o resultado fica parecido com o `.join()` do Exemplo 5, já que os dois _DataFrames_ compartilham índice — a diferença é que `concat()` não tem o conceito de "esquerda" e "direita" prioritário, ele só alinha pelo índice e junta as colunas de cada um.
 
-Com `merge()`, `join()` e `concat()`, você já consegue reunir dados espalhados em várias fontes numa única tabela pronta pra análise. No próximo post da série, o foco muda pra dentro das colunas: como tratar texto e dados categóricos com o Pandas.
+Com `merge()`, `join()` e `concat()`, você já consegue reunir dados espalhados em várias fontes numa única tabela pronta pra análise. Mas nem todo dado chega — ou precisa sair — em CSV ou JSON: o próximo post fecha essa ponta, mostrando como ler Excel e HTML, e como exportar o resultado final de volta pra um arquivo.
 
 **Fonte adaptada:** [Pandas - Merging/Joining](https://www.tutorialspoint.com/python_pandas/python_pandas_merging_joining.htm), [Pandas - Concatenation](https://www.tutorialspoint.com/python_pandas/python_pandas_concatenation.htm)

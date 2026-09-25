@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#4 - Selecionando e Filtrando Dados com loc, iloc e Máscaras Booleanas"
-date: 2026-08-11 18:00:00
+title: "#2 - Selecionando e Filtrando Dados com loc, iloc e Máscaras Booleanas"
+date: 2026-08-11 17:05:00
 image: '/assets/img/posts/pandas-selecionando-e-filtrando-dados.webp'
 description: Como selecionar linhas e colunas específicas de um DataFrame com .loc e .iloc, e como filtrar dados com máscaras booleanas e o método .query().
 category: 'ciência de dados'
@@ -14,9 +14,9 @@ twitter_text: Selecionando e Filtrando Dados com loc, iloc e Máscaras Booleanas
 introduction: "Nesta parte do tutorial, você vai aprender a selecionar linhas e colunas específicas de um DataFrame com .loc e .iloc, e a filtrar dados com máscaras booleanas."
 ---
 
-Nos três primeiros posts desta série você aprendeu a criar, carregar, limpar, correlacionar e visualizar dados com o Pandas — o suficiente pra sair fazendo análises de verdade. A partir de agora a série volta ao Pandas pra aprofundar em técnicas que você vai usar o tempo todo: selecionar exatamente as linhas e colunas que interessam, filtrar dados por condição, agrupar e agregar, combinar tabelas diferentes, tratar texto e trabalhar com datas.
+No post anterior você aprendeu a criar um _DataFrame_ e a buscar uma linha específica com `.loc`. Mas na prática você quase sempre precisa de mais controle do que isso: pegar só algumas colunas, filtrar linhas por condição, combinar as duas coisas de uma vez. É esse controle fino que este post ensina.
 
-Neste post o assunto é seleção e filtragem: como pedir pro Pandas "me dê só essa parte da tabela".
+O assunto aqui é seleção e filtragem: como pedir pro Pandas "me dê só essa parte da tabela".
 
 ## Revisão rápida: colchetes simples
 
@@ -220,6 +220,6 @@ preco_minimo = 200
 print(df.query("preco > @preco_minimo"))
 ```
 
-Com `.loc`, `.iloc`, máscaras booleanas e `.query()` no repertório, você já consegue recortar qualquer _DataFrame_ exatamente do jeito que precisa. No próximo post, o passo natural depois de filtrar dados é resumi-los: vamos ver como agrupar linhas por categoria e calcular agregações com `groupby()`.
+Com `.loc`, `.iloc`, máscaras booleanas e `.query()` no repertório, você já consegue recortar qualquer _DataFrame_ exatamente do jeito que precisa. No próximo post, o assunto é o que fazer com essas linhas e colunas selecionadas: operações aritméticas em Series e DataFrames, incluindo como o Pandas alinha os dados automaticamente pelo índice.
 
 **Fonte adaptada:** [Pandas - Indexing and Selecting Data](https://www.tutorialspoint.com/python_pandas/python_pandas_indexing_and_selecting_data.htm), [Pandas - Boolean Indexing](https://www.tutorialspoint.com/python_pandas/python_pandas_boolean_indexing.htm), [Pandas - Boolean Masking](https://www.tutorialspoint.com/python_pandas/python_pandas_boolean_masking.htm)

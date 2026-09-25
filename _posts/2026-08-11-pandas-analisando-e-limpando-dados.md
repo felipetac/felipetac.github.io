@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#2 - Analisando e Limpando Dados com Pandas"
-date: 2026-08-11 17:20:00
+title: "#4 - Analisando e Limpando Dados com Pandas"
+date: 2026-08-11 17:15:00
 image: '/assets/img/posts/pandas-analisando-e-limpando-dados.webp'
 description: Como inspecionar rapidamente um DataFrame e tratar os problemas mais comuns de dados sujos - células vazias, formatos errados, valores incorretos e duplicatas.
 category: 'ciência de dados'
@@ -14,7 +14,7 @@ twitter_text: Analisando e Limpando Dados com Pandas
 introduction: "Nesta parte do tutorial, você vai aprender a inspecionar rapidamente um DataFrame e a limpar os tipos de dados sujos mais comuns."
 ---
 
-No post anterior você viu como criar e carregar um _DataFrame_. Só que, na prática, dificilmente os dados que chegam até você já estão prontos pra análise. Células vazias, datas em formatos diferentes dentro da mesma coluna, valores absurdos e linhas duplicadas são a regra, não a exceção — e é aí que entra a limpeza de dados.
+No post anterior você viu como fazer contas com Series e DataFrames. Mas antes de somar, multiplicar ou comparar qualquer coluna, tem um passo que sempre vem primeiro na prática: garantir que os dados que chegaram até você prestam. Células vazias, datas em formatos diferentes dentro da mesma coluna, valores absurdos e linhas duplicadas são a regra, não a exceção — e é aí que entra a limpeza de dados.
 
 Neste post você vai aprender primeiro a dar uma "olhada rápida" num _DataFrame_ recém-carregado, e depois a resolver os quatro problemas de dados sujos mais comuns: células vazias, formato errado, dados errados e duplicatas.
 
@@ -224,6 +224,6 @@ df.drop_duplicates(inplace=True)
 
 Assim como nos outros métodos de limpeza, `inplace=True` aplica a remoção direto no `df`, sem precisar reatribuir o resultado a uma nova variável.
 
-Com o _DataFrame_ inspecionado e limpo, ele já está em condições de ir pra próxima etapa: entender como as colunas se relacionam entre si — que é justamente o assunto do próximo post da série.
+Com o _DataFrame_ inspecionado e limpo dos problemas mais comuns, ele já está em condições pra um próximo nível de cuidado: o post seguinte aprofunda especificamente em dados ausentes, com `isna()`, `ffill()`, `bfill()` e `interpolate()` — ferramentas que complementam o `dropna()`/`fillna()` que você acabou de ver.
 
 **Fonte adaptada:** [Pandas - Analyzing DataFrames](https://www.w3schools.com/python/pandas/pandas_analyzing.asp), [Pandas - Cleaning Data](https://www.w3schools.com/python/pandas/pandas_cleaning.asp), [Pandas - Cleaning Empty Cells](https://www.w3schools.com/python/pandas/pandas_cleaning_empty_cells.asp), [Pandas - Cleaning Data of Wrong Format](https://www.w3schools.com/python/pandas/pandas_cleaning_wrong_format.asp), [Pandas - Fixing Wrong Data](https://www.w3schools.com/python/pandas/pandas_cleaning_wrong_data.asp), [Pandas - Removing Duplicates](https://www.w3schools.com/python/pandas/pandas_cleaning_duplicates.asp)

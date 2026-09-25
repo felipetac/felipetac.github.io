@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#7 - Trabalhando com Texto e Dados Categóricos no Pandas"
-date: 2026-08-11 19:00:00
+title: "#11 - Trabalhando com Texto e Dados Categóricos no Pandas"
+date: 2026-08-11 17:50:00
 image: '/assets/img/posts/pandas-texto-e-dados-categoricos.webp'
 description: Como manipular texto com o acessor .str do Pandas e usar dados categóricos com astype('category') para economizar memória.
 category: 'ciência de dados'
@@ -14,7 +14,7 @@ twitter_text: Trabalhando com Texto e Dados Categóricos no Pandas
 introduction: "Nesta parte do tutorial, você vai aprender a manipular texto com o acessor .str e a trabalhar com dados categóricos no Pandas."
 ---
 
-Até aqui a série tratou principalmente de números — médias, somas, correlações. Mas boa parte dos dados do mundo real é texto: nomes, categorias, descrições, códigos. Neste post você vai ver como o Pandas trata colunas de texto através do acessor `.str`, e como representar valores que se repetem bastante (como categorias) de um jeito mais eficiente, com o tipo `category`.
+No post anterior você viu como aplicar qualquer função a uma Series ou DataFrame com `apply()`, `map()` e `pipe()` — ferramentas genéricas, que funcionam pra qualquer tipo de dado. Agora o foco estreita pra um tipo específico e onipresente: texto. Nomes, categorias, descrições, códigos — boa parte dos dados do mundo real não é número. Neste post você vai ver como o Pandas trata colunas de texto através do acessor `.str`, e como representar valores que se repetem bastante (como categorias) de um jeito mais eficiente, com o tipo `category`.
 
 ## O acessor .str
 
@@ -220,6 +220,6 @@ Name: tamanho, dtype: bool
 
 A comparação segue a ordem lógica definida (`P < M < G < GG`), não a ordem alfabética — é por isso que `"GG"` (índice 1) é considerado maior que `"M"`.
 
-Com o `.str` e o tipo `category` no repertório, você já consegue tratar tanto texto livre quanto categorias com ordem própria. No próximo — e último post desta leva — o assunto é datas: como o Pandas representa datas e séries temporais, e como usá-las como índice de um _DataFrame_.
+Com o `.str` e o tipo `category` no repertório, você já consegue tratar tanto texto livre quanto categorias com ordem própria. No próximo post o assunto é outro tipo de dado com regras próprias: datas — como o Pandas representa datas e séries temporais, e como usá-las como índice de um _DataFrame_.
 
 **Fonte adaptada:** [Pandas - Working with Text Data](https://www.tutorialspoint.com/python_pandas/python_pandas_working_with_text_data.htm), [Pandas - Categorical Data](https://www.tutorialspoint.com/python_pandas/python_pandas_categorical_data.htm), [Pandas - Ordering and Sorting Categorical Data](https://www.tutorialspoint.com/python_pandas/python_pandas_ordering_sorting_categorical_data.htm)
