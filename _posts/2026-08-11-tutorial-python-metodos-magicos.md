@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#12 - Métodos Mágicos (Dunder Methods)"
-date: 2026-08-11 11:40:00
+title: "#16 - Métodos Mágicos (Dunder Methods)"
+date: 2026-08-11 13:00:00
 image: '/assets/img/posts/tutorial-python-metodos-magicos.webp'
 description: Como personalizar o comportamento de print(), comparações, operadores, len() e chamadas de objetos em Python usando métodos mágicos como __str__, __repr__, __eq__, __add__, __len__, __lt__, __contains__ e __call__.
 category: 'dev'
@@ -13,7 +13,7 @@ twitter_text: Métodos Mágicos (Dunder Methods) em Python
 introduction: "Nesta parte do tutorial, você vai conhecer os métodos mágicos (dunder methods) do Python — funções especiais que o interpretador chama automaticamente por trás dos panos, como __str__, __eq__ e __call__."
 ---
 
-No post anterior, você criou sua primeira classe e já deu uma espiada rápida no `__str__`, aquele método que troca `<__main__.Pessoa object at 0x...>` por um texto legível quando você dá `print()` num objeto. Só que `__str__` é só a ponta do iceberg: Python tem uma família inteira de métodos especiais — os **métodos mágicos**, ou _dunder methods_ (de "double underscore") — que o interpretador chama sozinho em situações específicas, sem você precisar pedir.
+Nos posts sobre orientação a objetos, você criou suas primeiras classes e já deu uma espiada rápida no `__str__`, aquele método que troca `<__main__.Pessoa object at 0x...>` por um texto legível quando você dá `print()` num objeto. Só que `__str__` é só a ponta do iceberg: Python tem uma família inteira de métodos especiais — os **métodos mágicos**, ou _dunder methods_ (de "double underscore") — que o interpretador chama sozinho em situações específicas, sem você precisar pedir.
 
 Neste post você vai aprofundar `__str__` e conhecer seu parceiro `__repr__`, além de ver como fazer `==`, `+`, `len()`, `<`, `in` e até a chamada `objeto()` funcionarem em cima das suas próprias classes.
 
@@ -21,7 +21,7 @@ Neste post você vai aprofundar `__str__` e conhecer seu parceiro `__repr__`, al
 
 Métodos mágicos são métodos com nomes que começam e terminam com dois underscores, como `__init__()` ou `__str__()` — daí o apelido _dunder_. Você não chama esses métodos diretamente; o Python chama por conta própria, em resposta a alguma ação: criar um objeto, imprimir, comparar dois objetos, somar, medir o tamanho...
 
-Você já usou um deles sem perceber: `__init__()`, visto no post anterior, roda automaticamente toda vez que você cria um objeto. Os métodos deste post seguem a mesma lógica, só que cada um reage a uma situação diferente:
+Você já usou um deles sem perceber: `__init__()`, visto nos posts sobre orientação a objetos, roda automaticamente toda vez que você cria um objeto. Os métodos deste post seguem a mesma lógica, só que cada um reage a uma situação diferente:
 
 | Método | É chamado quando... |
 |---|---|
@@ -293,6 +293,6 @@ A saída é:
 
 > **Nota:** você não precisa implementar todos esses métodos em toda classe que criar. Use-os quando fizerem sentido pro comportamento do objeto: um `Ponto(x, y)` se beneficia bastante de `__eq__` e `__repr__`, por exemplo, mas `__call__` só costuma fazer sentido pra objetos que representam "algo que pode ser executado", como o contador acima.
 
-Com `__str__`, `__repr__`, `__eq__`, `__add__`, `__len__`, `__lt__`, `__contains__` e `__call__`, suas classes passam a se comportar como qualquer tipo nativo do Python — imprimem de forma legível, comparam, somam, têm tamanho e participam de `sorted()`, `in` e chamadas, exatamente como `str`, `list` e `dict` já fazem por baixo dos panos. No próximo post, você volta pro terreno mais prático: tratar erros com `try`/`except`, capturar entrada do usuário e manipular arquivos.
+Com `__str__`, `__repr__`, `__eq__`, `__add__`, `__len__`, `__lt__`, `__contains__` e `__call__`, suas classes passam a se comportar como qualquer tipo nativo do Python — imprimem de forma legível, comparam, somam, têm tamanho e participam de `sorted()`, `in` e chamadas, exatamente como `str`, `list` e `dict` já fazem por baixo dos panos. No próximo post, você vai conhecer um jeito de ganhar boa parte desses métodos de graça: as dataclasses.
 
 **Fonte adaptada:** [Python Magic Methods](https://www.w3schools.com/python/python_magic_methods.asp), [Python __str__()](https://www.w3schools.com/python/python_magic_str.asp), [Python __repr__()](https://www.w3schools.com/python/python_magic_repr.asp), [Python __eq__()](https://www.w3schools.com/python/python_magic_eq.asp), [Python __add__()](https://www.w3schools.com/python/python_magic_add.asp), [Python __len__()](https://www.w3schools.com/python/python_magic_len.asp), [Python __lt__()](https://www.w3schools.com/python/python_magic_lt.asp), [Python __contains__()](https://www.w3schools.com/python/python_magic_contains.asp), [Python __call__()](https://www.w3schools.com/python/python_magic_call.asp)

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "#10 - Decorators, Generators e Iterators"
-date: 2026-08-11 11:00:00
+title: "#12 - Decorators, Generators e Iterators"
+date: 2026-08-11 11:40:00
 image: '/assets/img/posts/tutorial-python-decorators-generators-e-iterators.webp'
 description: Como funcionam decorators, generators (com yield) e iterators em Python, além de uma nota sobre o módulo array e sua diferença em relação às listas.
 category: 'dev'
@@ -13,13 +13,13 @@ twitter_text: Decorators, Generators e Iterators
 introduction: "Nesta parte do tutorial, você vai conhecer três recursos mais avançados de funções em Python: decorators, generators e iterators."
 ---
 
-Depois de dominar funções, argumentos e lambdas, é hora de subir um degrau. Os três recursos deste post — _decorators_, _generators_ e _iterators_ — não são exatamente iniciantes, mas aparecem o tempo todo em bibliotecas Python de verdade (o Flask usa decorators pra registrar rotas, praticamente todo código que processa grandes volumes de dados usa generators por baixo dos panos). Vale a pena entender como funcionam por dentro, mesmo que você não escreva um decorator do zero toda semana.
+No post anterior você aprendeu sobre closures — funções que retornam outras funções, "lembrando" de variáveis do escopo em que foram criadas. Chegou a hora de usar esse mecanismo na prática, no primeiro dos três recursos deste post: _decorators_, _generators_ e _iterators_. Eles não são exatamente iniciantes, mas aparecem o tempo todo em bibliotecas Python de verdade (o Flask usa decorators pra registrar rotas, praticamente todo código que processa grandes volumes de dados usa generators por baixo dos panos). Vale a pena entender como funcionam por dentro, mesmo que você não escreva um decorator do zero toda semana.
 
 Vou fechar o post com uma observação rápida sobre o módulo `array`, que é frequentemente confundido com listas.
 
 ## Decorators
 
-Um _decorator_ é uma função que recebe outra função como entrada, "embrulha" um comportamento extra em volta dela, e devolve uma nova função — tudo isso sem precisar alterar o código original da função decorada.
+Um _decorator_ é, no fundo, uma closure: uma função que recebe outra função como entrada, "embrulha" um comportamento extra em volta dela numa função interna, e devolve essa função interna — tudo isso sem precisar alterar o código original da função decorada.
 
 ```py
 def registrar_chamada(funcao):
