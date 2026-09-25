@@ -14,7 +14,7 @@ twitter_text: "NumPy #4 - Random e Funções Universais (ufunc)"
 introduction: "Nesta parte do tutorial, você aprende a gerar números aleatórios com numpy.random e entende o que são e por que usar as ufuncs."
 ---
 
-Fechando a série, dois assuntos que parecem sem relação à primeira vista, mas que aparecem lado a lado o tempo todo em código real de NumPy: geração de números aleatórios (muito usada pra simular dados, embaralhar amostras, inicializar experimentos) e as _ufuncs_, o mecanismo por trás de praticamente toda operação rápida que você já fez em um array até agora.
+Dois assuntos que parecem sem relação à primeira vista, mas que aparecem lado a lado o tempo todo em código real de NumPy: geração de números aleatórios (muito usada pra simular dados, embaralhar amostras, inicializar experimentos) e as _ufuncs_, o mecanismo por trás de praticamente toda operação rápida que você já fez em um array até agora.
 
 ## O módulo numpy.random
 
@@ -288,6 +288,6 @@ A saída é:
 
 > **Nota:** o motivo de existir uma ufunc nomeada pra cada operador (além do próprio operador) é que as funções aceitam parâmetros extras — por exemplo `where`, pra aplicar a operação só onde uma condição é verdadeira — algo que o operador `+` sozinho não permite.
 
-Com isso fecho a série "NumPy com Python": criação e indexação de arrays, copy/view, shape e iteração, join/split/search/sort, e agora random e ufuncs. É uma base sólida pra seguir pra bibliotecas construídas em cima do NumPy, como pandas e scikit-learn.
+Com `np.add()` e companhia você já cobre boa parte da aritmética do dia a dia, mas as ufuncs do NumPy vão bem além de somar e multiplicar. No próximo post da série, a gente continua explorando esse mecanismo com arredondamento, logaritmos e somas/produtos acumulados.
 
 **Fonte adaptada:** [Random Numbers in NumPy](https://www.w3schools.com/python/numpy/numpy_random.asp), [Random Data Distribution](https://www.w3schools.com/python/numpy/numpy_random_distribution.asp), [NumPy ufuncs](https://www.w3schools.com/python/numpy/numpy_ufunc.asp), [Create Your Own ufunc](https://www.w3schools.com/python/numpy/numpy_ufunc_create_function.asp), [Simple Arithmetic](https://www.w3schools.com/python/numpy/numpy_ufunc_simple_arithmetic.asp)
