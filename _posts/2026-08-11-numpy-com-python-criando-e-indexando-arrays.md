@@ -14,7 +14,7 @@ twitter_text: "NumPy #1 - Criando e Indexando Arrays"
 introduction: "Nesta parte do tutorial, você aprende a criar arrays com o NumPy, entender suas dimensões e tipos, e acessar elementos com indexação e slicing."
 ---
 
-Começando uma nova série sobre _NumPy_ aqui no blog. Se você já leu a [série antiga sobre o assunto](/numpy-introducao/), publicada lá em 2019 e baseada no tutorialspoint, sabe que ela cobre o objeto _ndarray_ de um jeito bem teórico — construtor, parâmetros, ordem de memória e afins. Vale a pena como leitura complementar se você quer entender o "porquê" por trás das coisas. Essa série nova segue outra referência (o tutorial de NumPy do w3schools) e tem uma pegada mais prática: menos teoria de construtor, mais "como eu resolvo isso no dia a dia" — criação de arrays, indexação, slicing, shape, iteração, ordenação, números aleatórios e por aí vai.
+Começando uma nova série sobre _NumPy_ aqui no blog, baseada no tutorial de NumPy do w3schools, com uma pegada bem prática: criação de arrays, indexação, slicing, shape, iteração, ordenação, números aleatórios e por aí vai.
 
 O _NumPy_ é a biblioteca base pra computação numérica em Python. Se você já mexeu com pandas, scikit-learn ou qualquer coisa de ciência de dados, o NumPy tá lá por baixo dos panos. Neste primeiro post você vai aprender a criar seus primeiros _arrays_, entender o conceito de dimensão (0-D, 1-D, 2-D, 3-D...), dar uma olhada no parâmetro `dtype`, e começar a acessar elementos com indexação e slicing.
 
