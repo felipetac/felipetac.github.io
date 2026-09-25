@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MongoDB #14 - Apagar Documento no MongoDB"
+title: "MongoDB #14 - Apagando Documento"
 date: 2014-12-12 12:30:00
 description: Como apagar documentos no MongoDB com o método remove(), incluindo como remover apenas um registro ou a coleção inteira.
 image: '/assets/img/posts/apagar-documento-no-mongodb.webp'

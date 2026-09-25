@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MongoDB #1 - Visão Geral do MongoDB"
+title: "MongoDB #1 - Visão Geral"
 date: 2014-11-26 12:30:00
 description: Entenda o que é o MongoDB, banco orientado a documentos, suas vantagens e principais características de performance, disponibilidade e escalabilidade.
 image: '/assets/img/posts/visao-geral-do-mongodb.webp'
