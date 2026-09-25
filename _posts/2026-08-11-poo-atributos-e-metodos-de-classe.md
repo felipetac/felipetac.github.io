@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #4 - Atributos e Métodos de Classe"
+title: "Orientação a Objetos em Python #4 - Atributos e Métodos de Classe"
 date: 2026-08-11 15:24:00
 image: '/assets/img/posts/poo-atributos-e-metodos-de-classe.webp'
 description: A diferença entre atributos de instância e atributos de classe em Python, o decorador @classmethod e o parâmetro cls, com exemplos práticos de contador de instâncias e alteração de estado compartilhado.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Classes
-twitter_text: "Orientação a Objetos #4 - Atributos e Métodos de Classe"
+twitter_text: "Orientação a Objetos em Python #4 - Atributos e Métodos de Classe"
 introduction: "Nesta parte da série, você vai aprender a diferença entre atributos de instância e atributos de classe, o decorador @classmethod e o parâmetro cls, e vai aplicar tudo isso em um exemplo prático."
 ---
 

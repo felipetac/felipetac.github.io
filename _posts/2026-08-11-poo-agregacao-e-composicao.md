@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #12 - Agregação e Composição"
+title: "Orientação a Objetos em Python #12 - Agregação e Composição"
 date: 2026-08-11 15:32:00
 image: '/assets/img/posts/poo-agregacao-e-composicao.webp'
 description: A diferença entre agregação e composição em Python - duas formas de uma classe conter objetos de outra classe - e como elas se comparam com associação de classes num espectro de vínculo mais fraco a mais forte. Post final da série de Orientação a Objetos.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Composição
-twitter_text: "Orientação a Objetos #12 - Agregação e Composição"
+twitter_text: "Orientação a Objetos em Python #12 - Agregação e Composição"
 introduction: "Nesta última parte da série, você vai entender a diferença entre agregação e composição - duas formas de uma classe conter objetos de outra - e como elas se encaixam ao lado da associação de classes num espectro de vínculo entre objetos."
 ---
 

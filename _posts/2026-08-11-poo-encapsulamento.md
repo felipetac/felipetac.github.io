@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #2 - Encapsulamento"
+title: "Orientação a Objetos em Python #2 - Encapsulamento"
 date: 2026-08-11 15:22:00
 image: '/assets/img/posts/poo-encapsulamento.webp'
 description: Como proteger o estado interno de uma classe em Python com encapsulamento - a convenção de atributos e métodos privados com underscore, name mangling, e getters/setters com @property.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Encapsulamento
-twitter_text: "Orientação a Objetos #2 - Encapsulamento"
+twitter_text: "Orientação a Objetos em Python #2 - Encapsulamento"
 introduction: "Nesta parte da série, você vai aprender o que é encapsulamento, como marcar atributos e métodos como privados em Python, e como usar getters e setters para controlar o acesso ao estado de um objeto."
 ---
 

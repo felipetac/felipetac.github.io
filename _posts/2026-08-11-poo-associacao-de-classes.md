@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #5 - Associação de Classes"
+title: "Orientação a Objetos em Python #5 - Associação de Classes"
 date: 2026-08-11 15:25:00
 image: '/assets/img/posts/poo-associacao-de-classes.webp'
 description: Como uma classe pode usar objetos de outra classe como atributo para modelar relações do mundo real em Python, sem recorrer a herança - o conceito de associação de classes.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Associação
-twitter_text: "Orientação a Objetos #5 - Associação de Classes"
+twitter_text: "Orientação a Objetos em Python #5 - Associação de Classes"
 introduction: "Nesta parte da série, você vai entender o que é associação de classes, como usar o objeto de uma classe como atributo de outra, e como isso ajuda a modelar relações do mundo real em Python."
 ---
 

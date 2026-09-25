@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #6 - SOLID: Princípio Aberto/Fechado"
+title: "Orientação a Objetos em Python #6 - SOLID: Princípio Aberto/Fechado"
 date: 2026-08-11 15:26:00
 image: '/assets/img/posts/poo-solid-aberto-fechado.webp'
 description: O segundo princípio do SOLID explicado na prática - por que uma classe deve estar aberta para extensão mas fechada para modificação, e como associação de classes resolve isso em Python.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - SOLID
-twitter_text: "Orientação a Objetos #6 - SOLID: Princípio Aberto/Fechado"
+twitter_text: "Orientação a Objetos em Python #6 - SOLID: Princípio Aberto/Fechado"
 introduction: "Nesta parte da série, você vai entender o princípio Aberto/Fechado do SOLID - o que significa uma classe estar aberta pra extensão mas fechada pra modificação - e como resolver isso na prática usando associação de classes."
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #8 - Herança e Encapsulamento Protegido"
+title: "Orientação a Objetos em Python #8 - Herança e Encapsulamento Protegido"
 date: 2026-08-11 15:28:00
 image: '/assets/img/posts/poo-heranca-e-encapsulamento-protegido.webp'
 description: Como funciona herança de classes em Python, o uso de super().__init__(), e o terceiro tipo de encapsulamento - o protegido - em contraste com o encapsulamento privado.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Herança
-twitter_text: "Orientação a Objetos #8 - Herança e Encapsulamento Protegido"
+twitter_text: "Orientação a Objetos em Python #8 - Herança e Encapsulamento Protegido"
 introduction: "Nesta parte da série, você vai aprender como funciona herança em Python, como reaproveitar o construtor da classe mãe com super().__init__(), e o que é o encapsulamento protegido."
 ---
 

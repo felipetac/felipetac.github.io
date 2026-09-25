@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #1 - Introdução e Conceitos Básicos"
+title: "Orientação a Objetos em Python #1 - Introdução e Conceitos Básicos"
 date: 2026-08-11 15:21:00
 image: '/assets/img/posts/poo-introducao-e-conceitos-basicos.webp'
 description: Uma introdução a Orientação a Objetos (POO) em Python - o que é esse paradigma, a diferença entre classe e objeto, e como criar sua primeira classe com atributos e métodos.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Introdução
-twitter_text: "Orientação a Objetos #1 - Introdução e Conceitos Básicos"
+twitter_text: "Orientação a Objetos em Python #1 - Introdução e Conceitos Básicos"
 introduction: "Nesta parte da série, você vai entender o que é Orientação a Objetos (POO), a diferença entre classe e objeto, e vai criar sua primeira classe em Python com atributos e métodos."
 ---
 

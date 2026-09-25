@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #10 - Classes Abstratas e Interfaces"
+title: "Orientação a Objetos em Python #10 - Classes Abstratas e Interfaces"
 date: 2026-08-11 15:30:00
 image: '/assets/img/posts/poo-classes-abstratas-e-interfaces.webp'
 description: O que são classes abstratas em Python (módulo abc, ABC e @abstractmethod) e como usá-las, já que a linguagem não tem uma palavra-chave interface própria, pra simular contratos que toda subclasse é obrigada a cumprir.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Interfaces
-twitter_text: "Orientação a Objetos #10 - Classes Abstratas e Interfaces"
+twitter_text: "Orientação a Objetos em Python #10 - Classes Abstratas e Interfaces"
 introduction: "Nesta parte da série, você vai aprender o que são classes abstratas em Python, como usar o módulo abc pra criar métodos que toda subclasse é obrigada a implementar, e como esse recurso dá origem ao conceito de interface."
 ---
 

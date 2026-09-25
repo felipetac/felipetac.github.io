@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #9 - Polimorfismo e SOLID: Substituição de Liskov"
+title: "Orientação a Objetos em Python #9 - Polimorfismo e SOLID: Substituição de Liskov"
 date: 2026-08-11 15:29:00
 image: '/assets/img/posts/poo-polimorfismo-e-solid-liskov.webp'
 description: Diferença entre polimorfismo e o princípio da Substituição de Liskov (o L de SOLID) em Python - como garantir que subclasses respondam ao mesmo método sem quebrar o comportamento esperado pela classe pai.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Polimorfismo
-twitter_text: "Orientação a Objetos #9 - Polimorfismo e SOLID: Substituição de Liskov"
+twitter_text: "Orientação a Objetos em Python #9 - Polimorfismo e SOLID: Substituição de Liskov"
 introduction: "Nesta parte da série, você vai entender o que é polimorfismo em Python e como o princípio da Substituição de Liskov (o L de SOLID) garante que esse polimorfismo seja usado de forma segura."
 ---
 

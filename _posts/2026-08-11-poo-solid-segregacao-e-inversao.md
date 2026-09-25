@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #11 - SOLID: Segregação de Interfaces e Inversão de Dependência"
+title: "Orientação a Objetos em Python #11 - SOLID: Segregação de Interfaces e Inversão de Dependência"
 date: 2026-08-11 15:31:00
 image: '/assets/img/posts/poo-solid-segregacao-e-inversao.webp'
 description: Os dois últimos princípios do SOLID em Python - Segregação de Interfaces (ISP), que evita interfaces genéricas demais, e Inversão de Dependência (DIP), que usa abstrações pra reduzir o acoplamento entre classes.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - SOLID
-twitter_text: "Orientação a Objetos #11 - SOLID: Segregação de Interfaces e Inversão de Dependência"
+twitter_text: "Orientação a Objetos em Python #11 - SOLID: Segregação de Interfaces e Inversão de Dependência"
 introduction: "Nesta parte da série, você vai aprender os dois últimos princípios do SOLID - Segregação de Interfaces e Inversão de Dependência - e fechar, com eles, a cobertura completa dos cinco princípios ao longo da série."
 ---
 

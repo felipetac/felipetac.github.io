@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #3 - SOLID: Responsabilidade Única"
+title: "Orientação a Objetos em Python #3 - SOLID: Responsabilidade Única"
 date: 2026-08-11 15:23:00
 image: '/assets/img/posts/poo-solid-responsabilidade-unica.webp'
 description: Uma introdução aos cinco princípios de SOLID em Python, com foco no primeiro deles - o Princípio da Responsabilidade Única - e como usar métodos privados para separar responsabilidades dentro de uma classe.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - SOLID
-twitter_text: "Orientação a Objetos #3 - SOLID: Responsabilidade Única"
+twitter_text: "Orientação a Objetos em Python #3 - SOLID: Responsabilidade Única"
 introduction: "Nesta parte da série, você vai conhecer os cinco princípios de SOLID e vai se aprofundar no primeiro deles - o Princípio da Responsabilidade Única - refatorando uma classe que fazia coisa demais."
 ---
 

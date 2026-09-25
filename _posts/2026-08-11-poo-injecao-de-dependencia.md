@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orientação a Objetos #7 - Injeção de Dependência"
+title: "Orientação a Objetos em Python #7 - Injeção de Dependência"
 date: 2026-08-11 15:27:00
 image: '/assets/img/posts/poo-injecao-de-dependencia.webp'
 description: O que é injeção de dependência em Python, por que ela deixa o código mais flexível e testável, e um exemplo prático simulando uma conexão com banco de dados em camadas.
@@ -9,7 +9,7 @@ tags:
 - Python
 - Programação
 - Dependência
-twitter_text: "Orientação a Objetos #7 - Injeção de Dependência"
+twitter_text: "Orientação a Objetos em Python #7 - Injeção de Dependência"
 introduction: "Nesta parte da série, você vai entender o que é injeção de dependência, como ela se diferencia da associação de classes mais simples, e vai ver um exemplo prático que simula camadas de acesso a um banco de dados."
 ---
 
